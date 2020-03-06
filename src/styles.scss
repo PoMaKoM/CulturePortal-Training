@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "MontserratRegular";
+  src: url('./assets/fonts/Monsterrat-regular.woff2') format('woff2'),
+    url('./assets/fonts/Monsterrat-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MontserratMedium";
+  src: url('./assets/fonts/Monsterrat-medium.woff2') format('woff2'),
+    url('./assets/fonts/Monsterrat-medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url('./assets/fonts/Roboto.woff2') format('woff2'),
+    url('./assets/fonts/Roboto.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*Header colors*/
 
 $header-bg-color: #ffffff;
