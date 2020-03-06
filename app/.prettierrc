@@ -1,0 +1,17 @@
+{
+  "tabWidth": 2,
+  "semi": true,
+  "trailingComma": "none",
+  "bracketSpacing": true,
+  "jsxBracketSameLine": true,
+  "proseWrap": "always",
+
+  "overrides": [
+    {
+      "files": ["*.js", "*.ts"],
+      "options": {
+        "arrowParens": "always"
+      }
+    }
+  ]
+}
