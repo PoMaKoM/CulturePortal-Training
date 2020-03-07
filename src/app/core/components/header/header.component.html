@@ -1,1 +1,19 @@
-<p>header works!</p>
+<mat-toolbar color="header-wrapper">
+  <app-logo></app-logo>
+  <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
+    <mat-icon>menu</mat-icon>
+  </button>
+  <div fxShow="true" fxHide.lt-md class="nav-container">
+    <app-navigation></app-navigation>
+    <app-language></app-language>
+  </div>
+</mat-toolbar>
+
+<mat-sidenav-container fxFlexFill>
+  <mat-sidenav #sidenav>
+    <mat-nav-list>
+      <app-language></app-language>
+      <app-navigation></app-navigation>
+    </mat-nav-list>
+  </mat-sidenav>
+</mat-sidenav-container>
