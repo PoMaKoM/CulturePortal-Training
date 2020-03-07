@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-page.component.scss']
 })
 export class MainPageComponent implements OnInit {
+  public src: string = 'assets/video/background.mp4';
+  public webm: string = 'assets/video/background.webm';
   constructor() {}
 
   public ngOnInit(): void {}
