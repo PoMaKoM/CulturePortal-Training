@@ -4,13 +4,14 @@
   &__be {
     margin: 0 5px;
     padding: 5px;
-    font-family: "Roboto";
+    font-family: 'Roboto';
     font-size: 12px;
     background-color: var(--secondary-button-color);
+    border: 1px solid var(--primary-button-color);
     width: 25px;
     height: 25px;
     line-height: 1.4;
-    color: var(--language-button-text-color);
+    color: var(--secondary-button-text-color);
 
     &::ng-deep .mat-button-wrapper {
       padding: 0;
@@ -21,6 +22,7 @@
 
 .avtive {
   background-color: var(--primary-button-color);
+  color: var(--primary-button-text-color);
 }
 
 @media (max-width: 956px) {

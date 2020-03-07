@@ -14,9 +14,17 @@
   justify-content: space-around;
 }
 
+.show {
+  position: absolute;
+  z-index: -1;
+}
 
-@media(max-width: 980px) {
+.hide {
+  position: absolute;
+  z-index: 3;
+}
 
+@media (max-width: 980px) {
   .mat-toolbar-row,
   .mat-toolbar-single-row {
     justify-content: space-between;

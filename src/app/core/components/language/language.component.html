@@ -1,5 +1,23 @@
 <span class="language">
-  <a mat-mini-fab class="language__en en" (click)="setLanguage(1)" [ngClass]="{avtive:languageId==1}">En</a>
-  <a mat-mini-fab class="language__ru ru" (click)="setLanguage(2)" [ngClass]="{avtive:languageId==2}">Ru</a>
-  <a mat-mini-fab class="language__be be" (click)="setLanguage(3)" [ngClass]="{avtive:languageId==3}">Be</a>
+  <a
+    mat-strokked-button
+    class="language__en en"
+    (click)="setLanguage(1)"
+    [ngClass]="{ avtive: languageId == 1 }"
+    >En</a
+  >
+  <a
+    mat-strokked-button
+    class="language__ru ru"
+    (click)="setLanguage(2)"
+    [ngClass]="{ avtive: languageId == 2 }"
+    >Ru</a
+  >
+  <a
+    mat-strokked-button
+    class="language__be be"
+    (click)="setLanguage(3)"
+    [ngClass]="{ avtive: languageId == 3 }"
+    >Be</a
+  >
 </span>
