@@ -1,0 +1,33 @@
+.language {
+  &__en,
+  &__ru,
+  &__be {
+    margin: 0 5px;
+    padding: 5px;
+    font-family: "Roboto";
+    font-size: 12px;
+    background-color: var(--secondary-button-color);
+    width: 25px;
+    height: 25px;
+    line-height: 1.4;
+    color: var(--language-button-text-color);
+
+    &::ng-deep .mat-button-wrapper {
+      padding: 0;
+      line-height: 1;
+    }
+  }
+}
+
+.avtive {
+  background-color: var(--primary-button-color);
+}
+
+@media (max-width: 956px) {
+  .language {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin: 15px 0;
+  }
+}
