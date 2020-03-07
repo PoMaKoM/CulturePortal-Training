@@ -7,7 +7,7 @@ import { DirectorOfDayComponent } from './components/director-of-day/director-of
 
 @NgModule({
   declarations: [MainPageComponent, DirectorOfDayComponent],
-  imports: [CommonModule, MainRoutingModule],
-  exports: [MainPageComponent]
+  imports: [CommonModule, MainRoutingModule]
+  //exports: [MainPageComponent]
 })
 export class MainModule {}

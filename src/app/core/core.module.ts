@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './components/header/header.component';
@@ -6,11 +7,11 @@ import { NavigationComponent } from './components/navigation/navigation.componen
 import { LogoComponent } from './components/logo/logo.component';
 import { LanguageComponent } from './components/language/language.component';
 
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatButtonModule} from '@angular/material/button';
-import {MatIconModule} from '@angular/material/icon';
-import {MatSidenavModule} from '@angular/material/sidenav';
-import {MatListModule} from '@angular/material/list';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatListModule } from '@angular/material/list';
 import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
@@ -22,9 +23,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatIconModule,
     MatSidenavModule,
     MatListModule,
-    FlexLayoutModule
-  ], exports: [
-    HeaderComponent
-  ]
+    FlexLayoutModule,
+    RouterModule
+  ],
+  exports: [HeaderComponent]
 })
-export class CoreModule { }
+export class CoreModule {}
