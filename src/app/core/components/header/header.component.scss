@@ -1,0 +1,24 @@
+.mat-toolbar-row,
+.mat-toolbar-single-row {
+  margin: 0 auto;
+  justify-content: space-between;
+  max-width: 1170px;
+  width: 100%;
+  height: 100px;
+  background-color: var(--header-bg-color);
+}
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+@media(max-width: 980px) {
+
+  .mat-toolbar-row,
+  .mat-toolbar-single-row {
+    justify-content: space-between;
+  }
+}

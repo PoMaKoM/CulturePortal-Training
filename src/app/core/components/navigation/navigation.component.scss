@@ -1,0 +1,13 @@
+.header-btn {
+  font-family: "MontserratMedium";
+  font-size: 14px;
+  color: var(--navigation-text-color);
+}
+
+@media (max-width: 956px) {
+  .header-btn {
+    text-align: left;
+    display: block;
+    width: 215px;
+  }
+}
