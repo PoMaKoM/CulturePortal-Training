@@ -1,7 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { IPerson } from '../../models/person.model';
-import { WorklogService } from '../../services/worklog.service';
-import { IResponse } from '../../models/response.model';
+import { Component, OnInit, Input } from '@angular/core';
+import { IPerson } from '../../models/i-person.model';
 
 @Component({
   selector: 'app-worklog-tab',
@@ -10,10 +8,9 @@ import { IResponse } from '../../models/response.model';
 })
 export class WorklogTabComponent implements OnInit {
 
-  public persons: IPerson[];
-  constructor(private worklogService: WorklogService) { }
+  @Input() public person: IPerson[];
+  constructor() { }
 
   public ngOnInit(): void {
-    this.worklogService.getData().subscribe((data: IResponse) => this.persons = data.data);
   }
 }

@@ -1,4 +1,4 @@
-import { IWorklog } from './work.model';
+import { IWorklog } from './i-work.model';
 
 export interface IPerson {
   name: string;

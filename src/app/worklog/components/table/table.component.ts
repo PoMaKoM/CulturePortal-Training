@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { IWorklog } from '../../models/work.model';
+import { IWorklog } from '../../models/i-work.model';
 
 @Component({
   selector: 'app-table',
