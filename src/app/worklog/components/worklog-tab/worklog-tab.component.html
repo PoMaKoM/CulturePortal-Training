@@ -1,0 +1,5 @@
+<mat-tab-group>
+  <mat-tab *ngFor="let item of persons"  label="{{item.name}}">
+    <app-table [worklogData]="item.worklog"></app-table>
+  </mat-tab>
+</mat-tab-group>

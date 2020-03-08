@@ -8,8 +8,6 @@ import { Observable } from 'rxjs';
 })
 export class WorklogService {
 
-  public personsData: IPerson[];
-
   constructor(private http: HttpClient) { }
 
   public getData(): Observable<unknown> {
