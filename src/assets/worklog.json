@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "name": "Andrei Makarevich",
+      "worklog": [
+        {
+          "id": 0,
+          "timeSpent": 2,
+          "description": "Я что-то сделаль 1"
+        },
+        {
+          "id": 1,
+          "timeSpent": 2,
+          "description": "Я что-то сделаль 2"
+        }
+      ]
+    },
+    {
+      "name": "Andrei1 Makarevich",
+      "worklog": [
+        {
+          "id": 0,
+          "timeSpent": 2,
+          "description": "Я что-то сделаль 1"
+        },
+        {
+          "id": 1,
+          "timeSpent": 2,
+          "description": "Я что-то сделаль 2"
+        }
+      ]
+    }
+  ]
+}
