@@ -6,7 +6,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CoreModule } from './core/core.module';
-import { WorklogModule } from './worklog/worklog.module';
 
 @NgModule({
   declarations: [
@@ -18,6 +17,7 @@ import { WorklogModule } from './worklog/worklog.module';
     BrowserAnimationsModule,
     CoreModule,
     AppRoutingModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]

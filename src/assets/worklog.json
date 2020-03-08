@@ -18,6 +18,17 @@
           "timeSpent": 2,
           "description": "Я что-то сделаль 2"
         }
+        ,
+        {
+          "id": 3,
+          "timeSpent": 2,
+          "description": "Я что-то сделаль 2"
+        },
+        {
+          "id": 4,
+          "timeSpent": 2,
+          "description": "Я что-то сделаль 2"
+        }
       ]
     },
     {
@@ -117,6 +128,128 @@
           "id": 2,
           "timeSpent": 2,
           "description": "Я что-то сделаль 2"
+        }
+      ]
+    }
+  ],
+  "evaluation": [
+    {
+      "title": "Min scope",
+      "points": [
+        {
+          "description": "10 Main page + page with a list of authors + author's page (only pages with content without widgets);",
+          "flag": true
+        },
+        {
+          "description": "10 Page with team members + page with worklog;",
+          "flag": true
+        },
+        {
+          "description": "10 Page with list of authors contains search widget;",
+          "flag": true
+        },
+        {
+          "description": "20 Portal has two languages",
+          "flag": true
+        }
+      ]
+    },
+    {
+      "title": "Normal scope",
+      "points": [
+        {
+          "description": "20 Portal has page with styleguide;",
+          "flag": false
+        },
+        {
+          "description": "10 Mobile version is okey",
+          "flag": false
+        },
+        {
+          "description": "10 Ipad/tablet version is okey",
+          "flag": true
+        },
+        {
+          "description": "10 Author's page contains timeline;",
+          "flag": false
+        },
+        {
+          "description": "10 Author's page contains video overlay;",
+          "flag": false
+        },
+        {
+          "description": "20 Author's page contains photo gallery;",
+          "flag": false
+        },
+        {
+          "description": "10 Author's page contains map (geowidget);",
+          "flag": false
+        },
+        {
+          "description": "from 0 to 20 Design (typography, icons, colors, links + buttons + input are styled)",
+          "flag": false
+        },
+        {
+          "description": "20 Material-ui / bootstrap is used",
+          "flag": true
+        },
+        {
+          "description": "10 Portal has third language;",
+          "flag": false
+        }
+      ]
+    },
+    {
+      "title": "Extra scope",
+      "points": [
+        {
+          "description": "10 Confidence of the project presentation;",
+          "flag": false
+        },
+        {
+          "description": "10 Project is made using gatsbyjs;",
+          "flag": false
+        },
+        {
+          "description": "10 Contentful / netlify cms is used for content management",
+          "flag": true
+        },
+        {
+          "description": "20 Animations / special effects like paralax",
+          "flag": false
+        },
+        {
+          "description": "up to 20 Outstanding design;",
+          "flag": false
+        },
+        {
+          "description": "20 Storybook/styleguidist/other react styleguide tool usage for the page with styles",
+          "flag": false
+        }
+      ]
+    },
+    {
+      "title": "Fines",
+      "points": [
+        {
+          "description": "-50 if there are less than 5 commits from each active team member. Everyone should merge their own PRs.",
+          "flag": false
+        },
+        {
+          "description": "up to -50 points for violations stage2-tasks-requirements",
+          "flag": false
+        },
+        {
+          "description": "10 Contentful / netlify cms is used for content management",
+          "flag": false
+        },
+        {
+          "description": "-40 if there is no worklog for team",
+          "flag": false
+        },
+        {
+          "description": "-20 too primitive (ugly for 2020) design / UX;",
+          "flag": false
         }
       ]
     }
