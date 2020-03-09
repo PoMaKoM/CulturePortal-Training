@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { DetailsService } from './../../services/details.service';
+import { InfoDirector } from '../../models/directors';
 
 @Component({
   selector: 'app-director',
@@ -6,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./director.component.scss']
 })
 export class DirectorComponent implements OnInit {
-  constructor() {}
 
-  public ngOnInit(): void {}
+  @Input() public director: InfoDirector;
+  constructor(private detailsService: DetailsService) { }
+
+  public ngOnInit(): void {
+    this.detailsService.directorData.next(this.director);
+  }
 }
