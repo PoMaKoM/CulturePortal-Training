@@ -1,3 +1,4 @@
+import { DetailsService } from './../../services/details.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -6,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./details.component.scss']
 })
 export class DetailsComponent implements OnInit {
-  constructor() {}
+  constructor(private detailsService: DetailsService) { }
 
-  public ngOnInit(): void {}
+  public ngOnInit(): void { }
+
 }
