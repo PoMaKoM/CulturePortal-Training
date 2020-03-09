@@ -1,9 +1,7 @@
 import { Injectable } from '@angular/core';
 import { InfoDirector } from './../models/directors';
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class DetailsService {
   private _director: InfoDirector;
   get director(): InfoDirector {

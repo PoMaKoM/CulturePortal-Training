@@ -1,10 +1,7 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
 
-@Injectable({
-  providedIn: 'root'
-})
-
+@Injectable()
 export class SearchService {
 
   public searchQuery: BehaviorSubject<string> = new BehaviorSubject<string>('');
@@ -13,5 +10,4 @@ export class SearchService {
   public searchQueryUpdated(searchQuery: string): void {
     this.searchQuery.next(searchQuery);
   }
-
 }
