@@ -1,15 +1,15 @@
 <div class="card">
   <div class="card-image">
-    <img src="director.avatar" alt="director_avatar" class="card-image__img">
+    <img [src]="director.avatar" alt="director_avatar" class="card-image__img">
   </div>
   <div class="card-content">
     <div class="card-content-top">
-      <h4 class="card-content-top__name"> {{ director.name }} </h4>
-      <span class="card-content-top__desc"> {{ director.description }} </span>
+      <h4 class="card-content-top__name"> {{ detailsInfo.name }} </h4>
+      <span class="card-content-top__desc"> {{ detailsInfo.description }} </span>
     </div>
     <div class="card-content-bottom">
       <a [routerLink]="[director.id]" routerLinkActive="active">
-        <button class="card-button" type="button" (click)="openDetailsPage()"></button>
+        <button class="card-button" type="button" (click)="openDetailsPage()"> more </button>
       </a>
       <!-- translated button name comes from service in core -->
     </div>
