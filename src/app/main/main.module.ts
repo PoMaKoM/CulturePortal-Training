@@ -1,3 +1,5 @@
+import { MatButtonModule } from '@angular/material/button';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -7,7 +9,7 @@ import { DirectorOfDayComponent } from './components/director-of-day/director-of
 
 @NgModule({
   declarations: [MainPageComponent, DirectorOfDayComponent],
-  imports: [CommonModule, MainRoutingModule]
+  imports: [CommonModule, MainRoutingModule, FlexLayoutModule, MatButtonModule]
   //exports: [MainPageComponent]
 })
 export class MainModule {}
