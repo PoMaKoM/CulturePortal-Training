@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpService } from 'src/app/core/services/http.service';
-import { BiographyDirector, Directors } from '../../models/directors';
+import { BiographyDirector } from '../../models/biography-director.model';
+import { Directors } from '../../models/directors.model';
+
 
 @Component({
   selector: 'app-timeline',
