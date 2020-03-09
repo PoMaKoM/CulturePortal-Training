@@ -8,8 +8,9 @@
       <span class="card-content-top__desc"> {{ director.description }} </span>
     </div>
     <div class="card-content-bottom">
-      <button> </button>
-      <!-- todo: routing to details -->
+      <a [routerLink]="[director.id]" routerLinkActive="active">
+        <button class="card-button" type="button" (click)="openDetailsPage()"></button>
+      </a>
       <!-- translated button name comes from service in core -->
     </div>
   </div>

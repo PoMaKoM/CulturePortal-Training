@@ -13,6 +13,9 @@ export class DirectorComponent implements OnInit {
   constructor(private detailsService: DetailsService) { }
 
   public ngOnInit(): void {
-    this.detailsService.directorData.next(this.director);
+  }
+
+  public openDetailsPage(): void {
+    this.detailsService.director = this.director;
   }
 }
