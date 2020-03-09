@@ -1,1 +1,1 @@
-<p>directors-list works!</p>
+<app-director *ngFor="let director of getDataService.currentData | async" [director]="director"> </app-director>
