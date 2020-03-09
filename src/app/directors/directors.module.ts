@@ -8,9 +8,10 @@ import { DirectorComponent } from './components/director/director.component';
 import { SearchComponent } from './components/search/search.component';
 import { DetailsService } from './services/details.service';
 import { SearchService } from './services/search.service';
+import { FilterPipe } from './pipes/filter.pipe';
 
 @NgModule({
-  declarations: [DirectorsListComponent, DetailsComponent, DirectorComponent, SearchComponent],
+  declarations: [DirectorsListComponent, DetailsComponent, DirectorComponent, SearchComponent, FilterPipe],
   imports: [
     CommonModule,
     DirectorsRoutingModule,
