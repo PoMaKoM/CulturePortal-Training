@@ -1,0 +1,693 @@
+{
+  "data": [
+    {
+      "id": "rt7jvgzf88n",
+      "avatar": "http://mogilevkino.by/public/images/1560928039%D0%A2%D1%83%D1%80%D0%BE%D0%B2.jpg",
+      "gallery": [
+        {
+          "description": "Виктор Туров фото 1",
+          "link": "https://zviazda.by/sites/default/files/1025776887.jpg"
+        },
+        {
+          "description": "Виктор Туров фото 2",
+          "link": "https://pic.rutube.ru/video/cf/81/cf81465f54a86ad124e44c89b82d2a73.jpg?size=m"
+        },
+        {
+          "description": "Виктор Туров фото 3",
+          "link": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Alexey_Kuzmich_Portrait_of_national_actor_Victor_Turov_1989.JPG/1200px-Alexey_Kuzmich_Portrait_of_national_actor_Victor_Turov_1989.JPG"
+        },
+        {
+          "description": "Виктор Туров Фильм Через кладбище",
+          "link": "https://i.ytimg.com/vi/pTwHQE4NYJo/hqdefault.jpg"
+        },
+        {
+          "description": "Виктор Туров почтовая карточка",
+          "link": "https://bomarka.com/content/images/17/35696650875939.jpg"
+        }
+      ],
+      "video": "https://www.youtube.com/watch?v=2juET6V3YpM",
+      "be": {
+        "name": "Тураў Віктар Цімафеевіч",
+        "description": "Савецкі і беларускі кінарэжысёр, сцэнарыст, педагог. Народны артыст СССР",
+        "biography": [
+          {
+            "period": "1959",
+            "description": "Стаў рэжысёрам на кінастудыі «Беларусьфільм»"
+          },{
+            "period": "1961",
+            "description": "Скончыў рэжысёрскі факультэт Усесаюзнага дзяржаўнага інстытута кінематаграфіі"
+          },{
+            "period": "1976-1981",
+            "description": "Першы сакратар праўлення Саюза кінематаграфістаў Беларусі"
+          },{
+            "period": "1977",
+            "description": "Стаў членам КПСС"
+          },{
+            "period": "1984",
+            "description": "Лаўрэат Дзяржаўнай прэміі СССР за фільм «Людзі на балоце»"
+          },{
+            "period": "1986",
+            "description": "Народны артыст CССР"
+          },{
+            "period": "1994",
+            "description": "Фільм «Праз могілкі» рашэннем ЮНЕСКА быў унесены ў спіс 100 найбольш значных фільмаў свету пра вайну"
+          },{
+            "period": "1995",
+            "description": "Уключаны ЮНЕСКА ў лік 50 кінематаграфістаў свету, з якіх складаўся Ганаровы камітэт па святкаванню 100-годдзя кінематаграфіі"
+          },{
+            "period": "1996",
+            "description": "Лаўрэат Дзяржаўнай прэміі Рэспублікі Беларусь за вялікі ўклад у кінематаграфію"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "25/10/1936",
+            "place": {
+              "location": "Магілёў, БССР",
+              "lat": "53.894548",
+              "lng": "30.330654"
+            }
+          },
+          "death": {
+            "date": "31/10/1996",
+            "place": "Мінск, Беларусь"
+          }
+        },
+        "nationality": "СССР, Беларусь",
+        "buried": "Усходнія могілкі",
+        "profession": [
+          "Кінарэжысёр", "Сцэнарыст"
+        ],
+        "films": [
+          {
+            "name": "Цераз могілкі",
+            "year": 1964
+          },
+          {
+            "name": "Я родам з дзяцінства",
+            "year": 1966
+          },
+          {
+            "name": "Вайна пад стрэхамі",
+            "year": 1967
+          },
+          {
+            "name": "Сыны ідуць у бой",
+            "year": 1969
+          },
+          {
+            "name": "Жыццё і смерць двараніна Чартапханава",
+            "year": 1971
+          },
+          {
+            "name": "Час яе сыноў",
+            "year": 1974
+          },
+          {
+            "name": "Нядзельная ноч",
+            "year": 1976
+          },
+          {
+            "name": "Кропка адліку",
+            "year": 1979
+          },
+          {
+            "name": "Людзі на балоце",
+            "year": 1981
+          },
+          {
+            "name": "Пераправа",
+            "year": 1988
+          },
+          {
+            "name": "Высокая кроў",
+            "year": 1989
+          },
+          {
+            "name": "Чорны бусел",
+            "year": 1993
+          },
+          {
+            "name": "Шляхціц Завальня",
+            "year": 1994
+          }
+        ],
+        "other": "Імем Віктара Турава названы вуліцы ў Мінску і Магілёве"
+      },
+      "ru": {
+        "name": "Туров Виктор Тимофеевич",
+        "description": "Советский и белорусский кинорежиссёр, сценарист, педагог. Народный артист СССР",
+        "biography": [
+          {
+            "period": "1959",
+            "description": "Стал режиссером на киностудии «Беларусьфильм»"
+          },{
+            "period": "1961",
+            "description": "Окончил режиссерский факультет Всесоюзного государственного института кинематографии"
+          },{
+            "period": "1976-1981",
+            "description": "Первый секретарь правления Союза кинематографистов Беларуси"
+          },{
+            "period": "1977",
+            "description": "Стал членом КПСС"
+          },{
+            "period": "1984",
+            "description": "Лауреат Государственной премии СССР за фильм «Люди на болоте»"
+          },{
+            "period": "1986",
+            "description": "Народный артист CССР"
+          },{
+            "period": "1994",
+            "description": "Фильм «Через кладбище» решением ЮНЕСКО был внесен в список 100 наиболее значимых фильмов мира о войне"
+          },{
+            "period": "1995",
+            "description": "Включен ЮНЕСКО в число 50 кинематографистов мира, из которых состоял Почетный комитет по празднованию 100-летия кинематографии"
+          },{
+            "period": "1996",
+            "description": "Лауреат Государственной премии Республики Беларусь за большой вклад в кинематографию"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "25/10/1936",
+            "place": {
+              "location": "Могилев, БССР",
+              "lat": "53.894548",
+              "lng": "30.330654"
+            }
+          },
+          "death": {
+            "date": "31/10/1996",
+            "place": "Минск, Беларусь"
+          }
+        },
+        "nationality": "СССР, Беларусь",
+        "buried": "Восточное кладбище",
+        "profession": [
+          "Кинорежиссер", "Сценарист"
+        ],
+        "films": [
+          {
+            "name": "Через кладбище",
+            "year": 1964
+          },
+          {
+            "name": "Я родом из детства",
+            "year": 1966
+          },
+          {
+            "name": "Война под крышами",
+            "year": 1967
+          },
+          {
+            "name": "Сыновья уходят в бой",
+            "year": 1969
+          },
+          {
+            "name": "Жизнь и смерть дворянина Чертопханова",
+            "year": 1971
+          },
+          {
+            "name": "Время её сыновей",
+            "year": 1974
+          },
+          {
+            "name": "Воскресная ночь",
+            "year": 1976
+          },
+          {
+            "name": "Точка отсчёта",
+            "year": 1979
+          },
+          {
+            "name": "Люди на болоте",
+            "year": 1981
+          },
+          {
+            "name": "Переправа",
+            "year": 1988
+          },
+          {
+            "name": "Высокая кровь",
+            "year": 1989
+          },
+          {
+            "name": "Черный аист",
+            "year": 1993
+          },
+          {
+            "name": "Шляхтич Завальня",
+            "year": 1994
+          }
+        ],
+        "other": "Именем Виктора Турова названы улицы в Минске и Могилеве"
+      },
+      "en": {
+        "name": "Turov Viktor Timofeevich",
+        "description": "Soviet and Belarusian film director, screenwriter, teacher. People's Artist of the USSR",
+        "biography": [
+          {
+            "period": "1959",
+            "description": "Became a director at the Belarusfilm film studio"
+          },{
+            "period": "1961",
+            "description": "Graduated from the directing department of the All-Union State Institute of Cinematography"
+          },{
+            "period": "1976-1981",
+            "description": "First Secretary of the Board of the Union of Cinematographers of Belarus"
+          },{
+            "period": "1977",
+            "description": "Became a member of the CPSU"
+          },{
+            "period": "1984",
+            "description": "Laureate of the USSR State Prize for the film «People in the Swamp»"
+          },{
+            "period": "1986",
+            "description": "People's Artist of the USSR"
+          },{
+            "period": "1994",
+            "description": "The film «Through the cemetery» by UNESCO decision was included in the list of 100 most significant films of the world about the war"
+          },{
+            "period": "1995",
+            "description": "UNESCO is included in the list of 50 cinematographers of the world, of which the Honorary Committee for the celebration of the 100th anniversary of cinema was composed"
+          },{
+            "period": "1996",
+            "description": "Laureate of the State Prize of the Republic of Belarus for his great contribution to cinema"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "25/10/1936",
+            "place": {
+              "location": "Mogilev, BSSR",
+              "lat": "53.894548",
+              "lng": "30.330654"
+            }
+          },
+          "death": {
+            "date": "31/10/1996",
+            "place": "Minsk, Belarus"
+          }
+        },
+        "nationality": "USSR, Belarus",
+        "buried": "East cemetery",
+        "profession": [
+          "director", "screenwriter"
+        ],
+        "films": [
+          {
+            "name": "Through the cemetery",
+            "year": 1964
+          },
+          {
+            "name": "I come from childhood",
+            "year": 1966
+          },
+          {
+            "name": "War under the roofs",
+            "year": 1967
+          },
+          {
+            "name": "Sons go to battle",
+            "year": 1969
+          },
+          {
+            "name": "Life and death of the nobleman Chertophanov",
+            "year": 1971
+          },
+          {
+            "name": "The time of her sons",
+            "year": 1974
+          },
+          {
+            "name": "Sunday night",
+            "year": 1976
+          },
+          {
+            "name": "Reference point",
+            "year": 1979
+          },
+          {
+            "name": "People in the swamp",
+            "year": 1981
+          },
+          {
+            "name": "Crossing",
+            "year": 1988
+          },
+          {
+            "name": "High blood",
+            "year": 1989
+          },
+          {
+            "name": "Black stork",
+            "year": 1993
+          },
+          {
+            "name": "Shlyahtich Zavalnya",
+            "year": 1994
+          }
+        ],
+        "other": "Streets in Minsk and Mogilev are named after Victor Turov"
+      }
+    },
+    {
+      "id": "wc7jvgzf88n",
+      "avatar": "https://thumbs.dfs.ivi.ru/storage4/contents/7/c/65dcb3a36bfeaf8a668065c0e05e7d.jpg",
+      "gallery": [
+        {
+          "description": "Михаил Пташук фото 1",
+          "link": "https://www.sb.by/images/2014/2014/july/18/14-1.jpg"
+        },
+        {
+          "description": "Михаил Пташук фото 2",
+          "link": "https://www.sb.by/images/2014/2014/july/18/14-3.jpg"
+        },
+        {
+          "description": "Михаил Пташук фото 3",
+          "link": "http://www.sb.by/images/2014/2014/july/18/14-4.jpg"
+        },
+        {
+          "description": "Михаил Пташук почтовая карточка",
+          "link": "http://belarussiancollection.com/envelopes/pic/2018/1891.jpg"
+        }
+      ],
+      "video": "https://www.youtube.com/watch?v=Z_gRBoITbnU",
+      "be": {
+        "name": "Пташук Міхаіл Мікалаевіч",
+        "description": "Савецкі і беларускі кінарэжысёр. Народны артыст БССР",
+        "biography": [
+          {
+            "period": "1967",
+            "description": "Скончыў рэжысёрскі факультэт Тэатральнага вучылішча імя Б. Шчукіна"
+          },{
+            "period": "1972",
+            "description": "Вышэйшыя рэжысёрскія курсы Дзяржкіно СССР (майстэрня Г. Данеліі)"
+          },{
+            "period": "1972-1974",
+            "description": "Рэжысёр у тэатрах Масквы і Казані"
+          },{
+            "period": "1974",
+            "description": "Стаў рэжысёрам на кінастудыі «Беларусьфільм»"
+          },{
+            "period": "1978",
+            "description": "Стаў членам КПСС"
+          },{
+            "period": "1982",
+            "description": "Заслужаны дзеяч мастацтваў БССР"
+          },{
+            "period": "1982",
+            "description": "Дзяржаўная прэмія БССР за экранізацыю рамана І. Шамякіна «Вазьму твой боль»"
+          },{
+            "period": "1990",
+            "description": "Народны артыст БССР"
+          },{
+            "period": "2002",
+            "description": "Загінуў 26 красавіка 2002 года ў Маскве ў аўтамабільнай катастрофе па шляху на прысуджэнне прэміі 'Ніка'"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "28/01/1943",
+            "place": {
+              "location": "в. Фядзюкі Ляхавіцкага р-на, БССР",
+              "lat": "53.067844",
+              "lng": "26.168727"
+            }
+          },
+          "death": {
+            "date": "26/04/2002",
+            "place": "Масква, РФ"
+          }
+        },
+        "nationality": "СССР, Беларусь",
+        "buried": "Усходнія могілкі",
+        "profession": [
+          "Кінарэжысёр"
+        ],
+        "films": [
+          {
+            "name": "Пра Віцю, пра Машу і марскую пяхоту",
+            "year": 1973
+          },
+          {
+            "name": "Лясныя арэлі",
+            "year": 1975
+          },
+          {
+            "name": "Час выбраў нас",
+            "year": 1978
+          },
+          {
+            "name": "Вазьму твой боль",
+            "year": 1980
+          },
+          {
+            "name": "Чорны замак Альшанскі",
+            "year": 1984
+          },
+          {
+            "name": "Знак бяды",
+            "year": 1986
+          },
+          {
+            "name": "Наш браняпоезд",
+            "year": 1988
+          },
+          {
+            "name": "Кааператыў „Палітбюро“",
+            "year": 1992
+          },
+          {
+            "name": "Гульня ўяўлення",
+            "year": 1995
+          },
+          {
+            "name": "Макбет",
+            "year": 1995
+          },
+          {
+            "name": "У жніўні 44-га…",
+            "year": 2000
+          },
+          {
+            "name": "Песня Розы",
+            "year": 2001
+          }
+        ],
+        "memory": [
+          "?string"
+        ],
+        "other": "У 2015 годзе праектаваная вуліца №4 (ад вул. Прушынскіх да вул. Карзюкі) у мікрараёне Лошыца ​​названа ў гонар Міхаіла Пташука."
+      },
+      "ru": {
+        "name": "Пташук Михаил Николаевич",
+        "description": "Советский и белорусский кинорежиссёр. Народный артист БССР",
+        "biography": [
+          {
+            "period": "1967",
+            "description": "Окончил Московское театральное училище имени Б. В. Щукина"
+          },{
+            "period": "1972",
+            "description": "Обучался на Высших режиссёрских курсах Госкино СССР в мастерской Георгия Данелии"
+          },{
+            "period": "1972-1974",
+            "description": "Работал режиссером в театрах Москвы и Казани"
+          },{
+            "period": "1974",
+            "description": "Стал режиссером на киностудии «Беларусьфильм»"
+          },{
+            "period": "1978",
+            "description": "Стал членом КПСС"
+          },{
+            "period": "1982",
+            "description": "Заслуженный деятель искусств БССР"
+          },{
+            "period": "1982",
+            "description": "Государственная премия БССР (фильм «Возьму твою боль»)"
+          },{
+            "period": "1990",
+            "description": "Народный артист БССР"
+          },{
+            "period": "2002",
+            "description": "Погиб 26 апреля 2002 года в Москве в автомобильной катастрофе по пути на присуждение премии «Ника»"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "28/01/1943",
+            "place": {
+              "location": "д. Федюки Ляховичского района, БССР",
+              "lat": "53.067844",
+              "lng": "26.168727"
+            }
+          },
+          "death": {
+            "date": "26/04/2002",
+            "place": "Москва, РФ"
+          }
+        },
+        "nationality": "СССР, Беларусь",
+        "buried": "Восточное кладбище",
+        "profession": [
+          "Кинорежиссер"
+        ],
+        "films": [
+          {
+            "name": "Про Витю, про Машу и морскую пехоту",
+            "year": 1973
+          },
+          {
+            "name": "Лесные качели",
+            "year": 1975
+          },
+          {
+            "name": "Время выбрало нас",
+            "year": 1978
+          },
+          {
+            "name": "Возьму твою боль",
+            "year": 1980
+          },
+          {
+            "name": "Чёрный замок Ольшанский",
+            "year": 1984
+          },
+          {
+            "name": "Знак беды",
+            "year": 1986
+          },
+          {
+            "name": "Наш бронепоезд",
+            "year": 1988
+          },
+          {
+            "name": "Кооператив «Политбюро»",
+            "year": 1992
+          },
+          {
+            "name": "Игра воображения",
+            "year": 1995
+          },
+          {
+            "name": "Макбет",
+            "year": 1995
+          },
+          {
+            "name": "В августе 44-го…",
+            "year": 2000
+          },
+          {
+            "name": "Песня Розы",
+            "year": 2001
+          }
+        ],
+        "other": "В 2015 году проектируемая улица №4 (от ул. Прушинских до ул. Корзюки) в микрорайоне Лошица названа в честь Михаила Пташука."
+      },
+      "en": {
+        "name": "Ptashuk Mikhail Nikolaevich",
+        "description": "Soviet and Belarusian film director. People's Artist of the BSSR",
+        "biography": [
+          {
+            "period": "1967",
+            "description": "Graduated from the Moscow theater school named after B. V. Shchukin"
+          },{
+            "period": "1972",
+            "description": "Studied at the Higher directing courses of the state cinema of the USSR in the Studio of George Danelia"
+          },{
+            "period": "1972-1974",
+            "description": "Worked as a Director in theaters in Moscow and Kazan"
+          },{
+            "period": "1974",
+            "description": "Became a Director at the Belarusfilm film Studio»"
+          },{
+            "period": "1978",
+            "description": "Became a member of the CPSU"
+          },{
+            "period": "1982",
+            "description": "Honored artist of the BSSR"
+          },{
+            "period": "1982",
+            "description": "State prize of the BSSR (film «I'll Take your pain»)"
+          },{
+            "period": "1990",
+            "description": "People's artist of the BSSR"
+          },{
+            "period": "2002",
+            "description": "Died on April 26, 2002 in Moscow in a car accident on the way to the award of the Nika Prize."
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "28/01/1943",
+            "place": {
+              "location": "v. Fedyuki, Lyakhovichi district, BSSR",
+              "lat": "53.067844",
+              "lng": "26.168727"
+            }
+          },
+          "death": {
+            "date": "26/04/2002",
+            "place": "Moscow, Russian Federation"
+          }
+        },
+        "nationality": "USSR, Belarus",
+        "buried": "East cemetery",
+        "profession": [
+          "director"
+        ],
+        "films": [
+          {
+            "name": "About Vitya, Masha, and Marines",
+            "year": 1973
+          },
+          {
+            "name": "Forest Swing",
+            "year": 1975
+          },
+          {
+            "name": "Time Has Chosen Us",
+            "year": 1978
+          },
+          {
+            "name": "I'll Take Your Pain",
+            "year": 1980
+          },
+          {
+            "name": "Black Castle Olshansky",
+            "year": 1984
+          },
+          {
+            "name": "Sign of Disaster",
+            "year": 1986
+          },
+          {
+            "name": "Our Armoured Train",
+            "year": 1988
+          },
+          {
+            "name": "Co-op Politburo",
+            "year": 1992
+          },
+          {
+            "name": "Game of Imagination",
+            "year": 1995
+          },
+          {
+            "name": "Macbeth",
+            "year": 1995
+          },
+          {
+            "name": "In August of 1944",
+            "year": 2000
+          },
+          {
+            "name": "The Song of Rose",
+            "year": 2001
+          }
+        ],
+        "other": "In 2015, the projected street no. 4 (from Prushinskiye street to Korzyuki street) in the Loshitsa district was named in honor of Mikhail Ptashuk"
+      }
+    }
+  ]
+}
