@@ -15,9 +15,9 @@ export class TestComponent implements OnInit {
 
   constructor(private httpService: HttpService) { }
 
-  ngOnInit(): void {
+  public ngOnInit(): void {
     this.httpService.getDataDirectors()
-    //TODO change request based on language and selected filmmaker
+      // TODO change request based on language and selected director
     .subscribe((res: Directors) => this.dataBiography = res.data[0].be.biography);
   }
 }

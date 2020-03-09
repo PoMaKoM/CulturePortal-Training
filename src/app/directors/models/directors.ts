@@ -14,7 +14,7 @@ export interface InfoDirector {
 
 export interface PhotoDirector {
   description: string;
-  link: string
+  link: string;
 }
 
 export interface DetailsInfoDirector {
@@ -34,7 +34,7 @@ export interface DetailsInfoDirector {
       date: string;
       place: string;
     }
-  },
+  };
   nationality: string;
   buried: string;
   profession: Array<string>;
