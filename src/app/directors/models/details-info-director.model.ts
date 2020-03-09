@@ -1,5 +1,5 @@
 import { BiographyDirector } from './biography-director.model';
-import { FilmsDirector } from './directors.model';
+import { FilmsDirector } from './films-director.model';
 
 export interface DetailsInfoDirector {
   name: string;

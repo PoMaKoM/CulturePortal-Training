@@ -3,7 +3,6 @@ import { HttpService } from 'src/app/core/services/http.service';
 import { BiographyDirector } from '../../models/biography-director.model';
 import { Directors } from '../../models/directors.model';
 
-
 @Component({
   selector: 'app-timeline',
   templateUrl: './timeline.component.html',
