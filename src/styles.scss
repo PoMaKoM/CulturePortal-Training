@@ -80,6 +80,9 @@ $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
   --primary-text-color: #000000;
   --secondary-text-color: #ffffff;
 
+  /*Worklog*/
+  --table-row-bg-color: rgba(0, 0, 0, 0.07);
+
 }
 
 html, body { height: 100%; }
