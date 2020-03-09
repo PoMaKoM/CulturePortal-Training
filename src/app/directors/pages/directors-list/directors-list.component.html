@@ -1,1 +1,5 @@
-<app-director *ngFor="let director of getDataService.currentData | async" [director]="director"> </app-director>
+<app-search></app-search>
+<app-director
+  *ngFor="let director of (currentData | async | filter : (searchQuery | async) : (currentLanguage | async))"
+  [director]="director" [detailsInfo]="director[currentLanguage | async]">
+</app-director>
