@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class HttpService {
-  private directorsUrl: string = './../../../assets/data-directors.json';
+  private directorsUrl: string = 'assets/data-directors.json';
 
   constructor(private http: HttpClient) { }
 

@@ -32,14 +32,14 @@ export interface DetailsInfoDirector {
     };
     death: {
       date: string;
-      place: string;
+      place?: string;
     }
   };
   nationality: string;
-  buried: string;
+  buried?: string;
   profession: Array<string>;
   films: Array<FilmsDirector>;
-  other: string;
+  other?: string;
 }
 
 export interface BiographyDirector {
