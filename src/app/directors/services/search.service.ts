@@ -4,7 +4,7 @@ import { BehaviorSubject } from 'rxjs';
 @Injectable()
 export class SearchService {
 
-  public searchQuery: BehaviorSubject<string> = new BehaviorSubject<string>('');
+  public searchQuery: BehaviorSubject<string> = new BehaviorSubject('');
   constructor() { }
 
   public searchQueryUpdated(searchQuery: string): void {
