@@ -7,9 +7,10 @@ import { Observable } from 'rxjs';
 })
 export class WorklogService {
 
+  private worklogUrl: string = 'assets/worklog.json';
   constructor(private http: HttpClient) { }
 
   public getData(): Observable<unknown> {
-    return this.http.get('assets/worklog.json');
+    return this.http.get(this.worklogUrl);
   }
 }
