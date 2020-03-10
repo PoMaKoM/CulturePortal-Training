@@ -1,3 +1,4 @@
+import { TimelineComponent } from './components/timeline/timeline.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MglTimelineModule } from 'angular-mgl-timeline.9';
@@ -6,15 +7,16 @@ import { DirectorsListComponent } from './pages/directors-list/directors-list.co
 import { DetailsComponent } from './pages/details/details.component';
 import { DirectorComponent } from './components/director/director.component';
 import { SearchComponent } from './components/search/search.component';
-import { TimelineComponent } from './components/timeline/timeline.component';
-
 
 @NgModule({
-  declarations: [DirectorsListComponent, DetailsComponent, DirectorComponent, SearchComponent, TimelineComponent],
-  imports: [
-    CommonModule,
-    MglTimelineModule,
-    DirectorsRoutingModule
-  ]
+  declarations: [
+    DirectorsListComponent,
+    DetailsComponent,
+    DirectorComponent,
+    SearchComponent,
+    TimelineComponent
+  ],
+  imports: [CommonModule, MglTimelineModule, DirectorsRoutingModule],
+  exports: [TimelineComponent]
 })
-export class DirectorsModule { }
+export class DirectorsModule {}

@@ -20,6 +20,6 @@ export class TimelineComponent implements OnInit {
     this.httpService
       .getDataDirectors()
       // TODO change request based on language and selected director
-      .subscribe((res: Directors) => (this.dataBiography = res.data[0].be.biography));
+      .subscribe((res: Directors) => (this.dataBiography = res.data[0].en.biography));
   }
 }
