@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { MglTimelineModule } from 'angular-mgl-timeline.9';
 import { DirectorsRoutingModule } from './directors-routing.module';
 import { DirectorsListComponent } from './pages/directors-list/directors-list.component';
 import { DetailsComponent } from './pages/details/details.component';
@@ -9,13 +10,22 @@ import { SearchComponent } from './components/search/search.component';
 import { DetailsService } from './services/details.service';
 import { SearchService } from './services/search.service';
 import { FilterPipe } from './pipes/filter.pipe';
+import { TimelineComponent } from './components/timeline/timeline.component';
 
 @NgModule({
-  declarations: [DirectorsListComponent, DetailsComponent, DirectorComponent, SearchComponent, FilterPipe],
+  declarations: [
+    DirectorsListComponent,
+    DetailsComponent,
+    DirectorComponent,
+    SearchComponent,
+    TimelineComponent,
+    FilterPipe
+  ],
   imports: [
     CommonModule,
     DirectorsRoutingModule,
     FormsModule,
+    MglTimelineModule,
   ],
   providers: [
     SearchService,
