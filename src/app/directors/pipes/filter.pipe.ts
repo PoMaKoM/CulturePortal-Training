@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { InfoDirector } from './../models/directors';
+import { InfoDirector } from './../models/info-director.model';
 
 @Pipe({
   name: 'filter'

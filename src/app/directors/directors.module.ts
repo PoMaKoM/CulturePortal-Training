@@ -11,6 +11,7 @@ import { DetailsService } from './services/details.service';
 import { SearchService } from './services/search.service';
 import { FilterPipe } from './pipes/filter.pipe';
 import { TimelineComponent } from './components/timeline/timeline.component';
+import { OverlayDirective } from './directives/overlay.directive';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TimelineComponent } from './components/timeline/timeline.component';
     DirectorComponent,
     SearchComponent,
     TimelineComponent,
-    FilterPipe
+    FilterPipe,
+    OverlayDirective
   ],
   imports: [
     CommonModule,
