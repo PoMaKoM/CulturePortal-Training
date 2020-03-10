@@ -1,4 +1,5 @@
-import { PhotoDirector, DetailsInfoDirector } from './directors.model';
+import { DetailsInfoDirector } from './details-info-director.model';
+import { PhotoDirector } from './photo-director.model';
 
 export interface InfoDirector {
   id: string;

@@ -1,6 +1,6 @@
 <mat-toolbar color="header-wrapper">
   <app-logo></app-logo>
-  <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
+  <button mat-icon-button (click)="sidenav.toggle()" (click)="visible()" fxShow="true" fxHide.gt-sm>
     <mat-icon>menu</mat-icon>
   </button>
   <div fxShow="true" fxHide.lt-md class="nav-container">
@@ -9,7 +9,7 @@
   </div>
 </mat-toolbar>
 
-<mat-sidenav-container fxFlexFill>
+<mat-sidenav-container fxFlexFill (backdropClick)="visible()" class="show" [class.hide]="isVisible">
   <mat-sidenav #sidenav>
     <mat-nav-list>
       <app-language></app-language>

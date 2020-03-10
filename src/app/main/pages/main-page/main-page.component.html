@@ -1,1 +1,9 @@
-<p>main-page works!</p>
+<div class="wrapper">
+  <div class="mask"></div>
+  <video class="video" loop="loop" autoplay="true" muted="muted">
+    <source [src]="src" type="video/mp4" />
+    <source [src]="webm" type="video/webm" />
+  </video>
+  <h1 class="title"><span>Cultural portal</span><br />about famous film directors of Belarus</h1>
+</div>
+<app-director-of-day></app-director-of-day>
