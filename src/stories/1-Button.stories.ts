@@ -1,3 +1,5 @@
+// tslint:disable: typedef
+
 import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import {MatCardModule} from '@angular/material/card';
@@ -7,14 +9,14 @@ export default {
   title: 'Button',
 };
 
-export const Button = () => ({
+export const button = () => ({
   template: `<button mat-button style="font-family: MontserratMedium; color: #241e20">Click me!</button>`,
   moduleMetadata: {
     imports: [MatButtonModule]
   }
 });
 
-export const ColoredButtons = () => ({
+export const coloredButtons = () => ({
   template: `<button mat-button style="font-family: MontserratMedium;
              background-color: #96d4cf; margin: 5px; color: #000000">
              Click me!</button>
@@ -38,7 +40,7 @@ export const ColoredButtons = () => ({
   }
 });
 
-export const Checkboxes = () => ({
+export const checkboxes = () => ({
   template: `<mat-card>
           <mat-card-content>
             <h2 style="margin: 10px;">Checkbox configuration</h2>
