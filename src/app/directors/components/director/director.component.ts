@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { DetailsService } from './../../services/details.service';
-import { InfoDirector } from '../../models/directors';
-import { DetailsInfoDirector } from './../../models/directors';
+import { InfoDirector } from './../../models/info-director.model';
+import { DetailsInfoDirector } from './../../models/details-info-director.model';
 
 @Component({
   selector: 'app-director',

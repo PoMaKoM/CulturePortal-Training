@@ -1,0 +1,47 @@
+.card {
+  div {
+    transition: all 1s ease-out;
+  }
+
+  &-image {
+
+    display: flex;
+    justify-content: center;
+    
+
+    &__img {
+      width: 100%;
+      max-width: 400px; 
+      // height: 400px;
+    }
+  }
+}
+
+
+.opened {
+  opacity: 0.5;
+}
+
+.closed {
+  opacity: 1;
+}
+
+.top-enabled {
+    transform: translateY(0%);
+    opacity: 1;
+}
+
+.bottom-enabled {
+  transform: translateY(-20%);
+    opacity: 1;
+}
+
+.top-disabled {
+  transform: translateY(-20%);
+  opacity: 0;
+}
+
+.bottom-disabled {
+  transform: translateY(00%);
+  opacity: 0;
+}
