@@ -12,9 +12,10 @@ import { MatTableModule } from '@angular/material/table';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import {MatCardModule} from '@angular/material/card';
 import { EvaluationComponent } from './components/evaluation/evaluation.component';
+import { DifficultiesComponent } from './components/difficulties/difficulties.component';
 
 @NgModule({
-  declarations: [WorklogComponent, WorklogTabComponent, TableComponent, EvaluationComponent],
+  declarations: [WorklogComponent, WorklogTabComponent, TableComponent, EvaluationComponent, DifficultiesComponent],
   imports: [CommonModule,
     WorklogRoutingModule,
     MatTabsModule,
