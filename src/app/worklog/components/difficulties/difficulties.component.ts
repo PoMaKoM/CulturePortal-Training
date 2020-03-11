@@ -9,7 +9,7 @@ export class DifficultiesComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  public ngOnInit(): void {
   }
 
 }
