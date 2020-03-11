@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { DetailsService } from './../../services/details.service';
+import { DetailsService } from './../../../core/services/details.service';
 import { DetailsInfoDirector } from './../../../shared/models/details-info-director.model';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
 

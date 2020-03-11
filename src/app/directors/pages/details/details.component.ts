@@ -1,4 +1,4 @@
-import { DetailsService } from './../../services/details.service';
+import { DetailsService } from './../../../core/services/details.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({

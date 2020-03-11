@@ -2,7 +2,9 @@ import { Injectable } from '@angular/core';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
 import { DetailsInfoDirector } from './../../shared/models/details-info-director.model';
 
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class DetailsService {
   private _director: InfoDirector;
   private _detailsInfo: DetailsInfoDirector;

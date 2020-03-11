@@ -1,6 +1,6 @@
 import { BiographyDirector } from './../../../shared/models/biography-director.model';
 import { Component, OnInit } from '@angular/core';
-import { DetailsService } from './../../services/details.service';
+import { DetailsService } from './../../../core/services/details.service';
 
 @Component({
   selector: 'app-timeline',
