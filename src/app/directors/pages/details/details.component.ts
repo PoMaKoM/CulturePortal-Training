@@ -1,9 +1,9 @@
+import { DetailsInfoDirector } from './../../../shared/models/details-info-director.model';
 import { FilmsDirector } from './../../../shared/models/films-director.model';
-import { Directors } from './../../../shared/models/directors.model';
-import { HttpService } from './../../../core/services/http.service';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
+import { DetailsService } from '../../../core/services/details.service';
 
 @Component({
   selector: 'app-details',
@@ -12,24 +12,18 @@ import { InfoDirector } from 'src/app/shared/models/info-director.model';
 })
 export class DetailsComponent implements OnInit {
   public directorId: string;
-  public infoDirector: InfoDirector;
+  public details: DetailsInfoDirector;
   public src: string;
   public name: string;
   public description: string;
   public films: FilmsDirector[];
-  constructor(public route: ActivatedRoute, public searchService: HttpService) {}
+  constructor(public route: ActivatedRoute, private detailsService: DetailsService) {}
 
   public ngOnInit(): void {
-    this.route.params.subscribe((params) => {
-      this.directorId = params.id;
-      this.searchService.getDataDirectors().subscribe((res: Directors) => {
-        this.infoDirector = res.data.find((item: InfoDirector) => item.id === this.directorId);
-        this.src = this.infoDirector.avatar;
-        this.name = this.infoDirector.en.name;
-        this.description = this.infoDirector.en.description;
-        this.films = this.infoDirector.en.films;
-        console.log(this.infoDirector);
-      });
-    });
+    this.details = this.detailsService.detailsInfo;
+    this.src = this.detailsService.director.avatar;
+    this.name = this.details.name;
+    this.description = this.details.description;
+    this.films = this.details.films;
   }
 }

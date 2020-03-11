@@ -1,7 +1,8 @@
-import { Directors } from 'src/app/shared/models/directors.model';
-import { HttpService } from 'src/app/core/services/http.service';
+import { DetailsService } from './../../../core/services/details.service';
+import { GetDataService } from 'src/app/core/services/get-data.service';
 import { Component, OnInit } from '@angular/core';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
+import { Directors } from 'src/app/shared/models/directors.model';
 
 @Component({
   selector: 'app-director-of-day',
@@ -9,19 +10,25 @@ import { InfoDirector } from 'src/app/shared/models/info-director.model';
   styleUrls: ['./director-of-day.component.scss']
 })
 export class DirectorOfDayComponent implements OnInit {
+  private index: number;
   public infoDirector: InfoDirector;
   public photoSrc: string = '';
   public name: string = '';
   public description: string = '';
-  public id: string = '';
-  private index: number;
-  constructor(private httpService: HttpService) {}
+  public id: string;
+
+  constructor(private getDataService: GetDataService, private detailService: DetailsService) {}
+
+  public getRandomDirector(val: number): number {
+    return Math.floor(Math.random() * val) + 1;
+  }
 
   public ngOnInit(): void {
-    const date = new Date();
+    const date: Date = new Date();
     this.index = date.getDay();
-    this.httpService.getDataDirectors().subscribe((res: Directors) => {
-      this.infoDirector = res.data[0];
+    console.log(this.index);
+    this.getDataService.getDataDirectors().subscribe((directors: Directors) => {
+      this.infoDirector = directors.data[this.getRandomDirector(directors.data.length)];
       this.photoSrc = this.infoDirector.avatar;
       this.name = this.infoDirector.en.name;
       this.description = this.infoDirector.en.description;

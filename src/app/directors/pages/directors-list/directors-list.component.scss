@@ -1,0 +1,11 @@
+:host { 
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-wrapper {
+  width: 80%;
+  margin: 70px auto 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
