@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { DetailsService } from './../../services/details.service';
+import { DetailsInfoDirector } from './../../../shared/models/details-info-director.model';
+import { InfoDirector } from 'src/app/shared/models/info-director.model';
 
 @Component({
   selector: 'app-director',
@@ -6,7 +9,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./director.component.scss']
 })
 export class DirectorComponent implements OnInit {
-  constructor() {}
 
-  public ngOnInit(): void {}
+  @Input() public director: InfoDirector;
+  @Input() public detailsInfo: DetailsInfoDirector;
+
+  constructor(private detailsService: DetailsService) { }
+
+  public ngOnInit(): void {
+  }
+
+  public openDetailsPage(): void {
+    this.detailsService.director = this.director;
+    this.detailsService.detailsInfo = this.detailsInfo;
+  }
 }

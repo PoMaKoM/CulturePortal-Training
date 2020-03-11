@@ -1,1 +1,11 @@
-<p>directors-list works!</p>
+<app-search></app-search>
+<div class="cards-wrapper">
+  <!-- <div *ngIf="!(currentData | async | filter : (searchQuery | async) : (currentLanguage | async))">
+    нет режиссеров для отображения
+  </div> -->
+
+  <app-director
+    *ngFor="let director of (currentData | async | filter : (searchQuery | async) : (currentLanguage | async))"
+    [director]="director" [detailsInfo]="director[currentLanguage | async]">
+  </app-director>
+</div>
