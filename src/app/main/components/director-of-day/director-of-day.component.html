@@ -1,1 +1,9 @@
-<p>director-of-day works!</p>
+<h3>Director of the day</h3>
+<div class="directors" fxLayout="row wrap" fxLayoutAlign="space-around center">
+  <img [src]="photoSrc" alt="director of the day" />
+  <div class="description">
+    <p class="name">{{ name }}</p>
+    <p>{{ description }}</p>
+    <a mat-button href="#">Learn more...</a>
+  </div>
+</div>

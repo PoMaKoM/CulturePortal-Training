@@ -1,0 +1,13 @@
+:host {
+  width: 100%;
+  // background-color: var(--footer-bg-color);
+  p {
+    color: var(--secondary-text-color);
+    background-color: var(--footer-bg-color);
+    font-family: 'MontserratRegular';
+    font-size: 18px;
+    padding: 40px 0;
+    text-align: center;
+    margin: 0;
+  }
+}
