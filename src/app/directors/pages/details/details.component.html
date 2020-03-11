@@ -1,2 +1,26 @@
-<p>details works!</p>
+<div class="wrapper">
+  <div class="director" fxLayout="row wrap" fxLayoutAlign="space-around center">
+    <div class="description">
+      <p class="name">{{ name }}</p>
+      <p>{{ description }}</p>
+      <img src="assets/icon-1.svg" alt="film-icon" />
+      <mat-list>
+        <mat-list-item>
+          "{{ films[0].name }}" &nbsp; <span>({{ films[0].year }})</span></mat-list-item
+        >
+        <mat-list-item>
+          "{{ films[1].name }}" &nbsp;<span>({{ films[1].year }})</span></mat-list-item
+        >
+        <mat-list-item
+          >"{{ films[2].name }}" &nbsp;<span>({{ films[2].year }})</span></mat-list-item
+        >
+        <mat-list-item
+          >"{{ films[3].name }}" &nbsp;<span>({{ films[3].year }})</span></mat-list-item
+        >
+      </mat-list>
+      <a mat-button>more films</a>
+    </div>
+    <img [src]="src" alt="director" class="avatar" />
+  </div>
+</div>
 <app-timeline></app-timeline>
