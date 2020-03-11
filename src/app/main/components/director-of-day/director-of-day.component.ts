@@ -1,7 +1,6 @@
 import { GetDataService } from 'src/app/core/services/get-data.service';
 import { Component, OnInit } from '@angular/core';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
-import { Directors } from 'src/app/shared/models/directors.model';
 
 @Component({
   selector: 'app-director-of-day',
@@ -24,8 +23,8 @@ export class DirectorOfDayComponent implements OnInit {
   public ngOnInit(): void {
     const date: Date = new Date();
     this.index = date.getDay();
-    this.getDataService.getDataDirectors().subscribe((directors: Directors) => {
-      this.infoDirector = directors.data[this.getRandomDirector(directors.data.length)];
+    this.getDataService.getDataDirectors().subscribe((directors: InfoDirector[]) => {
+      this.infoDirector = directors[this.getRandomDirector(directors.length)];
       this.photoSrc = this.infoDirector.avatar;
       this.name = this.infoDirector.en.name;
       this.description = this.infoDirector.en.description;

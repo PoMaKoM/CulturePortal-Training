@@ -11,11 +11,9 @@ import { InfoDirector } from './../../../shared/models/info-director.model';
 })
 export class DirectorsListComponent implements OnInit {
 
+  public currentData: InfoDirector[];
   constructor(private getDataService: GetDataService, private searchService: SearchService) { }
 
-  get currentData(): Subject<InfoDirector[]> {
-    return this.getDataService.currentData;
-  }
   get currentLanguage(): BehaviorSubject<string> {
     return this.getDataService.currentLanguage;
   }
@@ -24,6 +22,8 @@ export class DirectorsListComponent implements OnInit {
   }
 
   public ngOnInit(): void {
-    this.getDataService.getDataDirectors().subscribe();
+    this.getDataService.getDataDirectors().subscribe((currentData: InfoDirector[]) => {
+      this.currentData = currentData;
+    });
   }
 }
