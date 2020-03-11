@@ -2,7 +2,7 @@ import { BehaviorSubject, Subject } from 'rxjs';
 import { Component, OnInit } from '@angular/core';
 import { SearchService } from './../../services/search.service';
 import { GetDataService } from './../../../core/services/get-data.service';
-import { InfoDirector } from './../../models/info-director.model';
+import { InfoDirector } from './../../../shared/models/info-director.model';
 
 @Component({
   selector: 'app-directors-list',

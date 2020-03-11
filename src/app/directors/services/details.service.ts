@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { DetailsInfoDirector } from './../models/details-info-director.model';
-import { InfoDirector } from './../models/info-director.model';
+import { InfoDirector } from 'src/app/shared/models/info-director.model';
+import { DetailsInfoDirector } from './../../shared/models/details-info-director.model';
 
 @Injectable()
 export class DetailsService {

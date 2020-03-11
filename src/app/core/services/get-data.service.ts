@@ -2,8 +2,8 @@ import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, Subject, Observable, EMPTY } from 'rxjs';
 import { tap, catchError } from 'rxjs/operators';
-import { Directors } from './../../directors/models/directors.model';
-import { InfoDirector } from './../../directors/models/info-director.model';
+import { InfoDirector } from 'src/app/shared/models/info-director.model';
+import { Directors } from 'src/app/shared/models/directors.model';
 
 @Injectable({
   providedIn: 'root'
