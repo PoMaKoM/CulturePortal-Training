@@ -1,4 +1,5 @@
 .card {
+  color: var(--directors-primary-text-color);
   font-weight: bold;
 
   div {
@@ -27,8 +28,8 @@
     }
     button {
       width: 100%;
-      border: 2px solid;
       height: 40px;
+      border: 2px solid var(--directors-primary-text-color);
       background-color: transparent;
     }
   }
@@ -36,8 +37,7 @@
   &-image {
 
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
 
     &__img {
       width: 100%;
