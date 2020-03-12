@@ -10,6 +10,6 @@ import { DirectorOfDayComponent } from './components/director-of-day/director-of
 @NgModule({
   declarations: [MainPageComponent, DirectorOfDayComponent],
   imports: [CommonModule, MainRoutingModule, FlexLayoutModule, MatButtonModule]
-  //exports: [MainPageComponent]
+  // exports: [MainPageComponent]
 })
 export class MainModule {}
