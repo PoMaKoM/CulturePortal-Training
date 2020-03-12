@@ -6,6 +6,7 @@ import { GetDataService } from './../../../core/services/get-data.service';
 import { switchMap } from 'rxjs/operators';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
 import { MatDialog } from '@angular/material/dialog';
+import { DetailsInfoDirector } from 'src/app/shared/models/details-info-director.model';
 
 @Component({
   selector: 'app-details',
@@ -20,6 +21,7 @@ export class DetailsComponent implements OnInit {
   public films: FilmsDirector[];
   public videoSrc: string;
   public videoTitle: string = '';
+  public detailsInfoDirector: DetailsInfoDirector;
 
   constructor(
     private route: ActivatedRoute,
@@ -44,6 +46,7 @@ export class DetailsComponent implements OnInit {
         this.src = this.infoDirector.avatar;
         this.description = this.infoDirector.en.description;
         this.videoSrc = this.infoDirector.en.video.link;
+        this.detailsInfoDirector = this.infoDirector.en;
       });
   }
 }
