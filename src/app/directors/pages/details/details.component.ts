@@ -18,6 +18,8 @@ export class DetailsComponent implements OnInit {
   public name: string = '';
   public description: string = '';
   public films: FilmsDirector[];
+  public videoSrc: string;
+  public videoTitle: string = '';
 
   constructor(
     private route: ActivatedRoute,
@@ -41,6 +43,7 @@ export class DetailsComponent implements OnInit {
         this.name = this.infoDirector.en.name;
         this.src = this.infoDirector.avatar;
         this.description = this.infoDirector.en.description;
+        this.videoSrc = this.infoDirector.en.video.link;
       });
   }
 }
