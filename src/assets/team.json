@@ -1,0 +1,66 @@
+{
+  "team": [
+    {
+      "name": "Raman Kamarou",
+      "githubName": "pomakom",
+      "role": "string",
+      "description": "I love cats ^-^ and coding",
+      "links": {
+        "telegram": "t.me/poma_kom",
+        "github": "github.com/poma_kom",
+        "vk": "https://vk.com/poma_kom",
+        "linkedIn": "https://www.linkedin.com/in/pomakom/"
+      }
+    },
+    {
+      "name": "string",
+      "githubName": "string",
+      "role": "string",
+      "description": "string",
+      "avatar": "https://sun1.dataix-by-minsk.userapi.com/c847124/v847124728/335f9/8POFsScEtc8.jpg?ava=1",
+      "links": {
+        "telegram": "t.me/poma_kom"
+      }
+    },
+    {
+      "name": "string",
+      "githubName": "string",
+      "role": "string",
+      "description": "string",
+      "avatar": "https://sun1.dataix-by-minsk.userapi.com/c847124/v847124728/335f9/8POFsScEtc8.jpg?ava=1",
+      "links": {
+        "telegram": "t.me/poma_kom"
+      }
+    },
+    {
+      "name": "string",
+      "githubName": "string",
+      "role": "string",
+      "description": "string",
+      "avatar": "https://sun1.dataix-by-minsk.userapi.com/c847124/v847124728/335f9/8POFsScEtc8.jpg?ava=1",
+      "links": {
+        "telegram": "t.me/poma_kom"
+      }
+    },
+    {
+      "name": "string",
+      "githubName": "string",
+      "role": "string",
+      "description": "string",
+      "avatar": "https://sun1.dataix-by-minsk.userapi.com/c847124/v847124728/335f9/8POFsScEtc8.jpg?ava=1",
+      "links": {
+        "telegram": "t.me/poma_kom"
+      }
+    },
+    {
+      "name": "string",
+      "githubName": "string",
+      "role": "string",
+      "description": "string",
+      "avatar": "https://sun1.dataix-by-minsk.userapi.com/c847124/v847124728/335f9/8POFsScEtc8.jpg?ava=1",
+      "links": {
+        "telegram": "t.me/poma_kom"
+      }
+    }
+  ]
+}
