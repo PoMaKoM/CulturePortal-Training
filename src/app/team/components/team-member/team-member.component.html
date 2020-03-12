@@ -1,8 +1,8 @@
-<h2 class="role">Developer</h2>
 <div class="avatar">
   <img src="{{ member.avatar }}" alt="avatar" />
 </div>
 <div class="name">{{ member.name }}</div>
+<h2 class="role">Developer</h2>
 <p class="description">{{ member.description }}</p>
 
 <div class="links">
@@ -11,16 +11,16 @@
       ><fa-icon [icon]="faGithub"></fa-icon
     ></a>
   </div>
-  <div class="telegram" *ngIf="member.linsk.telegram">
-    <a href="{{ member.linsk.telegram }}" target="_blanck"> <fa-icon [icon]="faTelegramPlane"></fa-icon></a>
+  <div class="telegram" *ngIf="member.links.telegram">
+    <a href="{{ member.links.telegram }}" target="_blanck"> <fa-icon [icon]="faTelegramPlane"></fa-icon></a>
   </div>
-  <div class="vk" *ngIf="member.linsk.vk">
-    <a href="{{ member.linsk.vk }}" target="_blanck"> <fa-icon [icon]="faVk"></fa-icon></a>
+  <div class="vk" *ngIf="member.links.vk">
+    <a href="{{ member.links.vk }}" target="_blanck"> <fa-icon [icon]="faVk"></fa-icon></a>
   </div>
-  <div class="linkedIn" *ngIf="member.linsk.linkedIn">
-    <a href="{{ member.linsk.linkedIn }}" target="_blanck"> <fa-icon [icon]="faLinkedin"></fa-icon></a>
+  <div class="linkedIn" *ngIf="member.links.linkedIn">
+    <a href="{{ member.links.linkedIn }}" target="_blanck"> <fa-icon [icon]="faLinkedin"></fa-icon></a>
   </div>
-  <div class="blog" *ngIf="member.linsk.blog">
-    <a href="{{ member.linsk.blog }}" target="_blanck"> <fa-icon [icon]="faBloggerB"></fa-icon></a>
+  <div class="blog" *ngIf="member.links.blog">
+    <a href="{{ member.links.blog }}" target="_blanck"> <fa-icon [icon]="faBloggerB"></fa-icon></a>
   </div>
 </div>

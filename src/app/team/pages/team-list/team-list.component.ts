@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { TeamService } from '../../service/team.service';
-import { Team, Member } from '../../models/team.model';
+import { Member } from '../../models/member.model';
 
 @Component({
   selector: 'app-team-list',
@@ -8,7 +8,7 @@ import { Team, Member } from '../../models/team.model';
   styleUrls: ['./team-list.component.scss']
 })
 export class TeamListComponent implements OnInit {
-  public team: Team;
+  public team: Member[];
   constructor(private teamService: TeamService) {}
 
   public ngOnInit(): void {
@@ -22,12 +22,5 @@ export class TeamListComponent implements OnInit {
 
       this.team = resp.team;
     });
-
-    //       const ids: string[] = resp.items.map(item => item.id.videoId);
-    // .subscribe(resp => {
-    //       this.searchService.getViodeoList(ids).subscribe(videoList => {
-    //         this.videos = videoList;
-    //       });
-    //     }
   }
 }

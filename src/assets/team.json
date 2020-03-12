@@ -5,7 +5,7 @@
       "githubName": "pomakom",
       "role": "string",
       "description": "I love cats ^-^ and coding",
-      "linsk": {
+      "links": {
         "telegram": "t.me/poma_kom",
         "github": "github.com/poma_kom",
         "vk": "https://vk.com/poma_kom",
@@ -19,7 +19,7 @@
       "role": "string",
       "description": "string",
       "avatar": "https://sun1.dataix-by-minsk.userapi.com/c847124/v847124728/335f9/8POFsScEtc8.jpg?ava=1",
-      "linsk": {
+      "links": {
         "telegram": "t.me/poma_kom"
       }
     }

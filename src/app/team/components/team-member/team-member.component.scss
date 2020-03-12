@@ -1,19 +1,22 @@
-h2 {
-  font-size: 20px;
-}
-
 .avatar {
   width: 100%;
+  display: flex;
+  justify-content: center;
 
   img {
-    width: 100%;
+    width: 50%;
     border-radius: 50%;
   }
 }
 
 .name {
-  padding: 20px;
+  padding: 20px 0;
   font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 200;
 }
 
 p.description {
@@ -22,7 +25,7 @@ p.description {
 
 .links {
   display: flex;
-  width: 100%;
+  width: 75%;
   justify-content: space-around;
   font-size: 35px;
   a {
@@ -31,5 +34,11 @@ p.description {
   }
   a:hover {
     color: var(--primary-button-color);
+  }
+}
+
+@media (max-width: 980px) {
+  .links {
+    font-size: 26px;
   }
 }

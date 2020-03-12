@@ -1,7 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
 import { faGithub, faTelegramPlane, faVk, faLinkedin, faBloggerB } from '@fortawesome/free-brands-svg-icons';
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
-import { Member } from '../../models/team.model';
+import { Member } from '../../models/member.model';
 
 @Component({
   selector: 'app-team-member',

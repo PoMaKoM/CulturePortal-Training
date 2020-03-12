@@ -35,7 +35,7 @@
   app-team-member {
     width: 50%;
     max-width: 400px;
-    padding: 40px;
+    padding: 40px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -43,5 +43,9 @@
 
   @media (max-width: 980px) {
     justify-content: center;
+
+    app-team-member {
+    width: 95%;
+  }
   }
 }

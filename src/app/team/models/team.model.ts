@@ -1,17 +1,5 @@
-export interface Team {
-  team: Array<Member>;
-}
+import { Member } from './member.model';
 
-export interface Member {
-  role: string;
-  githubName: string;
-  avatar?: string;
-  name: string;
-  description: string;
-  linsk: {
-    telegram?: string;
-    vk?: string;
-    linkedIn?: string;
-    blog?: string;
-  };
+export interface Team {
+  team: Member[];
 }
