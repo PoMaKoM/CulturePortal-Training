@@ -7,7 +7,8 @@ const routes: Routes = [
   {
     path: 'directors', loadChildren: () => import('./directors/directors.module')
       .then((m) => m.DirectorsModule)
-  }
+  },
+  { path: 'worklog', loadChildren: () => import('./worklog/worklog.module').then((m) => m.WorklogModule) }
 ];
 
 @NgModule({

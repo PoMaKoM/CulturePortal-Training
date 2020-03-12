@@ -1,0 +1,16 @@
+<table mat-table [dataSource]="worklogData" class="mat-elevation-z8">
+
+  <ng-container matColumnDef="timeSpent">
+    <th mat-header-cell *matHeaderCellDef> TimeSpent </th>
+    <td mat-cell *matCellDef="let element" class="TimeSpent"> {{element.timeSpent}}h </td>
+  </ng-container>
+
+  <ng-container matColumnDef="description">
+    <th mat-header-cell *matHeaderCellDef> Description </th>
+    <td mat-cell *matCellDef="let element"> {{element.description}} </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; index as i; columns: displayedColumns;" [ngClass]="{rowColor:i%2===0}" ></tr>
+</table>
+
