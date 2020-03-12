@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { faGithub, faTelegramPlane, faVk, faLinkedin, faBloggerB } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faTelegramPlane, faVk, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { IconDefinition } from '@fortawesome/fontawesome-svg-core';
 import { Member } from '../../models/member.model';
 
@@ -14,7 +14,6 @@ export class TeamMemberComponent implements OnInit {
   public faTelegramPlane: IconDefinition = faTelegramPlane;
   public faVk: IconDefinition = faVk;
   public faLinkedin: IconDefinition = faLinkedin;
-  public faBloggerB: IconDefinition = faBloggerB;
 
   constructor() {}
 

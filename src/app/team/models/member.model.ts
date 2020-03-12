@@ -8,6 +8,5 @@ export interface Member {
     telegram?: string;
     vk?: string;
     linkedIn?: string;
-    blog?: string;
   };
 }
