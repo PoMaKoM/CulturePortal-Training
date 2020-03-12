@@ -1,0 +1,17 @@
+:host { 
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-wrapper {
+  width: 80%;
+  margin: 70px auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 40px;
+
+  @media screen and (max-width: 500px) {
+    grid-template-columns: none;
+    grid-template-rows: repeat(500px)
+  }
+}

@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  background-color: var(--directors-search-bg-color);
+}
+
+.input {
+  width: 25vw;
+  max-width: 400px;
+  height: 30px;
+  background-color: var(--directors-main-bg-color);
+  border: none;
+  padding: 3px;
+}
+
+.search-icon {
+  position: relative;
+  right: 35px;
+}

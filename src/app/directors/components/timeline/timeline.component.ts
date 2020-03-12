@@ -1,7 +1,6 @@
-import { Directors } from './../../../shared/models/directors.model';
+import { Component, OnInit, Input, SimpleChange } from '@angular/core';
+import { InfoDirector } from 'src/app/shared/models/info-director.model';
 import { BiographyDirector } from './../../../shared/models/biography-director.model';
-import { Component, OnInit } from '@angular/core';
-import { HttpService } from 'src/app/core/services/http.service';
 
 @Component({
   selector: 'app-timeline',
@@ -9,17 +8,20 @@ import { HttpService } from 'src/app/core/services/http.service';
   styleUrls: ['./timeline.component.scss']
 })
 export class TimelineComponent implements OnInit {
+
+  @Input() public infoDirector: InfoDirector;
   public dataBiography: Array<BiographyDirector>;
   public alternate: boolean = true;
   public size: number = 40;
   public side: string = 'left';
 
-  constructor(private httpService: HttpService) {}
+  constructor() { }
 
   public ngOnInit(): void {
-    this.httpService
-      .getDataDirectors()
-      // TODO change request based on language and selected director
-      .subscribe((res: Directors) => (this.dataBiography = res.data[0].be.biography));
+  }
+  public ngOnChanges(changes: { [propKey: string]: SimpleChange }): void {
+    if (changes.infoDirector.currentValue) {
+      this.dataBiography = changes.infoDirector.currentValue.be.biography;
+    }
   }
 }

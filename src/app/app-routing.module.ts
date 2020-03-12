@@ -4,6 +4,10 @@ import { Routes, RouterModule } from '@angular/router';
 const routes: Routes = [
   { path: '', redirectTo: 'main', pathMatch: 'full' },
   { path: 'main', loadChildren: () => import('./main/main.module').then((m) => m.MainModule) },
+  {
+    path: 'directors', loadChildren: () => import('./directors/directors.module')
+      .then((m) => m.DirectorsModule)
+  },
   { path: 'worklog', loadChildren: () => import('./worklog/worklog.module').then((m) => m.WorklogModule) }
 ];
 
@@ -11,4 +15,4 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }
