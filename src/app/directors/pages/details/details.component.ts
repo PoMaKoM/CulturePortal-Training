@@ -1,9 +1,11 @@
-import { DetailsInfoDirector } from './../../../shared/models/details-info-director.model';
+import { DialogFilmsListComponent } from './../../components/dialog-films-list/dialog-films-list.component';
 import { FilmsDirector } from './../../../shared/models/films-director.model';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { GetDataService } from './../../../core/services/get-data.service';
+import { switchMap } from 'rxjs/operators';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
-import { DetailsService } from '../../../core/services/details.service';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-details',
@@ -11,19 +13,34 @@ import { DetailsService } from '../../../core/services/details.service';
   styleUrls: ['./details.component.scss']
 })
 export class DetailsComponent implements OnInit {
-  public directorId: string;
-  public details: DetailsInfoDirector;
-  public src: string;
-  public name: string;
-  public description: string;
+  public infoDirector: InfoDirector;
+  public src: string = '';
+  public name: string = '';
+  public description: string = '';
   public films: FilmsDirector[];
-  constructor(public route: ActivatedRoute, private detailsService: DetailsService) {}
+
+  constructor(
+    private route: ActivatedRoute,
+    private getDataService: GetDataService,
+    public dialog: MatDialog
+  ) {}
+
+  public openDialog(): void {
+    this.dialog.open(DialogFilmsListComponent, {
+      width: '500px',
+      data: this.films
+    });
+  }
 
   public ngOnInit(): void {
-    this.details = this.detailsService.detailsInfo;
-    this.src = this.detailsService.director.avatar;
-    this.name = this.details.name;
-    this.description = this.details.description;
-    this.films = this.details.films;
+    this.route.params
+      .pipe(switchMap((params) => this.getDataService.getDirectorById(params.id)))
+      .subscribe((infoDirector: InfoDirector) => {
+        this.infoDirector = infoDirector;
+        this.films = this.infoDirector.en.films;
+        this.name = this.infoDirector.en.name;
+        this.src = this.infoDirector.avatar;
+        this.description = this.infoDirector.en.description;
+      });
   }
 }

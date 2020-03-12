@@ -4,8 +4,7 @@
     нет режиссеров для отображения
   </div> -->
 
-  <app-director
-    *ngFor="let director of (currentData | async | filter : (searchQuery | async) : (currentLanguage | async))"
+  <app-director *ngFor="let director of (currentData | filter : (searchQuery | async) : (currentLanguage | async))"
     [director]="director" [detailsInfo]="director[currentLanguage | async]">
   </app-director>
 </div>

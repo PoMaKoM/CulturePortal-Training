@@ -1,34 +1,53 @@
 .card {
-  font-weight: bold;
+  color: var(--directors-primary-text-color);
+  height: 100%;
+  position: relative;
+
+  @media screen and (max-width: 960px) {
+    max-height: 500px;
+    height: 30%;
+    width: 100%;
+  }
 
   div {
-    transition: all 1s ease-out;
+    transition: all 0.6s ease-out;
   }
 
   &-content-top {
-    position: relative;
-    top: 150px;
+    position: absolute;   
+    margin: auto;
     z-index: 3;
     width: 50%;
-    margin: 0 auto;
+    height: 20%;  
+    left: 0;
+    right: 0;    
 
+    &__name {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    &__desc {
+      font-size: 15px;
+    }
   }
 
   &-content-bottom {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    bottom: 150px;
+    position: absolute;   
     z-index: 3;
     width: 50%;
-    margin: 0 auto;
+    height: 20%;  
+    left: 0;
+    right: 0;  
+    margin: auto;
+    
     a {
       width: 100%;
     }
     button {
       width: 100%;
-      border: 2px solid;
       height: 40px;
+      border: 2px solid var(--directors-primary-text-color);
       background-color: transparent;
     }
   }
@@ -36,17 +55,14 @@
   &-image {
 
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
 
     &__img {
+      height: 100%;
       width: 100%;
-      max-width: 400px; 
-      // height: 400px;
     }
   }
 }
-
 
 .opened {
   opacity: 0.5;
@@ -57,17 +73,17 @@
 }
 
 .top-enabled {
-    transform: translateY(0%);
-    opacity: 1;
+  transform: translateY(100%);
+  opacity: 1;
 }
 
 .bottom-enabled {
-  transform: translateY(-75%);
-    opacity: 1;
+  transform: translateY(-220%);
+  opacity: 1;
 }
 
 .top-disabled {
-  transform: translateY(-75%);
+  transform: translateY(-30%);
   opacity: 0;
 }
 

@@ -17,6 +17,7 @@ import { DetailsService } from '../core/services/details.service';
 import { SearchService } from './services/search.service';
 import { FilterPipe } from './pipes/filter.pipe';
 import { OverlayDirective } from './directives/overlay.directive';
+import { DialogFilmsListComponent } from './components/dialog-films-list/dialog-films-list.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { OverlayDirective } from './directives/overlay.directive';
     SearchComponent,
     TimelineComponent,
     FilterPipe,
-    OverlayDirective
+    OverlayDirective,
+    DialogFilmsListComponent
   ],
   imports: [
     CommonModule,

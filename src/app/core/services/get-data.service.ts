@@ -1,24 +1,33 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, Subject, Observable, EMPTY } from 'rxjs';
-import { tap, catchError } from 'rxjs/operators';
+import { BehaviorSubject, Observable, EMPTY } from 'rxjs';
+import { catchError, pluck, filter, switchMap } from 'rxjs/operators';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
-import { Directors } from 'src/app/shared/models/directors.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class GetDataService {
-
   private directorsUrl: string = 'assets/data-directors.json';
-  public currentData: Subject<InfoDirector[]> = new Subject();
-  public currentLanguage: BehaviorSubject<string> = new BehaviorSubject('be');
+  public currentLanguage: BehaviorSubject<string> = new BehaviorSubject('en');
 
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
 
   public getDataDirectors(): Observable<unknown> {
     return this.http.get(this.directorsUrl).pipe(
-      tap((result: Directors) => this.currentData.next(result.data)),
+      pluck('data'),
+      catchError((err) => {
+        console.log(err);
+        return EMPTY;
+      })
+    );
+  }
+
+  public getDirectorById(id: string): Observable<unknown> {
+    return this.http.get(this.directorsUrl).pipe(
+      pluck('data'),
+      switchMap((directors: InfoDirector[]) => directors),
+      filter((director: InfoDirector) => director.id === id),
       catchError((err) => {
         console.log(err);
         return EMPTY;
