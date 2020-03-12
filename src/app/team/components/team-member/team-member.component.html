@@ -1,1 +1,26 @@
-<p>team-member works!</p>
+<h2 class="role">Developer</h2>
+<div class="avatar">
+  <img src="{{ member.avatar }}" alt="avatar" />
+</div>
+<div class="name">{{ member.name }}</div>
+<p class="description">{{ member.description }}</p>
+
+<div class="links">
+  <div class="github">
+    <a href="https://github.com/{{ member.githubName }}" target="_blanck"
+      ><fa-icon [icon]="faGithub"></fa-icon
+    ></a>
+  </div>
+  <div class="telegram" *ngIf="member.linsk.telegram">
+    <a href="{{ member.linsk.telegram }}" target="_blanck"> <fa-icon [icon]="faTelegramPlane"></fa-icon></a>
+  </div>
+  <div class="vk" *ngIf="member.linsk.vk">
+    <a href="{{ member.linsk.vk }}" target="_blanck"> <fa-icon [icon]="faVk"></fa-icon></a>
+  </div>
+  <div class="linkedIn" *ngIf="member.linsk.linkedIn">
+    <a href="{{ member.linsk.linkedIn }}" target="_blanck"> <fa-icon [icon]="faLinkedin"></fa-icon></a>
+  </div>
+  <div class="blog" *ngIf="member.linsk.blog">
+    <a href="{{ member.linsk.blog }}" target="_blanck"> <fa-icon [icon]="faBloggerB"></fa-icon></a>
+  </div>
+</div>

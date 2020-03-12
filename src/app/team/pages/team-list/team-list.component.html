@@ -1,1 +1,8 @@
-<p>team-list works!</p>
+<div class="wrapper">
+  <div class="background">
+    <h1 class="title">OUR TEAM</h1>
+  </div>
+</div>
+<div class="container">
+  <app-team-member [member]="member" *ngFor="let member of team"></app-team-member>
+</div>

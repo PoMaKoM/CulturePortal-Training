@@ -1,0 +1,35 @@
+h2 {
+  font-size: 20px;
+}
+
+.avatar {
+  width: 100%;
+
+  img {
+    width: 100%;
+    border-radius: 50%;
+  }
+}
+
+.name {
+  padding: 20px;
+  font-size: 30px;
+}
+
+p.description {
+  font-size: 18px;
+}
+
+.links {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  font-size: 35px;
+  a {
+    color: var(--footer-bg-color);
+    transition: 0.2s;
+  }
+  a:hover {
+    color: var(--primary-button-color);
+  }
+}
