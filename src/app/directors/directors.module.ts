@@ -7,7 +7,6 @@ import { DirectorsListComponent } from './pages/directors-list/directors-list.co
 import { DetailsComponent } from './pages/details/details.component';
 import { DirectorComponent } from './components/director/director.component';
 import { SearchComponent } from './components/search/search.component';
-import { DetailsService } from './services/details.service';
 import { SearchService } from './services/search.service';
 import { FilterPipe } from './pipes/filter.pipe';
 import { TimelineComponent } from './components/timeline/timeline.component';
@@ -30,8 +29,7 @@ import { OverlayDirective } from './directives/overlay.directive';
     MglTimelineModule,
   ],
   providers: [
-    SearchService,
-    DetailsService
+    SearchService
   ]
 })
 export class DirectorsModule { }

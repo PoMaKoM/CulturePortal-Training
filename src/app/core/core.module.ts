@@ -6,7 +6,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { LanguageComponent } from './components/language/language.component';
-
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
@@ -28,4 +27,4 @@ import { FlexLayoutModule } from '@angular/flex-layout';
   ],
   exports: [HeaderComponent, FooterComponent]
 })
-export class CoreModule {}
+export class CoreModule { }

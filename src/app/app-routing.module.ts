@@ -9,7 +9,11 @@ const routes: Routes = [
     loadChildren: () => import('./directors/directors.module').then((m) => m.DirectorsModule)
   },
   { path: 'worklog', loadChildren: () => import('./worklog/worklog.module').then((m) => m.WorklogModule) },
-  { path: 'team', loadChildren: () => import('./team/team.module').then((m) => m.TeamModule) }
+  { path: 'team', loadChildren: () => import('./team/team.module').then((m) => m.TeamModule) }, 
+  {  path: 'directors', loadChildren: () => import('./directors/directors.module')
+      .then((m) => m.DirectorsModule)},
+  { path: 'worklog', loadChildren: () => import('./worklog/worklog.module').then((m) => m.WorklogModule) }
+
 ];
 
 @NgModule({

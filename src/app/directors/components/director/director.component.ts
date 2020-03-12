@@ -1,5 +1,4 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { DetailsService } from './../../services/details.service';
 import { DetailsInfoDirector } from './../../../shared/models/details-info-director.model';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
 
@@ -13,13 +12,11 @@ export class DirectorComponent implements OnInit {
   @Input() public director: InfoDirector;
   @Input() public detailsInfo: DetailsInfoDirector;
 
-  constructor(private detailsService: DetailsService) { }
+  constructor() { }
 
   public ngOnInit(): void {
   }
 
   public openDetailsPage(): void {
-    this.detailsService.director = this.director;
-    this.detailsService.detailsInfo = this.detailsInfo;
   }
 }
