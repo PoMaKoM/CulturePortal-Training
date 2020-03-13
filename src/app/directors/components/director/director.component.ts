@@ -8,15 +8,12 @@ import { InfoDirector } from 'src/app/shared/models/info-director.model';
   styleUrls: ['./director.component.scss']
 })
 export class DirectorComponent implements OnInit {
-
   @Input() public director: InfoDirector;
   @Input() public detailsInfo: DetailsInfoDirector;
 
   constructor() { }
 
-  public ngOnInit(): void {
-  }
+  public ngOnInit(): void { }
 
-  public openDetailsPage(): void {
-  }
+  public openDetailsPage(): void { }
 }

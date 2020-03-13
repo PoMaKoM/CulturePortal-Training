@@ -1,0 +1,16 @@
+a {
+  height: 30px;
+  min-width: 30px !important;
+  width: 30px;
+  background-color: var(--primary-button-color);
+  background-image: url('../../../../assets/close.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.mat-list-item {
+  height: 40px;
+}
+img {
+  padding-left: 16px;
+}
