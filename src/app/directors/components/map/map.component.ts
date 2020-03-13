@@ -26,7 +26,6 @@ export class MapComponent implements OnInit {
     if (changes.director.currentValue) {
       this.lat = changes.director.currentValue.en.dates.birth.place.lat;
       this.lng = changes.director.currentValue.en.dates.birth.place.lng;
-      console.log(this.lat, this.lng);
     }
     // tslint:disable-next-line
     (mapboxgl as any).accessToken = environment.mapbox.accessToken;

@@ -2,4 +2,11 @@
   width: 50%;
   height: 50%;
   margin: 20px auto;
+
+  @media (max-width: 980px) {
+    width: 100%;
+    height: 100%;
+  }
 }
+
+
