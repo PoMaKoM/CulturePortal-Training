@@ -7,11 +7,15 @@ import { switchMap } from 'rxjs/operators';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
 import { MatDialog } from '@angular/material/dialog';
 import { Subject } from 'rxjs';
+import { expand } from 'src/app/animations/expand.animation';
 
 @Component({
   selector: 'app-details',
   templateUrl: './details.component.html',
-  styleUrls: ['./details.component.scss']
+  styleUrls: ['./details.component.scss'],
+  animations: [
+    expand
+  ]
 })
 export class DetailsComponent implements OnInit {
   public infoDirector: InfoDirector;
@@ -21,6 +25,8 @@ export class DetailsComponent implements OnInit {
   public films: FilmsDirector[];
   public videoSrc: string;
   public videoTitle: string = '';
+
+  public director: Subject<InfoDirector> = new Subject();
 
   constructor(
     private route: ActivatedRoute,
@@ -34,8 +40,6 @@ export class DetailsComponent implements OnInit {
       data: this.films
     });
   }
-
-  public director: Subject<InfoDirector> = new Subject();
 
   public ngOnInit(): void {
     this.route.params
