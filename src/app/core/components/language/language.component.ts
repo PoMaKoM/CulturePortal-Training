@@ -1,4 +1,11 @@
 import { Component, OnInit } from '@angular/core';
+import { GetDataService } from 'src/app/core/services/get-data.service';
+
+const languages: { [key: number]: string } = {
+  1: 'en',
+  2: 'ru',
+  3: 'be'
+};
 
 @Component({
   selector: 'app-language',
@@ -9,7 +16,7 @@ export class LanguageComponent implements OnInit {
 
   public languageId: number = 1;
 
-  constructor() { }
+  constructor(private getDataService: GetDataService) { }
 
   public ngOnInit(): void {
   }
@@ -17,6 +24,7 @@ export class LanguageComponent implements OnInit {
   public setLanguage(id: number): void {
     if (this.languageId !== id) {
       this.languageId = id;
+      this.getDataService.currentLanguage.next(languages[id]);
     }
   }
 }

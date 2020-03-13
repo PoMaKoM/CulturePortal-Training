@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { GetDataService } from './../../../core/services/get-data.service';
 import { switchMap } from 'rxjs/operators';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
-import { Subject } from 'rxjs';
+import { Subject, BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-details',
@@ -13,7 +13,7 @@ import { Subject } from 'rxjs';
 export class DetailsComponent implements OnInit {
 
   public infoDirector: Subject<InfoDirector> = new Subject();
-  constructor(private route: ActivatedRoute, private getDataService: GetDataService) { }
+  constructor(private route: ActivatedRoute, public getDataService: GetDataService) { }
 
   public ngOnInit(): void {
     this.route.params

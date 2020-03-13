@@ -1,2 +1,3 @@
 <p>details works!</p>
-<app-timeline [infoDirector]="infoDirector | async"></app-timeline>
+<app-timeline [infoDirector]="infoDirector | async" [language]="this.getDataService.currentLanguage | async">
+</app-timeline>
