@@ -26,49 +26,41 @@
         }
       ],
       "be": {
-        "name": "Тураў Віктар Цімафеевіч",
+        "name": "Віктар Цімафеевіч Тураў",
         "description": "Савецкі і беларускі кінарэжысёр, сцэнарыст, педагог. Народны артыст СССР",
         "biography": [
           {
             "period": "1959",
             "description": "Стаў рэжысёрам на кінастудыі «Беларусьфільм»"
-          },
-          {
+          },{
             "period": "1961",
             "description": "Скончыў рэжысёрскі факультэт Усесаюзнага дзяржаўнага інстытута кінематаграфіі"
-          },
-          {
+          },{
             "period": "1976-1981",
             "description": "Першы сакратар праўлення Саюза кінематаграфістаў Беларусі"
-          },
-          {
+          },{
             "period": "1977",
             "description": "Стаў членам КПСС"
-          },
-          {
+          },{
             "period": "1984",
             "description": "Лаўрэат Дзяржаўнай прэміі СССР за фільм «Людзі на балоце»"
-          },
-          {
+          },{
             "period": "1986",
             "description": "Народны артыст CССР"
-          },
-          {
+          },{
             "period": "1994",
             "description": "Фільм «Праз могілкі» рашэннем ЮНЕСКА быў унесены ў спіс 100 найбольш значных фільмаў свету пра вайну"
-          },
-          {
+          },{
             "period": "1995",
             "description": "Уключаны ЮНЕСКА ў лік 50 кінематаграфістаў свету, з якіх складаўся Ганаровы камітэт па святкаванню 100-годдзя кінематаграфіі"
-          },
-          {
+          },{
             "period": "1996",
             "description": "Лаўрэат Дзяржаўнай прэміі Рэспублікі Беларусь за вялікі ўклад у кінематаграфію"
           }
         ],
         "dates": {
           "birth": {
-            "date": "25/10/1936",
+            "date": "25.10.1936",
             "place": {
               "location": "Магілёў, БССР",
               "lat": "53.894548",
@@ -76,13 +68,15 @@
             }
           },
           "death": {
-            "date": "31/10/1996",
+            "date": "31.10.1996",
             "place": "Мінск, Беларусь"
           }
         },
         "nationality": "СССР, Беларусь",
         "buried": "Усходнія могілкі",
-        "profession": ["Кінарэжысёр", "Сцэнарыст"],
+        "profession": [
+          "Кінарэжысёр", "Сцэнарыст"
+        ],
         "films": [
           {
             "name": "Цераз могілкі",
@@ -144,49 +138,41 @@
         }
       },
       "ru": {
-        "name": "Туров Виктор Тимофеевич",
+        "name": "Виктор Тимофеевич Туров",
         "description": "Советский и белорусский кинорежиссёр, сценарист, педагог. Народный артист СССР",
         "biography": [
           {
             "period": "1959",
             "description": "Стал режиссером на киностудии «Беларусьфильм»"
-          },
-          {
+          },{
             "period": "1961",
             "description": "Окончил режиссерский факультет Всесоюзного государственного института кинематографии"
-          },
-          {
+          },{
             "period": "1976-1981",
             "description": "Первый секретарь правления Союза кинематографистов Беларуси"
-          },
-          {
+          },{
             "period": "1977",
             "description": "Стал членом КПСС"
-          },
-          {
+          },{
             "period": "1984",
             "description": "Лауреат Государственной премии СССР за фильм «Люди на болоте»"
-          },
-          {
+          },{
             "period": "1986",
             "description": "Народный артист CССР"
-          },
-          {
+          },{
             "period": "1994",
             "description": "Фильм «Через кладбище» решением ЮНЕСКО был внесен в список 100 наиболее значимых фильмов мира о войне"
-          },
-          {
+          },{
             "period": "1995",
             "description": "Включен ЮНЕСКО в число 50 кинематографистов мира, из которых состоял Почетный комитет по празднованию 100-летия кинематографии"
-          },
-          {
+          },{
             "period": "1996",
             "description": "Лауреат Государственной премии Республики Беларусь за большой вклад в кинематографию"
           }
         ],
         "dates": {
           "birth": {
-            "date": "25/10/1936",
+            "date": "25.10.1936",
             "place": {
               "location": "Могилев, БССР",
               "lat": "53.894548",
@@ -194,13 +180,15 @@
             }
           },
           "death": {
-            "date": "31/10/1996",
+            "date": "31.10.1996",
             "place": "Минск, Беларусь"
           }
         },
         "nationality": "СССР, Беларусь",
         "buried": "Восточное кладбище",
-        "profession": ["Кинорежиссер", "Сценарист"],
+        "profession": [
+          "Кинорежиссер", "Сценарист"
+        ],
         "films": [
           {
             "name": "Через кладбище",
@@ -262,49 +250,41 @@
         }
       },
       "en": {
-        "name": "Turov Viktor Timofeevich",
+        "name": "Viktor Timofeevich Turov",
         "description": "Soviet and Belarusian film director, screenwriter, teacher. People's Artist of the USSR",
         "biography": [
           {
             "period": "1959",
             "description": "Became a director at the Belarusfilm film studio"
-          },
-          {
+          },{
             "period": "1961",
             "description": "Graduated from the directing department of the All-Union State Institute of Cinematography"
-          },
-          {
+          },{
             "period": "1976-1981",
             "description": "First Secretary of the Board of the Union of Cinematographers of Belarus"
-          },
-          {
+          },{
             "period": "1977",
             "description": "Became a member of the CPSU"
-          },
-          {
+          },{
             "period": "1984",
             "description": "Laureate of the USSR State Prize for the film «People in the Swamp»"
-          },
-          {
+          },{
             "period": "1986",
             "description": "People's Artist of the USSR"
-          },
-          {
+          },{
             "period": "1994",
             "description": "The film «Through the cemetery» by UNESCO decision was included in the list of 100 most significant films of the world about the war"
-          },
-          {
+          },{
             "period": "1995",
             "description": "UNESCO is included in the list of 50 cinematographers of the world, of which the Honorary Committee for the celebration of the 100th anniversary of cinema was composed"
-          },
-          {
+          },{
             "period": "1996",
             "description": "Laureate of the State Prize of the Republic of Belarus for his great contribution to cinema"
           }
         ],
         "dates": {
           "birth": {
-            "date": "25/10/1936",
+            "date": "25.10.1936",
             "place": {
               "location": "Mogilev, BSSR",
               "lat": "53.894548",
@@ -312,13 +292,15 @@
             }
           },
           "death": {
-            "date": "31/10/1996",
+            "date": "31.10.1996",
             "place": "Minsk, Belarus"
           }
         },
         "nationality": "USSR, Belarus",
         "buried": "East cemetery",
-        "profession": ["director", "screenwriter"],
+        "profession": [
+          "director", "screenwriter"
+        ],
         "films": [
           {
             "name": "Through the cemetery",
@@ -381,7 +363,7 @@
       }
     },
     {
-      "id": "wc7jvgzf88n",
+      "id": "wc7jvgzf58n",
       "avatar": "https://thumbs.dfs.ivi.ru/storage4/contents/7/c/65dcb3a36bfeaf8a668065c0e05e7d.jpg",
       "gallery": [
         {
@@ -402,49 +384,41 @@
         }
       ],
       "be": {
-        "name": "Пташук Міхаіл Мікалаевіч",
+        "name": "Міхаіл Мікалаевіч Пташук",
         "description": "Савецкі і беларускі кінарэжысёр. Народны артыст БССР",
         "biography": [
           {
             "period": "1967",
             "description": "Скончыў рэжысёрскі факультэт Тэатральнага вучылішча імя Б. Шчукіна"
-          },
-          {
+          },{
             "period": "1972",
             "description": "Вышэйшыя рэжысёрскія курсы Дзяржкіно СССР (майстэрня Г. Данеліі)"
-          },
-          {
+          },{
             "period": "1972-1974",
             "description": "Рэжысёр у тэатрах Масквы і Казані"
-          },
-          {
+          },{
             "period": "1974",
             "description": "Стаў рэжысёрам на кінастудыі «Беларусьфільм»"
-          },
-          {
+          },{
             "period": "1978",
             "description": "Стаў членам КПСС"
-          },
-          {
+          },{
             "period": "1982",
             "description": "Заслужаны дзеяч мастацтваў БССР"
-          },
-          {
+          },{
             "period": "1982",
             "description": "Дзяржаўная прэмія БССР за экранізацыю рамана І. Шамякіна «Вазьму твой боль»"
-          },
-          {
+          },{
             "period": "1990",
             "description": "Народны артыст БССР"
-          },
-          {
+          },{
             "period": "2002",
             "description": "Загінуў 26 красавіка 2002 года ў Маскве ў аўтамабільнай катастрофе па шляху на прысуджэнне прэміі 'Ніка'"
           }
         ],
         "dates": {
           "birth": {
-            "date": "28/01/1943",
+            "date": "28.01.1943",
             "place": {
               "location": "в. Фядзюкі Ляхавіцкага р-на, БССР",
               "lat": "53.067844",
@@ -452,13 +426,15 @@
             }
           },
           "death": {
-            "date": "26/04/2002",
+            "date": "26.04.2002",
             "place": "Масква, РФ"
           }
         },
         "nationality": "СССР, Беларусь",
         "buried": "Усходнія могілкі",
-        "profession": ["Кінарэжысёр"],
+        "profession": [
+          "Кінарэжысёр"
+        ],
         "films": [
           {
             "name": "Пра Віцю, пра Машу і марскую пяхоту",
@@ -509,7 +485,6 @@
             "year": 2001
           }
         ],
-        "memory": ["?string"],
         "other": "У 2015 годзе праектаваная вуліца №4 (ад вул. Прушынскіх да вул. Карзюкі) у мікрараёне Лошыца ​​названа ў гонар Міхаіла Пташука.",
         "video": {
           "link": "https://www.youtube.com/watch?v=Z_gRBoITbnU",
@@ -517,49 +492,41 @@
         }
       },
       "ru": {
-        "name": "Пташук Михаил Николаевич",
+        "name": "Михаил Николаевич Пташук",
         "description": "Советский и белорусский кинорежиссёр. Народный артист БССР",
         "biography": [
           {
             "period": "1967",
             "description": "Окончил Московское театральное училище имени Б. В. Щукина"
-          },
-          {
+          },{
             "period": "1972",
             "description": "Обучался на Высших режиссёрских курсах Госкино СССР в мастерской Георгия Данелии"
-          },
-          {
+          },{
             "period": "1972-1974",
             "description": "Работал режиссером в театрах Москвы и Казани"
-          },
-          {
+          },{
             "period": "1974",
             "description": "Стал режиссером на киностудии «Беларусьфильм»"
-          },
-          {
+          },{
             "period": "1978",
             "description": "Стал членом КПСС"
-          },
-          {
+          },{
             "period": "1982",
             "description": "Заслуженный деятель искусств БССР"
-          },
-          {
+          },{
             "period": "1982",
             "description": "Государственная премия БССР (фильм «Возьму твою боль»)"
-          },
-          {
+          },{
             "period": "1990",
             "description": "Народный артист БССР"
-          },
-          {
+          },{
             "period": "2002",
             "description": "Погиб 26 апреля 2002 года в Москве в автомобильной катастрофе по пути на присуждение премии «Ника»"
           }
         ],
         "dates": {
           "birth": {
-            "date": "28/01/1943",
+            "date": "28.01.1943",
             "place": {
               "location": "д. Федюки Ляховичского района, БССР",
               "lat": "53.067844",
@@ -567,13 +534,15 @@
             }
           },
           "death": {
-            "date": "26/04/2002",
+            "date": "26.04.2002",
             "place": "Москва, РФ"
           }
         },
         "nationality": "СССР, Беларусь",
         "buried": "Восточное кладбище",
-        "profession": ["Кинорежиссер"],
+        "profession": [
+          "Кинорежиссер"
+        ],
         "films": [
           {
             "name": "Про Витю, про Машу и морскую пехоту",
@@ -631,49 +600,41 @@
         }
       },
       "en": {
-        "name": "Ptashuk Mikhail Nikolaevich",
+        "name": "Mikhail Nikolaevich Ptashuk",
         "description": "Soviet and Belarusian film director. People's Artist of the BSSR",
         "biography": [
           {
             "period": "1967",
             "description": "Graduated from the Moscow theater school named after B. V. Shchukin"
-          },
-          {
+          },{
             "period": "1972",
             "description": "Studied at the Higher directing courses of the state cinema of the USSR in the Studio of George Danelia"
-          },
-          {
+          },{
             "period": "1972-1974",
             "description": "Worked as a Director in theaters in Moscow and Kazan"
-          },
-          {
+          },{
             "period": "1974",
             "description": "Became a Director at the Belarusfilm film Studio»"
-          },
-          {
+          },{
             "period": "1978",
             "description": "Became a member of the CPSU"
-          },
-          {
+          },{
             "period": "1982",
             "description": "Honored artist of the BSSR"
-          },
-          {
+          },{
             "period": "1982",
             "description": "State prize of the BSSR (film «I'll Take your pain»)"
-          },
-          {
+          },{
             "period": "1990",
             "description": "People's artist of the BSSR"
-          },
-          {
+          },{
             "period": "2002",
             "description": "Died on April 26, 2002 in Moscow in a car accident on the way to the award of the Nika Prize."
           }
         ],
         "dates": {
           "birth": {
-            "date": "28/01/1943",
+            "date": "28.01.1943",
             "place": {
               "location": "v. Fedyuki, Lyakhovichi district, BSSR",
               "lat": "53.067844",
@@ -681,13 +642,15 @@
             }
           },
           "death": {
-            "date": "26/04/2002",
+            "date": "26.04.2002",
             "place": "Moscow, Russian Federation"
           }
         },
         "nationality": "USSR, Belarus",
         "buried": "East cemetery",
-        "profession": ["director"],
+        "profession": [
+          "director"
+        ],
         "films": [
           {
             "name": "About Vitya, Masha, and Marines",
@@ -742,6 +705,2413 @@
         "video": {
           "link": "https://www.youtube.com/watch?v=Z_gRBoITbnU",
           "title": "\" Lyrical digression \". Mikhail Ptashuk"
+        }
+      }
+    },
+    {
+      "id": "ClHmmDZNyp2P",
+      "avatar": "https://persons-info.com/userfiles/image/persons/50000-60000/55000-56000/55827/DASHUK_Viktor_Nikiforovich1.jpg",
+      "gallery": [
+        {
+          "description": "фото 1",
+          "link": "https://persons-info.com/userfiles/image/persons/50000-60000/55000-56000/55827/DASHUK_Viktor_Nikiforovich2.jpg"
+        },
+        {
+          "description": "Фото 2",
+          "link": "https://persons-info.com/userfiles/image/persons/50000-60000/55000-56000/55827/DASHUK_Viktor_Nikiforovich1.jpg"
+        }
+      ],
+      "be": {
+        "name": "Віктар Нічыпаравіч Дашук",
+        "description": "Беларускі кінарэжысёр-дакументаліст",
+        "biography": [
+          {
+            "period": "1960",
+            "description": "Працуе на кінастудыі «Беларусьфільм» — быў адміністратарам, асістэнтам аператара, кінарэжысёра;"
+          },
+          {
+            "period": "1963",
+            "description": "Рэжысёр, аператар, сцэнарыст у дакументальным і мастацкім кіно."
+          },
+          {
+            "period": "1967",
+            "description": "Скончыў вышэйшыя курсы сцэнарыстаў і рэжысёраў у Маскве (аддзяленне кінарэжысуры, майстэрня Л. Трауберга"
+          },
+          {
+            "period": "1968-1970",
+            "description": "Паставіў серыю дакументальных стужак, прысвечаных подзвігу савецкага чалавека ў Вялікай Айчыннай вайне ( «Нас вадзіла маладосць», «Хвіліна маўчання» і інш.)"
+          },
+          {
+            "period": "1977",
+            "description": "Заслужаны дзеяч мастацтваў БССР"
+          },
+          {
+            "period": "1989",
+            "description": "Народны артыст БССР"
+          },
+          {
+            "period": "1989-1993",
+            "description": "Прафесар Беларускай акадэміі мастацтваў, кіраўнік майстэрні рэжысуры дакументальнага кіно"
+          },
+          {
+            "period": "1993—2005",
+            "description": "Стварыў студыю «Спадар Д.»"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "16.09.1938",
+            "place": {
+              "location": "в. Валокі, Хойніцкі раён, Гомельская вобласць, БССР",
+              "lat": "53.4316",
+              "lng": "27.6032"
+            }
+          },
+          "death": {
+            "date": "",
+            "place": ""
+          }
+        },
+        "nationality": "СССР, Беларусь",
+        "buried": "",
+        "profession": ["Кінарэжысёр"],
+        "films": [
+          {
+            "name": "Дом",
+            "year": 1970
+          },
+          {
+            "name": "Вар'яцтву адважных",
+            "year": 1970
+          },
+          {
+            "name": "Зязюля кукавала ...",
+            "year": 1972
+          },
+          {
+            "name": "Я з вогненнай вёскі",
+            "year": 1975
+          },
+          {
+            "name": "У вайны не жаночы твар",
+            "year": 1980
+          },
+          {
+            "name": "Васіль Быкаў. ўзыходжанне",
+            "year": 1984
+          },
+          {
+            "name": "Чурбанаў і іншыя",
+            "year": 1989
+          },
+          {
+            "name": "Дэкамерон па-беларуску",
+            "year": 2003
+          },
+          {
+            "name": "Леанiд Левiн. Вайна i Любоў",
+            "year": 2006
+          }
+        ],
+        "other": "",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=qr_WlpzBAUs",
+          "title": "У вайны не жаночы твар - Гэта была не я ... (1 серыя)"
+        }
+      },
+      "ru": {
+        "name": "Виктор Никифорович Дашук",
+        "description": "Белорусский кинорежиссер-документалист",
+        "biography": [
+          {
+            "period": "1960",
+            "description": "Работал оператором-постановщиком киностудии« Беларусьфильм »"
+          },
+          {
+            "period": "1963",
+            "description": "Режиссер, оператор, сценарист в документальном и художественном кино."
+          },
+          {
+            "period": "1967",
+            "description": "Окончил высшие курсы сценаристов и режиссеров в Москве (отделение кинорежиссуры, мастерская Л. Трауберга"
+          },
+          {
+            "period": "1968-1970",
+            "description": "Поставил серию документальных лент, посвященных подвигу советского человека в Великой Отечественной войне ( «Нас водила молодость», «Минута молчания» и др.)"
+          },
+          {
+            "period": "1977",
+            "description": "Заслуженный деятель искусств БССР"
+          },
+          {
+            "period": "1989",
+            "description": "Народный артист БССР"
+          },
+          {
+            "period": "1989-1993",
+            "description": "Профессор Белорусского академии искусств, руководитель мастерской режиссуры документального кино"
+          },
+          {
+            "period": "1993-2005",
+            "description": "Создал студию «Господин Д.»"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "16.09.1938",
+            "place": {
+              "location": "д. Волоки, Хойникского район, Гомельская область, БССР",
+              "lat": "53.4316",
+              "lng": "27.6032"
+            }
+          },
+          "death": {
+            "date": "",
+            "place": ""
+          }
+        },
+        "nationality": "СССР, Беларусь",
+        "buried": "",
+        "profession": ["Кинорежиссер"],
+        "films": [
+          {
+            "name": "Дом",
+            "year": 1970
+          },
+          {
+            "name": "Безумству храбрых",
+            "year": 1970
+          },
+          {
+            "name": "Кукушка куковала...",
+            "year": 1972
+          },
+          {
+            "name": "Я из огненной деревни",
+            "year": 1975
+          },
+          {
+            "name": "У войны не женское лицо",
+            "year": 1980
+          },
+          {
+            "name": "Василь Быков. Восхождение",
+            "year": 1984
+          },
+          {
+            "name": "Чурбанов и другие",
+            "year": 1989
+          },
+          {
+            "name": "Дэкамерон по-белорусски",
+            "year": 2003
+          },
+          {
+            "name": "Леонид Левин. Война и любовь",
+            "year": 2006
+          }
+        ],
+        "other": "",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=qr_WlpzBAUs",
+          "title": "У войны не женское лицо - Это была не я... (1 серия)"
+        }
+      },
+      "en": {
+        "name": "Victor Nikiforovich Dashuk",
+        "description": "Belarusian documentary director",
+        "biography": [
+          {
+            "period": "1960",
+            "description": "Worked as a director of photography at the Belarusfilm film studio"
+          },
+          {
+            "period": "1963",
+            "description": "Director, cameraman, screenwriter in documentary and feature films."
+          },
+          {
+            "period": "1967",
+            "description": "He graduated from the advanced courses of scriptwriters and directors in Moscow (filmmaking department, workshop of L. Trauberg"
+          },
+          {
+            "period": "1968-1970",
+            "description": "He put on a series of documentaries dedicated to the feat of Soviet man in the Great Patriotic War (“We were led by youth”, “Minute of silence”, etc.)"
+          },
+          {
+            "period": "1977",
+            "description": "Honored Artist of the BSSR"
+          },
+          {
+            "period": "1989",
+            "description": "People's Artist of the BSSR"
+          },
+          {
+            "period": "1989-1993",
+            "description": "Professor of the Belarusian Academy of Arts, head of the documentary filmmaking workshop"
+          },
+          {
+            "period": "1993-2005",
+            "description": "Created the studio 'Mr. D.'"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "16.09.1938",
+            "place": {
+              "location": "v. Voloki, Khoiniki district, Gomel region, BSSR",
+              "lat": "53.4316",
+              "lng": "27.6032"
+            }
+          },
+          "death": {
+            "date": "",
+            "place": ""
+          }
+        },
+        "nationality": "USSR, Belarus",
+        "buried": "",
+        "profession": ["Director"],
+        "films": [
+          {
+            "name": "House",
+            "year": 1970
+          },
+          {
+            "name": "Madness of the brave",
+            "year": 1970
+          },
+          {
+            "name": "The cuckoo cuckoo ...",
+            "year": 1972
+          },
+          {
+            "name": "I'm from a fiery village",
+            "year": 1975
+          },
+          {
+            "name": "War has no female face",
+            "year": 1980
+          },
+          {
+            "name": "Vasil Bykov. Ascent",
+            "year": 1984
+          },
+          {
+            "name": "Churbanov and others",
+            "year": 1989
+          },
+          {
+            "name": "Decameron in Belarusian",
+            "year": 2003
+          },
+          {
+            "name": "Leonid Levin. War and love",
+            "year": 2006
+          }
+        ],
+        "other": "",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=qr_WlpzBAUs",
+          "title": "The war does not have a female face - It was not me ... (1 episode)"
+        }
+      }
+    },
+    {
+      "id": "ks2dfo83bhad",
+      "avatar": "https://thumbs.dfs.ivi.ru/storage2/contents/3/3/4719edb76a060226d92df41f2d8331.jpg",
+      "gallery": [
+        {
+          "description": "фото 1",
+          "link": "https://thumbs.dfs.ivi.ru/storage2/contents/3/3/4719edb76a060226d92df41f2d8331.jpg"
+        },
+        {
+          "description": "Фото 2",
+          "link": "https://xn----8sbalgtaqconcpuji4ai0e.xn--p1ai/sites/default/files/maruhin.jpg"
+        }
+      ],
+      "be": {
+        "name": "Юрый Аляксандравіч Марухін",
+        "description": "Савецкі і беларускі кінарэжысёр, сцэнарыст, аператар і кампазітар, заслужаны дзеяч мастацтваў Беларускай ССР (1974). Пісаў сцэнарыі і музыку да сваіх дакументальных фільмаў.",
+        "biography": [
+          {
+            "period": "1960",
+            "description": "Працаваў аператарам-пастаноўшчыкам кінастудыі «Беларусьфільм»"
+          },
+          {
+            "period": "1962",
+            "description": "Скончыў аператарскі факультэт Усесаюзнага дзяржаўнага інстытута кінематаграфіі ў Маскве (майстэрня Леаніда Касматава)"
+          },
+          {
+            "period": "1974",
+            "description": "Заслужаны дзеяч мастацтваў Беларускай ССР "
+          },
+          {
+            "period": "1984",
+            "description": "Рэжысёр мастацкага кіно"
+          },
+          {
+            "period": "1997",
+            "description": "Прэмія Міністэрства культуры Рэспублікі Беларусь"
+          },
+          {
+            "period": "1999",
+            "description": "Прызер III Нацыянальнага кінафестывалю ў Брэсце «За ўклад у нацыянальную аператарскую школу»"
+          },
+          {
+            "period": "2000",
+            "description": "Прызёр Парламенцкага сходу Саюза Беларусі і Расіі"
+          },
+          {
+            "period": "2000-2001",
+            "description": "Старшыня праўлення Беларускага саюза кінематаграфістаў."
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "13.07.1938",
+            "place": {
+              "location": "в. Фёдараўка, Разанская вобласць, РСФСР",
+              "lat": "54.0637152",
+              "lng": "39.2144444"
+            }
+          },
+          "death": {
+            "date": " 20.12.2001",
+            "place": "Мінск, Беларусь"
+          }
+        },
+        "nationality": "СССР, Беларусь",
+        "buried": "",
+        "profession": [
+          "Аператар",
+          "Кінарэжысёр"
+        ],
+        "films": [
+          {
+            "name": "Маленькія летуценнікі",
+            "year": 1962
+          },
+          {
+            "name": "Апошні хлеб",
+            "year": 1963
+          },
+          {
+            "name": "Любімая",
+            "year": 1965
+          },
+          {
+            "name": "Усходні калідор",
+            "year": 1966
+          },
+          {
+            "name": "Сонца над горадам",
+            "year": 1966
+          },
+          {
+            "name": "Сяргей Пятровіч",
+            "year": 1968
+          },
+          {
+            "name": "Мінск",
+            "year": 1968
+          },
+          {
+            "name": "Чакай мяне, Ганна",
+            "year": 1969
+          },
+          {
+            "name": "Чорнае сонца",
+            "year": 1970
+          },
+          {
+            "name": "Магіла льва",
+            "year": 1971
+          },
+          {
+            "name": "Хроніка ночы",
+            "year": 1972
+          },
+          {
+            "name": "Чырвоны агат",
+            "year": 1973
+          },
+          {
+            "name": "Лясныя арэлі",
+            "year": 1975
+          },
+          {
+            "name": "Салдаткі",
+            "year": 1975
+          },
+          {
+            "name": "Свет, які завецца БАМ",
+            "year": 1975
+          },
+          {
+            "name": "Дваццаць тысяч тэатральных сустрэч",
+            "year": 1976
+          },
+          {
+            "name": "Час выбраў нас",
+            "year": 1976
+          },
+          {
+            "name": "У профіль і анфас",
+            "year": 1977
+          },
+          {
+            "name": "Фантазія",
+            "year": 1977
+          },
+          {
+            "name": "Мы — „Квант“",
+            "year": 1977
+          },
+          {
+            "name": "Пункт адліку",
+            "year": 1979
+          },
+          {
+            "name": "Восень земляроба",
+            "year": 1979
+          },
+          {
+            "name": "Разводдзе",
+            "year": 1980
+          },
+          {
+            "name": "Зацішша",
+            "year": 1981
+          },
+          {
+            "name": "Маё Палессе",
+            "year": 1981
+          },
+          {
+            "name": "Сад",
+            "year": 1983
+          },
+          {
+            "name": "Радаўніца",
+            "year": 1984
+          },
+          {
+            "name": "Чалавек, які браў інтэрв'ю",
+            "year": 1986
+          },
+          {
+            "name": "Адам і Марылю",
+            "year": 1988
+          },
+          {
+            "name": "Птушкам крылы не ў цяжар",
+            "year": 1989
+          },
+          {
+            "name": "Маці Урагану",
+            "year": 1990
+          },
+          {
+            "name": "Ахоўваецца дзяржавай",
+            "year": 1990
+          },
+          {
+            "name": "Сцярвятнікі на дарогах",
+            "year": 1991
+          },
+          {
+            "name": "Уік-энд з забойцам",
+            "year": 1992
+          },
+          {
+            "name": "Партрэт не фоне замка",
+            "year": 1992
+          },
+          {
+            "name": "Дрывасек, дзядок і тутэйшыя",
+            "year": 1994
+          },
+          {
+            "name": "Конь неўтаймаваны",
+            "year": 1994
+          },
+          {
+            "name": "Мастак Леанід Шчамялеў",
+            "year": 1998
+          },
+          {
+            "name": "Тры жанчыны і мужчына",
+            "year": 1998
+          },
+          {
+            "name": "Паспець да ночы",
+            "year": 2001
+          }
+        ],
+        "other": "На Нацыянальным кінафестывалі (цяпер Рэспубліканскі) і Мінскім міжнародным кінафестывалі «Лістапад» устаноўлены прызы ім. Ю. А. Марухіна за ўклад у беларускі кінематограф і лепшую аператарскую працу. Жыццю і творчасці Ю. А. Марухіна прысвечаны дакументальныя відэафільмы:«Наш Юра» (2002, рэжысёр І. Волчак, Беларускі саюз кінематаграфістаў сумесна з Нацыянальнай кінастудыяй «Беларусьфільм»), «Ён недзе тут...» (2008, рэжысёр В. Шклярэўскі, Беларускі відэацэнтр).",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=TBO1V4qucLs",
+          "title": "Маці ўрагану"
+        }
+      },
+      "ru": {
+        "name": "Юрий Александрович Марухин",
+        "description": "Советский и белорусский кинорежиссер, сценарист, оператор и композитор, заслуженный деятель искусств Белорусского ССР (1974). Писал сценарии и музыку к своим документальных фильмов.",
+        "biography": [
+          {
+            "period": "1960",
+            "description": "Работал оператором-постановщиком киностудии« Беларусьфильм »"
+          },
+          {
+            "period": "1962",
+            "description": "Окончил операторский факультет Всесоюзного государственного института кинематографии в Москве (мастерская Леонида Касматава)"
+          },
+          {
+            "period": "1974",
+            "description": "Заслуженный деятель искусств Белорусского ССР"
+          },
+          {
+            "period": "1984",
+            "description": "Режиссер художественного кино"
+          },
+          {
+            "period": "1997",
+            "description": "Премия Министерства культуры Республики Беларусь"
+          },
+          {
+            "period": "1999",
+            "description": "призером III Национального кинофестиваля в Бресте« За вклад в национальную операторскую школу »"
+          },
+          {
+            "period": "2000",
+            "description": "Призер Парламентского собрания Союза Беларуси и России"
+          },
+          {
+            "period": "2000-2001",
+            "description": "Председатель правления Белорусского союза кинематографистов."
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "13.07.1938",
+            "place": {
+              "location": "д. Федоровка, Рязанская область, РСФСР",
+              "lat": "54.0637152",
+              "lng": "39.2144444"
+            }
+          },
+          "death": {
+            "date": "20.12.2001",
+            "place": "Минск, Беларусь"
+          }
+        },
+        "nationality": "СССР, Беларусь",
+        "buried": "",
+        "profession": [
+          "Оператор",
+          "Кинорежиссер"
+        ],
+        "films": [
+          {
+            "name": "Маленькие мечтатели",
+            "year": 1962
+          },
+          {
+            "name": "Последний хлеб",
+            "year": 1963
+          },
+          {
+            "name": "Любимая",
+            "year": 1965
+          },
+          {
+            "name": "Восточный коридор",
+            "year": 1966
+          },
+          {
+            "name": "Солнце над городом",
+            "year": 1966
+          },
+          {
+            "name": "Сергей Петрович",
+            "year": 1968
+          },
+          {
+            "name": "Минск",
+            "year": 1968
+          },
+          {
+            "name": "Жди меня, Анна",
+            "year": 1969
+          },
+          {
+            "name": "Черное солнце",
+            "year": 1970
+          },
+          {
+            "name": "Могила льва",
+            "year": 1971
+          },
+          {
+            "name": "Хроника ночи",
+            "year": 1972
+          },
+          {
+            "name": "Красный агат",
+            "year": 1973
+          },
+          {
+            "name": "Лесные качели",
+            "year": 1975
+          },
+          {
+            "name": "Солдатки",
+            "year": 1975
+          },
+          {
+            "name": "Мир, который называется БАМ",
+            "year": 1975
+          },
+          {
+            "name": "Двадцать тысяч театральных встреч",
+            "year": 1976
+          },
+          {
+            "name": "Время выбрало нас",
+            "year": 1976
+          },
+          {
+            "name": "В профиль и анфас",
+            "year": 1977
+          },
+          {
+            "name": "Фантазия",
+            "year": 1977
+          },
+          {
+            "name": "Мы - Квант",
+            "year": 1977
+          },
+          {
+            "name": "Точка отсчета",
+            "year": 1979
+          },
+          {
+            "name": "Осень земледельца",
+            "year": 1979
+          },
+          {
+            "name": "Половодье",
+            "year": 1980
+          },
+          {
+            "name": "Затишье",
+            "year": 1981
+          },
+          {
+            "name": "Мое Полесье",
+            "year": 1981
+          },
+          {
+            "name": "Сад",
+            "year": 1983
+          },
+          {
+            "name": "Радуница",
+            "year": 1984
+          },
+          {
+            "name": "Человек, который брал интервью",
+            "year": 1986
+          },
+          {
+            "name": "Адам и Марию",
+            "year": 1988
+          },
+          {
+            "name": "Птицам крылья не в тягость",
+            "year": 1989
+          },
+          {
+            "name": "Мать Урагана",
+            "year": 1990
+          },
+          {
+            "name": "Охраняется государством",
+            "year": 1990
+          },
+          {
+            "name": "Стервятники на дорогах",
+            "year": 1991
+          },
+          {
+            "name": "Уик-энд с убийцей",
+            "year": 1992
+          },
+          {
+            "name": "Портрет не фоне замка",
+            "year": 1992
+          },
+          {
+            "name": "Дровосек, старичок и местные",
+            "year": 1994
+          },
+          {
+            "name": "Лошадь необузданный",
+            "year": 1994
+          },
+          {
+            "name": "Художник Леонид Шчамялев",
+            "year": 1998
+          },
+          {
+            "name": "Три женщины и мужчина",
+            "year": 1998
+          },
+          {
+            "name": "Успеть до ночи",
+            "year": 2001
+          }
+        ],
+        "other": "На Национальном кинофестивале (ныне Республиканский) и Минском международном кинофестивале« Листопад »установлены призы им. Ю. А. Марухина за вклад в белорусский кинематограф и лучшую операторскую работу. Жизни и творчеству Ю. А. Марухина посвящены документальные видеофильмы: «Наш Юра» (2002, режиссер И. Волчек, Белорусский союз кинематографистов совместно с Национальной киностудией «Беларусьфильм»), «Он где-то здесь ...» (2008, режиссер В. Шклярэвски, Белорусский видеоцентр).",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=TBO1V4qucLs",
+          "title": "Мать урагана"
+        }
+      },
+      "en": {
+        "name": "Yuri Alexandrovich Marukhin",
+        "description": "The Soviet and Russian film director, screenwriter, cameraman and composer, Honored Artist of the Byelorussian SSR (1974) wrote the script and music for your documentary.",
+        "biography": [
+          {
+            "period": "1960",
+            "description": "Worked as director of photography studio BelarusFilm"
+          },
+          {
+            "period": "1962",
+            "description": "Graduated from the photography department of All-Union State Institute of Cinematography in Moscow (workshop Leonid Kasmatava)"
+          },
+          {
+            "period": "1974",
+            "description": "Honored Artist of the Byelorussian SSR"
+          },
+          {
+            "period": "1984",
+            "description": "The director of feature films"
+          },
+          {
+            "period": "1997",
+            "description": "The award of the Ministry of Culture of the Republic of Belarus"
+          },
+          {
+            "period": "1999",
+            "description": "III winner of the National Film Festival in Brest For contribution to the national cinematography school"
+          },
+          {
+            "period": "2000",
+            "description": "Winner of the Parliamentary Assembly of the Belarus-Russia Union State"
+          },
+          {
+            "period": "2000-2001",
+            "description": "Chairman of the Board of the Belarusian Union of Cinematographers."
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "13.07.1938",
+            "place": {
+              "location": "v. Fedorovka, Ryazan region, RSFSR",
+              "lat": "54.0637152",
+              "lng": "39.2144444"
+            }
+          },
+          "death": {
+            "date": "20.12.2001",
+            "place": "Minsk, Belarus"
+          }
+        },
+        "nationality": "USSR Belarus",
+        "buried": "",
+        "profession": [
+          "Operator",
+          "Film Director"
+        ],
+        "films": [
+          {
+            "name": "Little Dreamers",
+            "year": 1962
+          },
+          {
+            "name": "Last Bread",
+            "year": 1963
+          },
+          {
+            "name": "Favorite",
+            "year": 1965
+          },
+          {
+            "name": "Eastern Corridor",
+            "year": 1966
+          },
+          {
+            "name": "The sun over the city",
+            "year": 1966
+          },
+          {
+            "name": "Sergey",
+            "year": 1968
+          },
+          {
+            "name": "Minsk",
+            "year": 1968
+          },
+          {
+            "name": "Wait for me, Anna",
+            "year": 1969
+          },
+          {
+            "name": "Black Sun",
+            "year": 1970
+          },
+          {
+            "name": "Tomb of the Lion",
+            "year": 1971
+          },
+          {
+            "name": "Chronicle of the Night",
+            "year": 1972
+          },
+          {
+            "name": "Red agate",
+            "year": 1973
+          },
+          {
+            "name": "Wild swings",
+            "year": 1975
+          },
+          {
+            "name": "Soldier's",
+            "year": 1975
+          },
+          {
+            "name": "The world, which is called the BAM",
+            "year": 1975
+          },
+          {
+            "name": "Twenty thousand theater meetings",
+            "year": 1976
+          },
+          {
+            "name": "Time has chosen us",
+            "year": 1976
+          },
+          {
+            "name": "in profile and full face",
+            "year": 1977
+          },
+          {
+            "name": "Fantasy",
+            "year": 1977
+          },
+          {
+            "name": "We - Quantum",
+            "year": 1977
+          },
+          {
+            "name": "Reference Point",
+            "year": 1979
+          },
+          {
+            "name": "Autumn farmer",
+            "year": 1979
+          },
+          {
+            "name": "Flood",
+            "year": 1980
+          },
+          {
+            "name": "Calm",
+            "year": 1981
+          },
+          {
+            "name": "My Polesie",
+            "year": 1981
+          },
+          {
+            "name": "Garden",
+            "year": 1983
+          },
+          {
+            "name": "Radunica",
+            "year": 1984
+          },
+          {
+            "name": "The man who interviewed",
+            "year": 1986
+          },
+          {
+            "name": "Adam and Mary",
+            "year": 1988
+          },
+          {
+            "name": "Birds wings are not a burden",
+            "year": 1989
+          },
+          {
+            "name": "Mother Hurricane",
+            "year": 1990
+          },
+          {
+            "name": "Protected by the state",
+            "year": 1990
+          },
+          {
+            "name": "The vultures are on the roads",
+            "year": 1991
+          },
+          {
+            "name": "Weekend with Killer",
+            "year": 1992
+          },
+          {
+            "name": "The portrait is not a castle background",
+            "year": 1992
+          },
+          {
+            "name": "The woodcutter, an old man, and the local",
+            "year": 1994
+          },
+          {
+            "name": "Unbridled horse",
+            "year": 1994
+          },
+          {
+            "name": "The artist Leonid Shchamyalev",
+            "year": 1998
+          },
+          {
+            "name": "Three women and a man",
+            "year": 1998
+          },
+          {
+            "name": "To have time until the night",
+            "year": 2001
+          }
+        ],
+        "other": "On the National Film Festival (now republican) and Minsk International Film Festival Listopad established the prizes they YA Marukhin for his contribution to Russian Film and Best Cinematography Life and work of JA Marukhin dedicated to documentary films..: Our Yuri (2002, directed by I. Volchek, Belarusian Union of filmmakers Together with the national Film Studio BelarusFilm), He's here somewhere ... (2008, directed by V. Shklyarevski, Belarusian video center).",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=TBO1V4qucLs",
+          "title": "Hurricane mother"
+        }
+      }
+    },
+    {
+      "id": "ry6bhynff96q",
+      "avatar": "https://civil.by/images/film/21/1.jpg",
+      "gallery": [
+        {
+          "description": "Лев Голуб фото 1",
+          "link": "http://xpress.by/wp-content/uploads/2019/12/%D0%9D%D0%BE%D0%B2%D1%8B%D0%B9-%D1%80%D0%B8%D1%81%D1%83%D0%BD%D0%BE%D0%BA-5-1.jpg"
+        },
+        {
+          "description": "Лев Голуб Миколка-паровоз",
+          "link": "https://pimg.mycdn.me/getImage?disableStub=true&type=VIDEO_S_720&skipBlack=true&url=https%3A%2F%2Fvdp.mycdn.me%2FgetImage%3Fid%3D2375812543%26idx%3D30%26thumbType%3D47%26f%3D1%26i%3D1&signatureToken=LmWjrmnQF0rZ_l0SFeaLRg"
+        },
+        {
+          "description": "Лев Голуб почтовая карточка",
+          "link": "https://coins.lave.ru/forum/pic/2410535.jpg"
+        }
+      ],
+      "be": {
+        "name": "Леў Уладзіміравіч Голуб",
+        "description": "Савецкі і беларускі кінарэжысёр, сцэнарыст. Народны артыст БССР",
+        "biography": [
+          {
+            "period": "1922-1928",
+            "description": "Вучыўся ў настаўніцкай семінарыі ў горадзе Екацярынаслаў"
+          },{
+            "period": "1928",
+            "description": "Скончыў Дзяржаўны тэхнікум кінематаграфіі (цяпер Усерасійскі дзяржаўны інстытут кінематаграфіі імя С. А. Герасімава)"
+          },{
+            "period": "1928—1934",
+            "description": "Працаваў режысëрам на студыі «Савкіно»"
+          },{
+            "period": "1934-1946",
+            "description": "Працаваў режысëрам на розных кінастудыях СССР"
+          },{
+            "period": "1946",
+            "description": "Стаў рэжысерам на кінастудыі «Беларусьфільм»"
+          },{
+            "period": "1949",
+            "description": "Стаў мастацкім кіраўніком вучэбнай студыі кінаакцёра пры Беларускім тэатральна-мастацкім інстытуце"
+          },{
+            "period": "1960",
+            "description": "Заслужаны дзеяч мастацтваў БССР"
+          },{
+            "period": "1964",
+            "description": "Народны артыст БССР"
+          },{
+            "period": "1975",
+            "description": "Заслужаны дзеяч культуры Польшчы"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "29.09.1904",
+            "place": {
+              "location": "Екацярынаслаў, Расійская імперыя",
+              "lat": "48.465802",
+              "lng": "35.017490"
+            }
+          },
+          "death": {
+            "date": "26.05.1994",
+            "place": ""
+          }
+        },
+        "nationality": "Расійская імперыя, СССР",
+        "buried": "",
+        "profession": [
+          "Кінарэжысёр", "Сцэнарыст"
+        ],
+        "films": [
+          {
+            "name": "Шчаслівыя кольцы («Нажы»)",
+            "year": 1929
+          },
+          {
+            "name": "Песня пра першую дзяўчынку («Першая дзяўчына»)",
+            "year": 1930
+          },
+          {
+            "name": "Паводка",
+            "year": 1936
+          },
+          {
+            "name": "Іван Пятровіч Паўлаў",
+            "year": 1940
+          },
+          {
+            "name": "Дзеці партызана",
+            "year": 1954
+          },
+          {
+            "name": "Міколка-паравоз",
+            "year": 1956
+          },
+          {
+            "name": "Дзяўчынка шукае бацьку",
+            "year": 1959
+          },
+          {
+            "name": "Вуліца малодшага сына",
+            "year": 1962
+          },
+          {
+            "name": "Пушчык едзе ў Прагу",
+            "year": 1965
+          },
+          {
+            "name": "Анюціна дарога",
+            "year": 1967
+          },
+          {
+            "name": "Паланэз Агінскага",
+            "year": 1971
+          },
+          {
+            "name": "Маленькі сяржант",
+            "year": 1975
+          }
+        ],
+        "other": "«Дзяўчынка шукае бацьку» стаў самым касавым дзіцячым фільмам у СССР",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=5X1bTL7U7xo",
+          "title": "\"Святло далёкай зоркі\". Леў Голуб"
+        }
+      },
+      "ru": {
+        "name": "Лев Владимирович Голуб",
+        "description": "Советский и белорусский кинорежиссер, сценарист. Народный артист БССР",
+        "biography": [
+          {
+            "period": "1922-1928",
+            "description": "Учился в учительской семинарии в городе Екатеринослав"
+          },{
+            "period": "1928",
+            "description": "Окончил Государственный техникум кинематографии (ныне Всероссийский государственный институт кинематографии имени С. А. Герасимова)"
+          },{
+            "period": "1928—1934",
+            "description": "Работал режиссером на студии «Совкино»"
+          },{
+            "period": "1934-1946",
+            "description": "Работал режиссером на разных киностудиях СССР"
+          },{
+            "period": "1946",
+            "description": "Стал режиссером на киностудии «Беларусьфильм»"
+          },{
+            "period": "1949",
+            "description": "Стал художественным руководителем учебной студии киноактера при Белорусском театрально-художественном институте"
+          },{
+            "period": "1960",
+            "description": "Заслуженный деятель искусств БССР"
+          },{
+            "period": "1964",
+            "description": "Народный артист БССР"
+          },{
+            "period": "1975",
+            "description": "Заслуженный деятель культуры Польши"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "29.09.1904",
+            "place": {
+              "location": "Екатеринослав, Российская империя",
+              "lat": "48.465802",
+              "lng": "35.017490"
+            }
+          },
+          "death": {
+            "date": "26.05.1994",
+            "place": ""
+          }
+        },
+        "nationality": "Российская империя, СССР",
+        "buried": "",
+        "profession": [
+          "Кинорежиссер", "Сценарист"
+        ],
+        "films": [
+          {
+            "name": "Счастливые кольца («Ножи»)",
+            "year": 1929
+          },
+          {
+            "name": "Песня о первой девушке («Первая девушка»)",
+            "year": 1930
+          },
+          {
+            "name": "Половодье",
+            "year": 1936
+          },
+          {
+            "name": "Иван Петрович Павлов",
+            "year": 1940
+          },
+          {
+            "name": "Дети партизана",
+            "year": 1954
+          },
+          {
+            "name": "Миколка-паровоз",
+            "year": 1956
+          },
+          {
+            "name": "Девочка ищет отца",
+            "year": 1959
+          },
+          {
+            "name": "Улица младшего сына",
+            "year": 1962
+          },
+          {
+            "name": "Пущик едет в Прагу",
+            "year": 1965
+          },
+          {
+            "name": "Анютина дорога",
+            "year": 1967
+          },
+          {
+            "name": "Полонез Огинского",
+            "year": 1971
+          },
+          {
+            "name": "Маленький сержант",
+            "year": 1975
+          }
+        ],
+        "other": "«Девочка ищет отца» стал самым кассовым детским фильмом в СССР",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=5X1bTL7U7xo",
+          "title": "\"Свет далекой звезды\". Лев Голуб"
+        }
+      },
+      "en": {
+        "name": "Lev Vladimirovich Golub",
+        "description": "Soviet and Belarusian film director, screenwriter. People's Artist of the BSSR",
+        "biography": [
+          {
+            "period": "1922-1928",
+            "description": "Studied at a teacher’s seminary in the city of Yekaterinoslav"
+          },{
+            "period": "1928",
+            "description": "Graduated from the State College of Cinematography (now the All-Russian State Institute of Cinematography named after S. A. Gerasimov)"
+          },{
+            "period": "1928—1934",
+            "description": "Worked as a director at Sovkino Studio"
+          },{
+            "period": "1934-1946",
+            "description": "Worked as a director at various USSR film studios"
+          },{
+            "period": "1946",
+            "description": "Became a director at the Belarusfilm film studio"
+          },{
+            "period": "1949",
+            "description": "Became the art director of the training studio of the film actor at the Belarusian Theater and Art Institute"
+          },{
+            "period": "1960",
+            "description": "Honored Art Worker of the BSSR"
+          },{
+            "period": "1964",
+            "description": "People's Artist of the BSSR"
+          },{
+            "period": "1975",
+            "description": "Honored Worker of Culture of Poland"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "29.09.1904",
+            "place": {
+              "location": "Yekaterinoslav, Russian Empire",
+              "lat": "48.465802",
+              "lng": "35.017490"
+            }
+          },
+          "death": {
+            "date": "26.05.1994",
+            "place": ""
+          }
+        },
+        "nationality": "Russian Empire, USSR",
+        "buried": "",
+        "profession": [
+          "Director", "Screenwriter"
+        ],
+        "films": [
+          {
+            "name": "Lucky rings («Knives»)",
+            "year": 1929
+          },
+          {
+            "name": "Song about the first girl («First girl»)",
+            "year": 1930
+          },
+          {
+            "name": "High water",
+            "year": 1936
+          },
+          {
+            "name": "Ivan Petrovich Pavlov",
+            "year": 1940
+          },
+          {
+            "name": "Partisan children",
+            "year": 1954
+          },
+          {
+            "name": "Mikolka-steam locomotive",
+            "year": 1956
+          },
+          {
+            "name": "Girl looking for father",
+            "year": 1959
+          },
+          {
+            "name": "Street of the youngest son",
+            "year": 1962
+          },
+          {
+            "name": "Puschik goes to Prague",
+            "year": 1965
+          },
+          {
+            "name": "Anyutina road",
+            "year": 1967
+          },
+          {
+            "name": "Oginsky Polonaise",
+            "year": 1971
+          },
+          {
+            "name": "Little Sergeant",
+            "year": 1975
+          }
+        ],
+        "other": "«Girl Looking for a Father» became the highest-grossing children's film in the USSR",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=5X1bTL7U7xo",
+          "title": "\"Light of a distant star.\" Lev Golub"
+        }
+      }
+    },
+    {
+      "id": "svr311fjx68s",
+      "avatar": "https://lh3.googleusercontent.com/proxy/Rnlkx_kMVSdTvJTH6tQjtx2185hhAI3jf7PvXO_sR7FQiQ9fUlH71N77z8sSMuUi_1NB1j_8sQfk7MaH15wDARDXaW48tHBIfhDreo4eAj8nUw",
+      "gallery": [
+        {
+          "description": "Юрый Мікалаевіч Цвяткоў 1",
+          "link": "https://lh3.googleusercontent.com/proxy/wYN5xmyoko2tEDPyr86-UXsXlhKYeqhJNIdCHI_tz_JDE92KAxItc63cOSFABpTFrTpPEaqdZ6nMNUcZcfGEJg5v7YZRpJQCaTpfOgsc"
+        },
+        {
+          "description": "Юрый Мікалаевіч Цвяткоў 2",
+          "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQjk0o_TAFXowhMUigqUSwTCaZDYf1IwsjCqvqx8oJKhQksLxoB"
+        },
+        {
+          "description": "Юрый Мікалаевіч Цвяткоў 3",
+          "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSznJyNpSGk5lppIxTbGc5oxQuI-IfWgxGIXN6LjbD-SeS8mBE2"
+        }
+      ],
+      "be": {
+        "name": "Юрый Мікалаевіч Цвяткоў",
+        "description": "Беларускі рэжысёр і сцэнарыст. Заслужаны дзеяч мастацтваў Рэспублікі Беларусь",
+        "biography": [
+          {
+            "period": "1963",
+            "description": "Нарадзіўся ў сям'і вайскоўца. Скончыў Усесаюзны інстытут кінематаграфіі"
+          },
+          {
+            "period": "1993-1996",
+            "description": "Працаваў на кінастудыі «Беларусьфільм»"
+          },
+          {
+            "period": "1989-1993",
+            "description": "Быў кіраўніком «Белвідэацэнтра»"
+          },
+          {
+            "period": "1996-2000",
+            "description": "Намеснік міністра культуры Беларусі"
+          },
+          {
+            "period": "2001-2005",
+            "description": "Начальнік Дзяржаўнага рэгістру кінавідэафільмаў і кінавідэапраграм Беларусі"
+          },
+          {
+            "period": "2006-2008",
+            "description": "Старшыня Беларускага саюза кінематаграфістаў"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "14.02.1941",
+            "place": {
+              "location": "в. Дворышча, Себежскі раён, Калінінская вобласць, РСФСР",
+              "lat": "54.3853476",
+              "lng": "29.2882879"
+            }
+          },
+          "death": {
+            "date": "25.01.2011",
+            "place": "Мінск, Беларусь"
+          }
+        },
+        "nationality": "СССР, Беларусь",
+        "buried": "Паўночныя могілкі Мінска",
+        "profession": [
+          "Кінарэжысёр",
+          "Сцэнарыст"
+        ],
+        "films": [
+          {
+            "name": "Іду шукаць",
+            "year": 1966
+          },
+          {
+            "name": "Памяць каменя",
+            "year": 1966
+          },
+          {
+            "name": "Анюціна дарога",
+            "year": 1968
+          },
+          {
+            "name": "Песня Палесся",
+            "year": 1968
+          },
+          {
+            "name": "Спяшайся будаваць дом",
+            "year": 1970
+          },
+          {
+            "name": "Веснавая казка",
+            "year": 1971
+          },
+          {
+            "name": "Пасля кірмашу",
+            "year": 1972
+          },
+          {
+            "name": "Гэта вясёлая планета",
+            "year": 1973
+          },
+          {
+            "name": "Ясь і Яніна",
+            "year": 1974
+          },
+          {
+            "name": "Леташняя кадрыля",
+            "year": 1978
+          },
+          {
+            "name": "Марынка, Янка і таямніцы каралеўскага замка",
+            "year": 1978
+          },
+          {
+            "name": "Хутка і чаго б гэта ні каштавала",
+            "year": 1980
+          },
+          {
+            "name": "Пад чужым імем",
+            "year": 1981
+          },
+          {
+            "name": "Гісторыя адной тэлеграмы",
+            "year": 1982
+          },
+          {
+            "name": "Чарвякову тэрмінова Ленін",
+            "year": 1982
+          },
+          {
+            "name": "50-ы сезон",
+            "year": 1983
+          },
+          {
+            "name": "Мост",
+            "year": 1983
+          },
+          {
+            "name": "Рэвалюцыя дае нам права",
+            "year": 1985
+          },
+          {
+            "name": "Сустрэча, якая вызначыла лёс",
+            "year": 1985
+          },
+          {
+            "name": "Чырвоны гваздзік",
+            "year": 1986
+          },
+          {
+            "name": "Цішка Гартны",
+            "year": 1988
+          },
+          {
+            "name": "Быў. Ёсць. Буду - У.Караткевіч",
+            "year": 1989
+          },
+          {
+            "name": "Алесь Гарун",
+            "year": 1990
+          },
+          {
+            "name": "Кадыш",
+            "year": 1993
+          },
+          {
+            "name": "Чарнобыль і Беларусь",
+            "year": 1994
+          },
+          {
+            "name": "Кінарэжысёр Віктар Тураў",
+            "year": 1995
+          }
+        ],
+        "other": "",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=802Mwh5tb7c",
+          "title": "Пушчык едзе ў Прагу"
+        }
+      },
+      "ru": {
+        "name": "Юрий Николаевич Цветков",
+        "description": "Белорусский режиссер и сценарист. Заслуженный деятель искусств Республики Беларусь",
+        "biography": [
+          {
+            "period": "1963",
+            "description": "Родился в семье военнослужащего. Окончил Всесоюзный институт кинематографии"
+          },
+          {
+            "period": "1993-1996",
+            "description": "Работал на киностудии« Беларусьфильм »"
+          },
+          {
+            "period": "1989-1993",
+            "description": "Был руководителем« Белвидеоцентра »"
+          },
+          {
+            "period": "1996-2000",
+            "description": "Заместитель министра культуры Беларуси"
+          },
+          {
+            "period": "2001-2005",
+            "description": "Начальник Государственного регистра киновидеофильмов и киновидеопрограмм Беларуси"
+          },
+          {
+            "period": "2006-2008",
+            "description": "Председатель Белорусского союза кинематографистов"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "14.02.1941",
+            "place": {
+              "location": "д. Дворище, Себежский район, Калининская область, РСФСР",
+              "lat": "54.3853476",
+              "lng": "29.2882879"
+            }
+          },
+          "death": {
+            "date": "25.01.2011",
+            "place": "Минск, Беларусь"
+          }
+        },
+        "nationality": "СССР, Беларусь",
+        "buried": "Северное кладбище Минска",
+        "profession": [
+          "Кинорежиссер",
+          "Сценарист"
+        ],
+        "films": [
+          {
+            "name": "Иду искать",
+            "year": 1966
+          },
+          {
+            "name": "Память камня",
+            "year": 1966
+          },
+          {
+            "name": "Анюцина дорога",
+            "year": 1968
+          },
+          {
+            "name": "Песня Полесья",
+            "year": 1968
+          },
+          {
+            "name": "Спеши строить дом",
+            "year": 1970
+          },
+          {
+            "name": "Весенняя сказка",
+            "year": 1971
+          },
+          {
+            "name": "После ярмарки",
+            "year": 1972
+          },
+          {
+            "name": "Эта веселая планета",
+            "year": 1973
+          },
+          {
+            "name": "Ясь и Янина",
+            "year": 1974
+          },
+          {
+            "name": "Прошлогодняя кадриль",
+            "year": 1978
+          },
+          {
+            "name": "Маринка, Янка и тайны королевского замка",
+            "year": 1978
+          },
+          {
+            "name": "Быстро и чего бы это ни стоило",
+            "year": 1980
+          },
+          {
+            "name": "Под чужим именем",
+            "year": 1981
+          },
+          {
+            "name": "История одной телеграммы",
+            "year": 1982
+          },
+          {
+            "name": "Червякову срочно Ленин",
+            "year": 1982
+          },
+          {
+            "name": "50-й сезон",
+            "year": 1983
+          },
+          {
+            "name": "Мост",
+            "year": 1983
+          },
+          {
+            "name": "Революция дает нам право",
+            "year": 1985
+          },
+          {
+            "name": "Встреча, определившая судьбу",
+            "year": 1985
+          },
+          {
+            "name": "Красная гвоздика",
+            "year": 1986
+          },
+          {
+            "name": "Тишка Гартный",
+            "year": 1988
+          },
+          {
+            "name": "Был. Есть. Буду - В.Короткевич",
+            "year": 1989
+          },
+          {
+            "name": "Алесь Гарун",
+            "year": 1990
+          },
+          {
+            "name": "Кадыш",
+            "year": 1993
+          },
+          {
+            "name": "Чернобыль и Беларусь",
+            "year": 1994
+          },
+          {
+            "name": "Кинорежиссер Виктор Туров",
+            "year": 1995
+          }
+        ],
+        "other": "",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=802Mwh5tb7c",
+          "title": "Пущик едет в Прагу"
+        }
+      },
+      "en": {
+        "name": "Yuri Nikolayevich Tsvetkov",
+        "description": "The Belarusian writer and director Honored Artist of the Republic of Belarus",
+        "biography": [
+          {
+            "period": "1963",
+            "description": "Born in the family of a soldier graduated from the All-Union Institute of Cinematography."
+          },
+          {
+            "period": "1993-1996",
+            "description": "He worked on a film studio BelarusFilm"
+          },
+          {
+            "period": "1989-1993",
+            "description": "He was a leader, Belvideocenter"
+          },
+          {
+            "period": "1996-2000",
+            "description": "The Deputy Minister of Culture of Belarus"
+          },
+          {
+            "period": "2001-2005",
+            "description": "Head of the State Register of cinema and kinovideoprogramm Belarus"
+          },
+          {
+            "period": "2006-2008",
+            "description": "The Chairman of the Belarusian Union of Cinematographers"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "14.02.1941",
+            "place": {
+              "location": "v. Dvorishche, Sebezh county, Kalinin Oblast, RSFSR",
+              "lat": "54.3853476",
+              "lng": "29.2882879"
+            }
+          },
+          "death": {
+            "date": "25.01.2011",
+            "place": "Minsk, Belarus"
+          }
+        },
+        "nationality": "Soviet Belarus",
+        "buried": "Northern Cemetery of Minsk",
+        "profession": [
+          "Film Director",
+          "Script"
+        ],
+        "films": [
+          {
+            "name": "I'm going to look for",
+            "year": 1966
+          },
+          {
+            "name": "Memory of stone",
+            "year": 1966
+          },
+          {
+            "name": "Anyutsina road",
+            "year": 1968
+          },
+          {
+            "name": "Song of Polesye",
+            "year": 1968
+          },
+          {
+            "name": "Hurry to build the house",
+            "year": 1970
+          },
+          {
+            "name": "Spring Tale",
+            "year": 1971
+          },
+          {
+            "name": "After the Fair",
+            "year": 1972
+          },
+          {
+            "name": "This fun planet",
+            "year": 1973
+          },
+          {
+            "name": "Yas and Yanina",
+            "year": 1974
+          },
+          {
+            "name": "Last year's Quadrille",
+            "year": 1978
+          },
+          {
+            "name": "Marinka, Janka and the secrets of the royal castle",
+            "year": 1978
+          },
+          {
+            "name": "Fast and whatever the cost",
+            "year": 1980
+          },
+          {
+            "name": "Under the false name",
+            "year": 1981
+          },
+          {
+            "name": "The history of a telegram",
+            "year": 1982
+          },
+          {
+            "name": "Chervyakov quickly Lenin",
+            "year": 1982
+          },
+          {
+            "name": "the 50th season of",
+            "year": 1983
+          },
+          {
+            "name": "Bridge",
+            "year": 1983
+          },
+          {
+            "name": "The revolution gives us the right",
+            "year": 1985
+          },
+          {
+            "name": "The meeting, which will determine the fate",
+            "year": 1985
+          },
+          {
+            "name": "Red Carnation",
+            "year": 1986
+          },
+          {
+            "name": "Tishka Gartny",
+            "year": 1988
+          },
+          {
+            "name": "There was Will - Korotkevich..",
+            "year": 1989
+          },
+          {
+            "name": "Ales Garun",
+            "year": 1990
+          },
+          {
+            "name": "Kadish",
+            "year": 1993
+          },
+          {
+            "name": "Chernobyl and Belarus",
+            "year": 1994
+          },
+          {
+            "name": "Film director Viktor Turov",
+            "year": 1995
+          }
+        ],
+        "other": "",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=802Mwh5tb7c",
+          "title": "Puschik goes to Prague"
+        }
+      }
+    },
+    {
+      "id": "7SdpbYL38EE",
+      "avatar": "https://udf.by/uploads/posts/2018-03/1521804768_4_compressed.jpg",
+      "gallery": [
+        {
+          "description": "Хащеватский Юрий фото 1",
+          "link": "https://belaruspartisan.by/upload/iblock/978/978237166307bf8c97cbfad9b5c3797d.jpg"
+        },
+        {
+          "description": "Хащеватский Юрий фото 2",
+          "link": "https://bp3.blogger.com/_O66B2ds7Hl8/RzY6zPe764I/AAAAAAAALRo/IjS6E2q_EqI/w1200-h630-p-k-no-nu/2007.11.08_9452.jpg"
+        },
+        {
+          "description": "Хащеватский Юрий фото 3",
+          "link": "https://s1.tvp.pl/images2/1/6/f/uid_16fba2c423cffafac6925fe3fc1a0c411536829649548_width_720_play_0_pos_0_gs_0_height_405.jpg"
+        },
+        {
+          "description": "Хащеватский Юрий в своей квартире",
+          "link": "https://i.c97.org/gi/39618/203218-1525286900-big.jpg"
+        }
+      ],
+      "be": {
+        "name": "Юрый Іосіфавіч Хашчавацкі",
+        "description": "Беларускі кінарэжысёр, грамадскі дзеяч, палітык. Член Міжнароднай і Еўразійскай акадэмій тэлебачання і радыё.",
+        "biography": [
+          {
+            "period": "1973",
+            "description": "Cкончыў Адэскі тэхналагічны інстытут"
+          },
+          {
+            "period": "1976",
+            "description": "Працаваў у Белторгрекламе рэжысёрам"
+          },
+          {
+            "period": "1978",
+            "description": "Працаваў на Беларускім тэлебачанні"
+          },
+          {
+            "period": "1981",
+            "description": "Cкончыў ЛГИТМиК"
+          },
+          {
+            "period": "1988",
+            "description": "Стаяў ля вытокаў Мінскага аб'яднання яўрэйскай культуры"
+          },
+          {
+            "period": "1989",
+            "description": "Працаваў на кінастудыі « Беларусьфільм »"
+          },
+          {
+            "period": "1990",
+            "description": "Увашоў у Савет дырэктароў Сусветнай асацыяцыі беларускіх яўрэяў"
+          },
+          {
+            "period": "2016",
+            "description": "Удзельнічаў у парламенцкіх выбарах па Свіслацкай выбарчай акрузе № 94"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "18.10.1947",
+            "place": {
+              "location": "Адэса, УССР",
+              "lat": "46.46667",
+              "lng": "30.73333"
+            }
+          },
+          "death": {
+            "date": ""
+          }
+        },
+        "nationality": "СССР, Беларусь",
+        "buried": "",
+        "profession": ["Кінарэжысёр", "Грамадскі дзеяч", "Палітык"],
+        "films": [
+          {
+            "name": "Гэтае ціхае жыццё ў Глыбокім",
+            "year": 1985
+          },
+          {
+            "name": "Вяртанне ў Хатынь",
+            "year": 1986
+          },
+          {
+            "name": "Паглядзі на свой дом",
+            "year": 1986
+          },
+          {
+            "name": "Упарты чалавек",
+            "year": 1987
+          },
+          {
+            "name": "Прызыўнікі",
+            "year": 1987
+          },
+          {
+            "name": "Вандроўцы",
+            "year": 1988
+          },
+          {
+            "name": "Майстры і чаляднікі",
+            "year": 1988
+          },
+          {
+            "name": "Формула паскарэння",
+            "year": 1988
+          },
+          {
+            "name": "Сустрэчны пазоў",
+            "year": 1989
+          },
+          {
+            "name": "Хто сёння адсутнічае",
+            "year": 1988
+          },
+          {
+            "name": "Прамежкавы чалавек",
+            "year": 1990
+          },
+          {
+            "name": "Магістраль",
+            "year": 1990
+          },
+          {
+            "name": "Аранжавыя жылеты",
+            "year": 1991
+          },
+          {
+            "name": "Усё харашо",
+            "year": 1991
+          },
+          {
+            "name": "Рускае шчасце",
+            "year": 1992
+          },
+          {
+            "name": "Жарсці аб Марыянне",
+            "year": 1993
+          },
+          {
+            "name": "Хлеб Ізраіля",
+            "year": 1994
+          },
+          {
+            "name": "Аазіс",
+            "year": 1996
+          },
+          {
+            "name": "Звычайны прэзідэнт",
+            "year": 1996
+          },
+          {
+            "name": "Рэха маўчання",
+            "year": 1997
+          },
+          {
+            "name": "Час Чжоў Эньлая",
+            "year": 1998
+          },
+          {
+            "name": "Богі Сярпа і Молата",
+            "year": 2000
+          },
+          {
+            "name": "Дажыць да кахання",
+            "year": 2002
+          },
+          {
+            "name": "Каўказскія нявольнікі",
+            "year": 2002
+          },
+          {
+            "name": "Святы доктар",
+            "year": 2003
+          },
+          {
+            "name": "Сонечны клоўн",
+            "year": 2003
+          },
+          {
+            "name": "Плошча",
+            "year": 2007
+          },
+          {
+            "name": "Уперад, у мінулае",
+            "year": 2007
+          },
+          {
+            "name": "Лабатамія",
+            "year": 2010
+          },
+          {
+            "name": "Звычайныя выбары",
+            "year": 2011
+          }
+        ],
+        "other": "Узнагароджаны медалём 100 гадоў БНР Рады Беларускай Народнай Рэспублікі",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=XHaajC43OOo&t=7s",
+          "title": "Звычайны прэзiдэнт"
+        }
+      },
+
+      "ru": {
+        "name": "Юрий Иосифович Хащеватский",
+        "description": "Cоветский и белорусский кинорежиссёр, сценарист, продюсер и монтажёр",
+        "biography": [
+          {
+            "period": "1973",
+            "description": "Окончил Одесский технологический институт"
+          },
+          {
+            "period": "1976",
+            "description": "Работал в Белторгрекламе режиссером"
+          },
+          {
+            "period": "1978",
+            "description": "Работал на Белорусском телевидении"
+          },
+          {
+            "period": "1981",
+            "description": "Окончил ЛГИТМиК"
+          },
+          {
+            "period": "1988",
+            "description": "Стоял у истоков Минского объединения еврейской культуры"
+          },
+          {
+            "period": "1989",
+            "description": "Работал на киностудии « Беларусьфильм »"
+          },
+          {
+            "period": "1990",
+            "description": "Увашов в Совет директоров Всемирной ассоциации белорусских евреев"
+          },
+          {
+            "period": "2016",
+            "description": "Участвовал в парламентских выборах по Свислочскому избирательному округу № 94"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "18.10.1947",
+            "place": {
+              "location": "Одесса, СССР",
+              "lat": "46.46667",
+              "lng": "30.73333"
+            }
+          },
+          "death": {
+            "date": ""
+          }
+        },
+        "nationality": "СССР, Беларусь",
+        "buried": "",
+        "profession": ["Кинорежиссёр", "Сценарист", "Продюсер", "Монтажёр"],
+        "films": [
+          {
+            "name": "Это тихая жизнь в Глубоком",
+            "year": 1985
+          },
+          {
+            "name": "Возвращение в Хатынь",
+            "year": 1986
+          },
+          {
+            "name": "Взгляни на свой дом",
+            "year": 1986
+          },
+          {
+            "name": "Упрямый человек",
+            "year": 1987
+          },
+          {
+            "name": "Призывники",
+            "year": 1987
+          },
+          {
+            "name": "Путники",
+            "year": 1988
+          },
+          {
+            "name": "Мастера и подмастерья",
+            "year": 1988
+          },
+          {
+            "name": "Формула ускорения",
+            "year": 1988
+          },
+          {
+            "name": "Встречный иск",
+            "year": 1989
+          },
+          {
+            "name": "Кто сегодня отсутствует",
+            "year": 1988
+          },
+          {
+            "name": "Промежуточный человек",
+            "year": 1990
+          },
+          {
+            "name": "Магистраль",
+            "year": 1990
+          },
+          {
+            "name": "Оранжевые жилеты",
+            "year": 1991
+          },
+          {
+            "name": "Всё хорошо",
+            "year": 1991
+          },
+          {
+            "name": "Русское счастье",
+            "year": 1992
+          },
+          {
+            "name": "Страсти по Марианне",
+            "year": 1993
+          },
+          {
+            "name": "Хлеб Израиля",
+            "year": 1994
+          },
+          {
+            "name": "Оазис",
+            "year": 1996
+          },
+          {
+            "name": "Обыкновенный президент",
+            "year": 1996
+          },
+          {
+            "name": "Эхо молчания",
+            "year": 1997
+          },
+          {
+            "name": "Время Чжоу Эньлая",
+            "year": 1998
+          },
+          {
+            "name": "Боги Серпа и Молота",
+            "year": 2000
+          },
+          {
+            "name": "Дожить до любви",
+            "year": 2002
+          },
+          {
+            "name": "Кавказские пленники",
+            "year": 2002
+          },
+          {
+            "name": "Святой доктор",
+            "year": 2003
+          },
+          {
+            "name": "Солнечный клоун",
+            "year": 2003
+          },
+          {
+            "name": "Площадь Калиновского",
+            "year": 2007
+          },
+          {
+            "name": "Вперёд, в прошлое",
+            "year": 2007
+          },
+          {
+            "name": "Лоботомия",
+            "year": 2010
+          },
+          {
+            "name": "Обыкновенные выборы",
+            "year": 2011
+          }
+        ],
+        "other": "Награжден медалью 100 лет БНР Совета Белорусского Народной Республики",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=XHaajC43OOo&t=7s",
+          "title": "Обыкновенный президент"
+        }
+      },
+      "en": {
+        "name": "Jury Iosifovich Khaschevatsky",
+        "description": "Belarusian film director and scenarist, known for his films Kavkazkie plenniki, Bahi Siarpa i Molata, Aranzhavyja Kamizelki, Dazhyts da lubovi and Obyknovennyj prezident.",
+        "biography": [
+          {
+            "period": "1973",
+            "description": "Graduated from the Odessa Institute of Technology"
+          },
+          {
+            "period": "1976",
+            "description": "Worked in Beltorgreklame director"
+          },
+          {
+            "period": "1978",
+            "description": "Worked on Belarusian TV"
+          },
+          {
+            "period": "1981",
+            "description": "Graduated LGITMiK"
+          },
+          {
+            "period": "1988",
+            "description": "It was at the origin of the Minsk Association of Jewish Culture"
+          },
+          {
+            "period": "1989",
+            "description": "Worked on a film studio « BelarusFilm »"
+          },
+          {
+            "period": "1990",
+            "description": "Uvashev the Board of Directors of the World Association of Belarusian Jews"
+          },
+          {
+            "period": "2016",
+            "description": "Participated in the parliamentary elections on Śvisłač constituency № 94"
+          }
+        ],
+        "dates": {
+          "birth": {
+            "date": "18.10.1947",
+            "place": {
+              "location": "Odessa, Ukrainian SSR",
+              "lat": "46.46667",
+              "lng": "30.73333"
+            }
+          },
+          "death": {
+            "date": ""
+          }
+        },
+        "nationality": "USSR, Belarus",
+        "buried": "",
+        "profession": ["Film director", "Public figure", "Politics "],
+        "films": [
+          {
+            "name": "This is a quiet life in the Deep",
+            "year": 1985
+          },
+          {
+            "name": "Return to Khatyn",
+            "year": 1986
+          },
+          {
+            "name": "Look at your house",
+            "year": 1986
+          },
+          {
+            "name": "Stubborn person",
+            "year": 1987
+          },
+          {
+            "name": "Recruits",
+            "year": 1987
+          },
+          {
+            "name": "Travelers",
+            "year": 1988
+          },
+          {
+            "name": "Masters and Apprentices",
+            "year": 1988
+          },
+          {
+            "name": "Acceleration formula",
+            "year": 1988
+          },
+          {
+            "name": "Counterclaim",
+            "year": 1989
+          },
+          {
+            "name": "Who is absent today",
+            "year": 1988
+          },
+          {
+            "name": "Intermediate People",
+            "year": 1990
+          },
+          {
+            "name": "Magistral",
+            "year": 1990
+          },
+          {
+            "name": "Orange vest",
+            "year": 1991
+          },
+          {
+            "name": "All is well",
+            "year": 1991
+          },
+          {
+            "name": "Russian happiness",
+            "year": 1992
+          },
+          {
+            "name": "The Passion of Marianne",
+            "year": 1993
+          },
+          {
+            "name": "Israel's Bread",
+            "year": 1994
+          },
+          {
+            "name": "Oasis",
+            "year": 1996
+          },
+
+          {
+            "name": "Ordinary President",
+            "year": 1996
+          },
+          {
+            "name": "Echoes of Silence",
+            "year": 1997
+          },
+          {
+            "name": "Zhou Enlai Time",
+            "year": 1998
+          },
+          {
+            "name": "Gods of the hammer and sickle",
+            "year": 2000
+          },
+          {
+            "name": "Live to Love",
+            "year": 2002
+          },
+          {
+            "name": "Prisoner of the Caucasus",
+            "year": 2002
+          },
+          {
+            "name": "Holy Doctor",
+            "year": 2003
+          },
+          {
+            "name": "A sunny clown",
+            "year": 2003
+          },
+          {
+            "name": "Square",
+            "year": 2007
+          },
+          {
+            "name": "Forward to the Past",
+            "year": 2007
+          },
+          {
+            "name": "Lobotomy",
+            "year": 2010
+          },
+          {
+            "name": "Ordinary election",
+            "year": 2011
+          }
+        ],
+        "other": "He was awarded the medal 100 years BNR Council of the Belarusian People's Republic",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=XHaajC43OOo&t=7s",
+          "title": "Ordinary president"
         }
       }
     }
