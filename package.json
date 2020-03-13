@@ -25,7 +25,9 @@
     "@fortawesome/angular-fontawesome": "^0.6.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-brands-svg-icons": "^5.12.1",
+    "@types/mapbox-gl": "^1.8.0",
     "angular-mgl-timeline.9": "^0.3.5",
+    "mapbox-gl": "^1.8.1",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
