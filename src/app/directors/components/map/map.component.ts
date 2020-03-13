@@ -36,5 +36,8 @@ export class MapComponent implements OnInit {
       zoom: 12,
       center: {lng: this.lng, lat: this.lat}
     });
+    let marker: mapboxgl.Marker  = new mapboxgl.Marker()
+      .setLngLat([this.lng, this.lat])
+      .addTo(this.map);
   }
 }
