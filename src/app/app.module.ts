@@ -1,3 +1,4 @@
+import { DirectorsModule } from './directors/directors.module';
 import { SharedModule } from './shared/shared.module';
 import { MainModule } from './main/main.module';
 import { BrowserModule } from '@angular/platform-browser';

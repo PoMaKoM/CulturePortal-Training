@@ -1,3 +1,8 @@
+import { MatButtonModule } from '@angular/material/button';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { SharedModule } from './../shared/shared.module';
+import { MatListModule } from '@angular/material/list';
+import { TimelineComponent } from './components/timeline/timeline.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -7,10 +12,12 @@ import { DirectorsListComponent } from './pages/directors-list/directors-list.co
 import { DetailsComponent } from './pages/details/details.component';
 import { DirectorComponent } from './components/director/director.component';
 import { SearchComponent } from './components/search/search.component';
+import { MatDialogModule } from '@angular/material/dialog';
+import { DetailsService } from '../core/services/details.service';
 import { SearchService } from './services/search.service';
 import { FilterPipe } from './pipes/filter.pipe';
-import { TimelineComponent } from './components/timeline/timeline.component';
 import { OverlayDirective } from './directives/overlay.directive';
+import { DialogFilmsListComponent } from './components/dialog-films-list/dialog-films-list.component';
 
 @NgModule({
   declarations: [
@@ -20,16 +27,22 @@ import { OverlayDirective } from './directives/overlay.directive';
     SearchComponent,
     TimelineComponent,
     FilterPipe,
-    OverlayDirective
+    OverlayDirective,
+    DialogFilmsListComponent
   ],
   imports: [
     CommonModule,
     DirectorsRoutingModule,
     FormsModule,
     MglTimelineModule,
+    DirectorsRoutingModule,
+    MatListModule,
+    FlexLayoutModule,
+    MatButtonModule,
+    MatDialogModule
   ],
-  providers: [
-    SearchService
-  ]
+  exports: [TimelineComponent],
+
+  providers: [SearchService]
 })
-export class DirectorsModule { }
+export class DirectorsModule {}
