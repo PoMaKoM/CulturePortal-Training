@@ -57,17 +57,37 @@
         {
           "id": 0,
           "timeSpent": 2,
-          "description": "Я что-то сделаль 1"
+          "description": "Создание интерфейсов по информации про кинорежиссеров"
         },
         {
           "id": 1,
-          "timeSpent": 2,
-          "description": "Я что-то сделаль 2"
+          "timeSpent": 1,
+          "description": "Сбор данных по Виктору Турову"
         },
         {
           "id": 2,
-          "timeSpent": 2,
-          "description": "Я что-то сделаль 2"
+          "timeSpent": 1,
+          "description": "Сбор данных по Михаилу Пташуку"
+        },
+        {
+          "id": 3,
+          "timeSpent": 1,
+          "description": "Сбор данных по Льву Голубу"
+        },
+        {
+          "id": 4,
+          "timeSpent": 4,
+          "description": "Составление и обновление общего json-файла по кинорежиссерам"
+        },
+        {
+          "id": 4,
+          "timeSpent": 3,
+          "description": "Создание компонента Timeline"
+        },
+        {
+          "id": 4,
+          "timeSpent": 3,
+          "description": "Создание и настройка компонента Map"
         }
       ]
     },
