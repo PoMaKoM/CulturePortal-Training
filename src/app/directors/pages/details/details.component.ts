@@ -47,7 +47,7 @@ export class DetailsComponent implements OnInit {
         this.src = this.infoDirector.avatar;
         this.description = this.infoDirector.en.description;
         this.videoSrc = this.infoDirector.en.video.link;
-        this.director.next(director);
+        this.director.next(infoDirector);
       });
   }
 }
