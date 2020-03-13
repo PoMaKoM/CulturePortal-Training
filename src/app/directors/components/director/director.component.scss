@@ -14,13 +14,13 @@
   }
 
   &-content-top {
-    position: absolute;   
+    position: absolute;
     margin: auto;
     z-index: 3;
     width: 50%;
-    height: 20%;  
+    height: 20%;
     left: 0;
-    right: 0;    
+    right: 0;
 
     &__name {
       font-size: 30px;
@@ -33,14 +33,14 @@
   }
 
   &-content-bottom {
-    position: absolute;   
+    position: absolute;
     z-index: 3;
     width: 50%;
-    height: 20%;  
+    height: 20%;
     left: 0;
-    right: 0;  
+    right: 0;
     margin: auto;
-    
+
     a {
       width: 100%;
     }
@@ -54,9 +54,8 @@
   }
 
   &-image {
-
     display: flex;
-    justify-content: center;    
+    justify-content: center;
 
     &__img {
       height: 100%;
