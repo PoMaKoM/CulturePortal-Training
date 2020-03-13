@@ -18,8 +18,12 @@ import { FilterPipe } from './pipes/filter.pipe';
 import { OverlayDirective } from './directives/overlay.directive';
 import { DialogFilmsListComponent } from './components/dialog-films-list/dialog-films-list.component';
 import { MapComponent } from './components/map/map.component';
+<<<<<<< HEAD
 import { DialogVideoComponent } from './components/dialog-video/dialog-video.component';
 import { ScrollingModule } from '@angular/cdk/scrolling';
+=======
+import { VideoComponent } from './components/video/video.component';
+>>>>>>> feat: add styleguide for video component
 
 @NgModule({
   declarations: [

@@ -15,8 +15,8 @@ export class DialogVideoComponent implements OnInit {
 
   private parceMediaURL(media: HTMLMediaElement): string {
     const regexp: RegExp = /https:\/\/i\.ytimg\.com\/vi\/([a-zA-Z0-9_-]+)/;
-    const url = media.src;
-    const match = url.match(regexp);
+    const url: string = media.src;
+    const match: RegExpMatchArray = url.match(regexp);
     return match[1];
   }
 
@@ -25,7 +25,7 @@ export class DialogVideoComponent implements OnInit {
   }
 
   private createIframe(id: string): Node {
-    const iframe = document.createElement('iframe');
+    const iframe: HTMLIFrameElement = document.createElement('iframe');
     iframe.classList.add('video-media');
     iframe.setAttribute('allowfulscreen', '');
     iframe.setAttribute('allow', 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture');
@@ -38,7 +38,7 @@ export class DialogVideoComponent implements OnInit {
     return iframe;
   }
 
-  public setupVideo() {
+  public setupVideo(): void {
     const link: Element = document.querySelector('.video-link');
     const button: Element = document.querySelector('.video-button');
     const media: HTMLMediaElement = document.querySelector('.video-media');
