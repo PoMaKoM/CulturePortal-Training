@@ -32,7 +32,7 @@ import { VideoComponent } from './components/video/video.component';
     FilterPipe,
     OverlayDirective,
     DialogFilmsListComponent,
-    MapComponent
+    MapComponent,
     VideoComponent
   ],
   imports: [
