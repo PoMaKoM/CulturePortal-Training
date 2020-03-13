@@ -9,10 +9,7 @@ import { BiographyDirector } from './../../../shared/models/biography-director.m
 })
 export class TimelineComponent implements OnInit {
   @Input() public director: InfoDirector;
-  public dataBiography: Array<BiographyDirector>;
-  public alternate: boolean = true;
-  public size: number = 40;
-  public side: string = 'left';
+  public dataBiography: BiographyDirector[];
 
   constructor() {}
   public ngOnInit(): void {

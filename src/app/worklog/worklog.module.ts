@@ -10,19 +10,27 @@ import { WorklogTabComponent } from './components/worklog-tab/worklog-tab.compon
 import { TableComponent } from './components/table/table.component';
 import { MatTableModule } from '@angular/material/table';
 import { MatCheckboxModule } from '@angular/material/checkbox';
-import {MatCardModule} from '@angular/material/card';
+import { MatCardModule } from '@angular/material/card';
 import { EvaluationComponent } from './components/evaluation/evaluation.component';
 import { DifficultiesComponent } from './components/difficulties/difficulties.component';
 
 @NgModule({
-  declarations: [WorklogComponent, WorklogTabComponent, TableComponent, EvaluationComponent, DifficultiesComponent],
-  imports: [CommonModule,
+  declarations: [
+    WorklogComponent,
+    WorklogTabComponent,
+    TableComponent,
+    EvaluationComponent,
+    DifficultiesComponent
+  ],
+  imports: [
+    CommonModule,
     WorklogRoutingModule,
     MatTabsModule,
     MatTableModule,
     MatCardModule,
     MatCheckboxModule,
-    FormsModule],
-  exports: [WorklogComponent, HttpClientModule],
+    FormsModule
+  ],
+  exports: [WorklogComponent, HttpClientModule]
 })
-export class WorklogModule { }
+export class WorklogModule {}

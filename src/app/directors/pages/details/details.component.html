@@ -1,5 +1,5 @@
 <div class="wrapper">
-  <div class="director" fxLayout="row wrap" fxLayoutAlign="space-around center">
+  <div class="director" fxLayout="row" fxLayoutAlign="space-around center">
     <div class="description">
       <p class="name">{{ name }}</p>
       <p>{{ description }}</p>
@@ -16,8 +16,6 @@
 </div>
 <app-timeline [director]="director | async"></app-timeline>
 <div class="wrapper">
-  <div class="video">
-    <video src="https://www.youtube.com/watch?v=NhheiPTdZCw"></video>
-  </div>
+  <app-video [director]="director | async"></app-video>
 </div>
 <app-map [director]="director | async"></app-map>

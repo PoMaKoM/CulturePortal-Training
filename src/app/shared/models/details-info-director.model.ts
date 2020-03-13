@@ -1,8 +1,9 @@
 import { BiographyDirector } from './biography-director.model';
 import { FilmsDirector } from './films-director.model';
 
-interface Video {
+export interface Video {
   link: string;
+  screenshot: string;
   title: string;
 }
 

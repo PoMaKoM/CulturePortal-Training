@@ -134,6 +134,7 @@
         "other": "Імем Віктара Турава названы вуліцы ў Мінску і Магілёве",
         "video": {
           "link": "https://www.youtube.com/watch?v=2juET6V3YpM",
+          "screenshot": "https://i.ytimg.com/vi/2juET6V3YpM/maxresdefault.jpg",
           "title": "Дакументальны фільм пра Віктара Турава"
         }
       },
@@ -246,6 +247,7 @@
         "other": "Именем Виктора Турова названы улицы в Минске и Могилеве",
         "video": {
           "link": "https://www.youtube.com/watch?v=2juET6V3YpM",
+          "screenshot": "https://i.ytimg.com/vi/2juET6V3YpM/maxresdefault.jpg",
           "title": "Документальный фильм о Викторе Турове"
         }
       },
@@ -358,6 +360,7 @@
         "other": "Streets in Minsk and Mogilev are named after Victor Turov",
         "video": {
           "link": "https://www.youtube.com/watch?v=2juET6V3YpM",
+          "screenshot": "https://i.ytimg.com/vi/2juET6V3YpM/maxresdefault.jpg",
           "title": "Documentary film about Victor Turov"
         }
       }
@@ -488,6 +491,7 @@
         "other": "У 2015 годзе праектаваная вуліца №4 (ад вул. Прушынскіх да вул. Карзюкі) у мікрараёне Лошыца ​​названа ў гонар Міхаіла Пташука.",
         "video": {
           "link": "https://www.youtube.com/watch?v=Z_gRBoITbnU",
+          "screenshot": "https://i.ytimg.com/vi/Z_gRBoITbnU/sddefault.jpg",
           "title": "\" Лірычнае адступленне \". Міхаіл Пташук"
         }
       },
@@ -596,6 +600,7 @@
         "other": "В 2015 году проектируемая улица №4 (от ул. Прушинских до ул. Корзюки) в микрорайоне Лошица названа в честь Михаила Пташука.",
         "video": {
           "link": "https://www.youtube.com/watch?v=Z_gRBoITbnU",
+          "screenshot": "https://i.ytimg.com/vi/Z_gRBoITbnU/sddefault.jpg",
           "title": "\"Лирическое отступление\". Михаил Пташук"
         }
       },
@@ -704,6 +709,7 @@
         "other": "In 2015, the projected street no. 4 (from Prushinskiye street to Korzyuki street) in the Loshitsa district was named in honor of Mikhail Ptashuk",
         "video": {
           "link": "https://www.youtube.com/watch?v=Z_gRBoITbnU",
+          "screenshot": "https://i.ytimg.com/vi/Z_gRBoITbnU/sddefault.jpg",
           "title": "\" Lyrical digression \". Mikhail Ptashuk"
         }
       }
@@ -816,6 +822,7 @@
         "other": "",
         "video": {
           "link": "https://www.youtube.com/watch?v=qr_WlpzBAUs",
+          "screenshot": "https://i.ytimg.com/vi/qr_WlpzBAUs/sddefault.jpg",
           "title": "У вайны не жаночы твар - Гэта была не я ... (1 серыя)"
         }
       },
@@ -914,6 +921,7 @@
         "other": "",
         "video": {
           "link": "https://www.youtube.com/watch?v=qr_WlpzBAUs",
+          "screenshot": "https://i.ytimg.com/vi/qr_WlpzBAUs/sddefault.jpg",
           "title": "У войны не женское лицо - Это была не я... (1 серия)"
         }
       },
@@ -1012,6 +1020,7 @@
         "other": "",
         "video": {
           "link": "https://www.youtube.com/watch?v=qr_WlpzBAUs",
+          "screenshot": "https://i.ytimg.com/vi/qr_WlpzBAUs/sddefault.jpg",
           "title": "The war does not have a female face - It was not me ... (1 episode)"
         }
       }
@@ -1082,10 +1091,7 @@
         },
         "nationality": "СССР, Беларусь",
         "buried": "",
-        "profession": [
-          "Аператар",
-          "Кінарэжысёр"
-        ],
+        "profession": ["Аператар", "Кінарэжысёр"],
         "films": [
           {
             "name": "Маленькія летуценнікі",
@@ -1251,6 +1257,7 @@
         "other": "На Нацыянальным кінафестывалі (цяпер Рэспубліканскі) і Мінскім міжнародным кінафестывалі «Лістапад» устаноўлены прызы ім. Ю. А. Марухіна за ўклад у беларускі кінематограф і лепшую аператарскую працу. Жыццю і творчасці Ю. А. Марухіна прысвечаны дакументальныя відэафільмы:«Наш Юра» (2002, рэжысёр І. Волчак, Беларускі саюз кінематаграфістаў сумесна з Нацыянальнай кінастудыяй «Беларусьфільм»), «Ён недзе тут...» (2008, рэжысёр В. Шклярэўскі, Беларускі відэацэнтр).",
         "video": {
           "link": "https://www.youtube.com/watch?v=TBO1V4qucLs",
+          "screenshot": "https://i.ytimg.com/vi/TBO1V4qucLs/sddefault.jpg",
           "title": "Маці ўрагану"
         }
       },
@@ -1307,10 +1314,7 @@
         },
         "nationality": "СССР, Беларусь",
         "buried": "",
-        "profession": [
-          "Оператор",
-          "Кинорежиссер"
-        ],
+        "profession": ["Оператор", "Кинорежиссер"],
         "films": [
           {
             "name": "Маленькие мечтатели",
@@ -1476,6 +1480,7 @@
         "other": "На Национальном кинофестивале (ныне Республиканский) и Минском международном кинофестивале« Листопад »установлены призы им. Ю. А. Марухина за вклад в белорусский кинематограф и лучшую операторскую работу. Жизни и творчеству Ю. А. Марухина посвящены документальные видеофильмы: «Наш Юра» (2002, режиссер И. Волчек, Белорусский союз кинематографистов совместно с Национальной киностудией «Беларусьфильм»), «Он где-то здесь ...» (2008, режиссер В. Шклярэвски, Белорусский видеоцентр).",
         "video": {
           "link": "https://www.youtube.com/watch?v=TBO1V4qucLs",
+          "screenshot": "https://i.ytimg.com/vi/TBO1V4qucLs/sddefault.jpg",
           "title": "Мать урагана"
         }
       },
@@ -1532,10 +1537,7 @@
         },
         "nationality": "USSR Belarus",
         "buried": "",
-        "profession": [
-          "Operator",
-          "Film Director"
-        ],
+        "profession": ["Operator", "Film Director"],
         "films": [
           {
             "name": "Little Dreamers",
@@ -1701,6 +1703,7 @@
         "other": "On the National Film Festival (now republican) and Minsk International Film Festival Listopad established the prizes they YA Marukhin for his contribution to Russian Film and Best Cinematography Life and work of JA Marukhin dedicated to documentary films..: Our Yuri (2002, directed by I. Volchek, Belarusian Union of filmmakers Together with the national Film Studio BelarusFilm), He's here somewhere ... (2008, directed by V. Shklyarevski, Belarusian video center).",
         "video": {
           "link": "https://www.youtube.com/watch?v=TBO1V4qucLs",
+          "screenshot": "https://i.ytimg.com/vi/TBO1V4qucLs/sddefault.jpg",
           "title": "Hurricane mother"
         }
       }
@@ -1729,28 +1732,36 @@
           {
             "period": "1922-1928",
             "description": "Вучыўся ў настаўніцкай семінарыі ў горадзе Екацярынаслаў"
-          },{
+          },
+          {
             "period": "1928",
             "description": "Скончыў Дзяржаўны тэхнікум кінематаграфіі (цяпер Усерасійскі дзяржаўны інстытут кінематаграфіі імя С. А. Герасімава)"
-          },{
+          },
+          {
             "period": "1928—1934",
             "description": "Працаваў режысëрам на студыі «Савкіно»"
-          },{
+          },
+          {
             "period": "1934-1946",
             "description": "Працаваў режысëрам на розных кінастудыях СССР"
-          },{
+          },
+          {
             "period": "1946",
             "description": "Стаў рэжысерам на кінастудыі «Беларусьфільм»"
-          },{
+          },
+          {
             "period": "1949",
             "description": "Стаў мастацкім кіраўніком вучэбнай студыі кінаакцёра пры Беларускім тэатральна-мастацкім інстытуце"
-          },{
+          },
+          {
             "period": "1960",
             "description": "Заслужаны дзеяч мастацтваў БССР"
-          },{
+          },
+          {
             "period": "1964",
             "description": "Народны артыст БССР"
-          },{
+          },
+          {
             "period": "1975",
             "description": "Заслужаны дзеяч культуры Польшчы"
           }
@@ -1771,9 +1782,7 @@
         },
         "nationality": "Расійская імперыя, СССР",
         "buried": "",
-        "profession": [
-          "Кінарэжысёр", "Сцэнарыст"
-        ],
+        "profession": ["Кінарэжысёр", "Сцэнарыст"],
         "films": [
           {
             "name": "Шчаслівыя кольцы («Нажы»)",
@@ -1827,6 +1836,7 @@
         "other": "«Дзяўчынка шукае бацьку» стаў самым касавым дзіцячым фільмам у СССР",
         "video": {
           "link": "https://www.youtube.com/watch?v=5X1bTL7U7xo",
+          "screenshot": "https://i.ytimg.com/vi/5X1bTL7U7xo/sddefault.jpg",
           "title": "\"Святло далёкай зоркі\". Леў Голуб"
         }
       },
@@ -1837,28 +1847,36 @@
           {
             "period": "1922-1928",
             "description": "Учился в учительской семинарии в городе Екатеринослав"
-          },{
+          },
+          {
             "period": "1928",
             "description": "Окончил Государственный техникум кинематографии (ныне Всероссийский государственный институт кинематографии имени С. А. Герасимова)"
-          },{
+          },
+          {
             "period": "1928—1934",
             "description": "Работал режиссером на студии «Совкино»"
-          },{
+          },
+          {
             "period": "1934-1946",
             "description": "Работал режиссером на разных киностудиях СССР"
-          },{
+          },
+          {
             "period": "1946",
             "description": "Стал режиссером на киностудии «Беларусьфильм»"
-          },{
+          },
+          {
             "period": "1949",
             "description": "Стал художественным руководителем учебной студии киноактера при Белорусском театрально-художественном институте"
-          },{
+          },
+          {
             "period": "1960",
             "description": "Заслуженный деятель искусств БССР"
-          },{
+          },
+          {
             "period": "1964",
             "description": "Народный артист БССР"
-          },{
+          },
+          {
             "period": "1975",
             "description": "Заслуженный деятель культуры Польши"
           }
@@ -1879,9 +1897,7 @@
         },
         "nationality": "Российская империя, СССР",
         "buried": "",
-        "profession": [
-          "Кинорежиссер", "Сценарист"
-        ],
+        "profession": ["Кинорежиссер", "Сценарист"],
         "films": [
           {
             "name": "Счастливые кольца («Ножи»)",
@@ -1935,6 +1951,7 @@
         "other": "«Девочка ищет отца» стал самым кассовым детским фильмом в СССР",
         "video": {
           "link": "https://www.youtube.com/watch?v=5X1bTL7U7xo",
+          "screenshot": "https://i.ytimg.com/vi/5X1bTL7U7xo/sddefault.jpg",
           "title": "\"Свет далекой звезды\". Лев Голуб"
         }
       },
@@ -1945,28 +1962,36 @@
           {
             "period": "1922-1928",
             "description": "Studied at a teacher’s seminary in the city of Yekaterinoslav"
-          },{
+          },
+          {
             "period": "1928",
             "description": "Graduated from the State College of Cinematography (now the All-Russian State Institute of Cinematography named after S. A. Gerasimov)"
-          },{
+          },
+          {
             "period": "1928—1934",
             "description": "Worked as a director at Sovkino Studio"
-          },{
+          },
+          {
             "period": "1934-1946",
             "description": "Worked as a director at various USSR film studios"
-          },{
+          },
+          {
             "period": "1946",
             "description": "Became a director at the Belarusfilm film studio"
-          },{
+          },
+          {
             "period": "1949",
             "description": "Became the art director of the training studio of the film actor at the Belarusian Theater and Art Institute"
-          },{
+          },
+          {
             "period": "1960",
             "description": "Honored Art Worker of the BSSR"
-          },{
+          },
+          {
             "period": "1964",
             "description": "People's Artist of the BSSR"
-          },{
+          },
+          {
             "period": "1975",
             "description": "Honored Worker of Culture of Poland"
           }
@@ -1987,9 +2012,7 @@
         },
         "nationality": "Russian Empire, USSR",
         "buried": "",
-        "profession": [
-          "Director", "Screenwriter"
-        ],
+        "profession": ["Director", "Screenwriter"],
         "films": [
           {
             "name": "Lucky rings («Knives»)",
@@ -2043,6 +2066,7 @@
         "other": "«Girl Looking for a Father» became the highest-grossing children's film in the USSR",
         "video": {
           "link": "https://www.youtube.com/watch?v=5X1bTL7U7xo",
+          "screenshot": "https://i.ytimg.com/vi/5X1bTL7U7xo/sddefault.jpg",
           "title": "\"Light of a distant star.\" Lev Golub"
         }
       }
@@ -2109,10 +2133,7 @@
         },
         "nationality": "СССР, Беларусь",
         "buried": "Паўночныя могілкі Мінска",
-        "profession": [
-          "Кінарэжысёр",
-          "Сцэнарыст"
-        ],
+        "profession": ["Кінарэжысёр", "Сцэнарыст"],
         "films": [
           {
             "name": "Іду шукаць",
@@ -2222,6 +2243,7 @@
         "other": "",
         "video": {
           "link": "https://www.youtube.com/watch?v=802Mwh5tb7c",
+          "screenshot": "https://i.ytimg.com/vi/802Mwh5tb7c/hqdefault.jpg",
           "title": "Пушчык едзе ў Прагу"
         }
       },
@@ -2270,10 +2292,7 @@
         },
         "nationality": "СССР, Беларусь",
         "buried": "Северное кладбище Минска",
-        "profession": [
-          "Кинорежиссер",
-          "Сценарист"
-        ],
+        "profession": ["Кинорежиссер", "Сценарист"],
         "films": [
           {
             "name": "Иду искать",
@@ -2383,6 +2402,7 @@
         "other": "",
         "video": {
           "link": "https://www.youtube.com/watch?v=802Mwh5tb7c",
+          "screenshot": "https://i.ytimg.com/vi/802Mwh5tb7c/hqdefault.jpg",
           "title": "Пущик едет в Прагу"
         }
       },
@@ -2431,10 +2451,7 @@
         },
         "nationality": "Soviet Belarus",
         "buried": "Northern Cemetery of Minsk",
-        "profession": [
-          "Film Director",
-          "Script"
-        ],
+        "profession": ["Film Director", "Script"],
         "films": [
           {
             "name": "I'm going to look for",
@@ -2544,6 +2561,7 @@
         "other": "",
         "video": {
           "link": "https://www.youtube.com/watch?v=802Mwh5tb7c",
+          "screenshot": "https://i.ytimg.com/vi/802Mwh5tb7c/hqdefault.jpg",
           "title": "Puschik goes to Prague"
         }
       }
@@ -2747,6 +2765,7 @@
         "other": "Узнагароджаны медалём 100 гадоў БНР Рады Беларускай Народнай Рэспублікі",
         "video": {
           "link": "https://www.youtube.com/watch?v=XHaajC43OOo&t=7s",
+          "screenshot": "https://i.ytimg.com/vi/XHaajC43OOo/sddefault.jpg",
           "title": "Звычайны прэзiдэнт"
         }
       },
@@ -2929,6 +2948,7 @@
         "other": "Награжден медалью 100 лет БНР Совета Белорусского Народной Республики",
         "video": {
           "link": "https://www.youtube.com/watch?v=XHaajC43OOo&t=7s",
+          "screenshot": "https://i.ytimg.com/vi/XHaajC43OOo/sddefault.jpg",
           "title": "Обыкновенный президент"
         }
       },
@@ -3111,6 +3131,7 @@
         "other": "He was awarded the medal 100 years BNR Council of the Belarusian People's Republic",
         "video": {
           "link": "https://www.youtube.com/watch?v=XHaajC43OOo&t=7s",
+          "screenshot": "https://i.ytimg.com/vi/XHaajC43OOo/sddefault.jpg",
           "title": "Ordinary president"
         }
       }
