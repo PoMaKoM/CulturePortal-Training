@@ -1,0 +1,59 @@
+.avatar {
+  height: 380px;
+}
+.wrapper {
+  width: 100%;
+  background-color: var(--card-background-color);
+}
+.director {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.films {
+  padding: 8px 0 0 16px;
+  margin: 0;
+  font-family: 'MontserratMedium';
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+.name {
+  font-family: 'MontserratMedium';
+  font-size: 30px;
+  line-height: 60px;
+  text-align: left;
+}
+.mat-list-item {
+  font-size: 16px;
+}
+a {
+  background-color: var(--primary-button-color);
+  margin: 20px 0 0 16px;
+}
+
+@media (max-width: 920px) {
+  .name {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .avatar {
+    padding-top: 30px;
+  }
+  .director {
+    padding: 30px 20px;
+  }
+}
+@media (max-width: 350px) {
+  .avatar {
+    height: 300px;
+  }
+  .director {
+    padding: 20px 10px;
+  }
+}

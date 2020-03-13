@@ -8,20 +8,18 @@ import { BiographyDirector } from './../../../shared/models/biography-director.m
   styleUrls: ['./timeline.component.scss']
 })
 export class TimelineComponent implements OnInit {
-
-  @Input() public infoDirector: InfoDirector;
+  @Input() public director: InfoDirector;
   public dataBiography: Array<BiographyDirector>;
   public alternate: boolean = true;
   public size: number = 40;
   public side: string = 'left';
 
-  constructor() { }
-
+  constructor() {}
   public ngOnInit(): void {
   }
   public ngOnChanges(changes: { [propKey: string]: SimpleChange }): void {
-    if (changes.infoDirector.currentValue) {
-      this.dataBiography = changes.infoDirector.currentValue.be.biography;
+    if (changes.director.currentValue) {
+      this.dataBiography = changes.director.currentValue.en.biography;
     }
   }
 }

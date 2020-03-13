@@ -25,7 +25,6 @@ $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
 // that you are using.
 @include angular-material-theme($app-theme);
 
-
 // Custom Theming for Angular Material
 // For more information: https://material.angular.io/guide/theming
 @import '~@angular/material/theming';
@@ -151,6 +150,7 @@ $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
   /*Card*/
   --card-header-text-color: #000000;
   --card-description-text-color: #000000;
+  --card-background-color: #e9edf4;
 
   /*Footer*/
   --footer-bg-color: #4c626f;

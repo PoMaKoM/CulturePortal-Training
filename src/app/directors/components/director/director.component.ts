@@ -1,3 +1,4 @@
+import { DetailsService } from './../../../core/services/details.service';
 import { Component, OnInit, Input } from '@angular/core';
 import { DetailsInfoDirector } from './../../../shared/models/details-info-director.model';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
@@ -8,15 +9,12 @@ import { InfoDirector } from 'src/app/shared/models/info-director.model';
   styleUrls: ['./director.component.scss']
 })
 export class DirectorComponent implements OnInit {
-
   @Input() public director: InfoDirector;
   @Input() public detailsInfo: DetailsInfoDirector;
 
-  constructor() { }
+  constructor() {}
 
-  public ngOnInit(): void {
-  }
+  public ngOnInit(): void {}
 
-  public openDetailsPage(): void {
-  }
+  public openDetailsPage(): void {}
 }
