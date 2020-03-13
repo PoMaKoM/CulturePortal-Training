@@ -18,6 +18,7 @@ import { SearchService } from './services/search.service';
 import { FilterPipe } from './pipes/filter.pipe';
 import { OverlayDirective } from './directives/overlay.directive';
 import { DialogFilmsListComponent } from './components/dialog-films-list/dialog-films-list.component';
+import { VideoComponent } from './components/video/video.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { DialogFilmsListComponent } from './components/dialog-films-list/dialog-
     TimelineComponent,
     FilterPipe,
     OverlayDirective,
-    DialogFilmsListComponent
+    DialogFilmsListComponent,
+    VideoComponent
   ],
   imports: [
     CommonModule,

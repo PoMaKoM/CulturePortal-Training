@@ -9,7 +9,6 @@ import { InfoDirector } from 'src/app/shared/models/info-director.model';
   styleUrls: ['./director-of-day.component.scss']
 })
 export class DirectorOfDayComponent implements OnInit {
-  private index: number;
   public infoDirector: InfoDirector;
   public photoSrc: string = '';
   public name: string = '';
@@ -18,15 +17,12 @@ export class DirectorOfDayComponent implements OnInit {
 
   constructor(private getDataService: GetDataService, private detailService: DetailsService) {}
 
-  public getRandomDirector(val: number): number {
-    return Math.floor(Math.random() * val) + 1;
-  }
-
   public ngOnInit(): void {
     const date: Date = new Date();
-    this.index = date.getDay();
+    const index: number = date.getDay();
+    console.log(index);
     this.getDataService.getDataDirectors().subscribe((directors: InfoDirector[]) => {
-      this.infoDirector = directors[this.getRandomDirector(directors.length)];
+      this.infoDirector = directors[index];
       this.photoSrc = this.infoDirector.avatar;
       this.name = this.infoDirector.en.name;
       this.description = this.infoDirector.en.description;
