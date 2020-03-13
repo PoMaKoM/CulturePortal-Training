@@ -1,3 +1,4 @@
+import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { NgModule } from '@angular/core';
@@ -10,7 +11,7 @@ import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [MainPageComponent, DirectorOfDayComponent],
-  imports: [CommonModule, MainRoutingModule, FlexLayoutModule, MatButtonModule, SharedModule]
+  imports: [CommonModule, MainRoutingModule, FlexLayoutModule, MatButtonModule, MatDialogModule]
   // exports: [MainPageComponent]
 })
 export class MainModule {}
