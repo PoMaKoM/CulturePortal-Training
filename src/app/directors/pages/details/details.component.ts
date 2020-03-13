@@ -6,6 +6,7 @@ import { GetDataService } from './../../../core/services/get-data.service';
 import { switchMap } from 'rxjs/operators';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
 import { MatDialog } from '@angular/material/dialog';
+import { Subject } from 'rxjs';
 
 @Component({
   selector: 'app-details',
@@ -34,6 +35,8 @@ export class DetailsComponent implements OnInit {
     });
   }
 
+  public director: Subject<InfoDirector> = new Subject();
+
   public ngOnInit(): void {
     this.route.params
       .pipe(switchMap((params) => this.getDataService.getDirectorById(params.id)))
@@ -44,6 +47,7 @@ export class DetailsComponent implements OnInit {
         this.src = this.infoDirector.avatar;
         this.description = this.infoDirector.en.description;
         this.videoSrc = this.infoDirector.en.video.link;
+        this.director.next(director);
       });
   }
 }

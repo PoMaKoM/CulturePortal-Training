@@ -13,8 +13,12 @@ export class GetDataService {
 
   constructor(private http: HttpClient) {}
 
+  public getData(): Observable<unknown> {
+    return this.http.get(this.directorsUrl);
+  }
+
   public getDataDirectors(): Observable<unknown> {
-    return this.http.get(this.directorsUrl).pipe(
+    return this.getData().pipe(
       pluck('data'),
       catchError((err) => {
         console.log(err);
@@ -24,7 +28,7 @@ export class GetDataService {
   }
 
   public getDirectorById(id: string): Observable<unknown> {
-    return this.http.get(this.directorsUrl).pipe(
+    return this.getData().pipe(
       pluck('data'),
       switchMap((directors: InfoDirector[]) => directors),
       filter((director: InfoDirector) => director.id === id),

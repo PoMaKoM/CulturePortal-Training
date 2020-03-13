@@ -14,7 +14,7 @@
     <img [src]="src" alt="director" class="avatar" />
   </div>
 </div>
-<app-timeline></app-timeline>
+<app-timeline [director]="director | async"></app-timeline>
 <div class="wrapper">
   <div class="video">
     <video src="https://www.youtube.com/watch?v=NhheiPTdZCw"></video>
