@@ -1,9 +1,18 @@
-<mgl-timeline [alternate]="alternate" [side]="side">
-  <mgl-timeline-entry *ngFor="let item of dataBiography">
-    <mgl-timeline-entry-header>
-      <h2 class="event-year">{{ item.period }}</h2>
-      <p class="event-description">{{ item.description }}</p>
-    </mgl-timeline-entry-header>
-    <mgl-timeline-entry-dot [size]="size"></mgl-timeline-entry-dot>
-  </mgl-timeline-entry>
-</mgl-timeline>
+<section class="timeline ">
+  <div>
+    <div class="timeline-item" *ngFor="let item of dataBiography">
+      <div>
+        <div class="timeline-img " [style.background]="'#96d4cf'">
+        </div>
+        <div class="timeline-content">
+          <div class="date " [style.background]="'#b5c4d9'">
+            {{item.period}}
+          </div>
+          <div class="inner-content">
+            {{item.description}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
