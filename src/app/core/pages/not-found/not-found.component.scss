@@ -23,7 +23,8 @@ $glitch-bg-color: $bg-color;
 
   h1 {
     display: block;
-    font-size: 60px;
+    font-size: 120px;
+    line-height: 80px;
 
     &.glitch {
       position: relative;
@@ -44,6 +45,9 @@ $glitch-bg-color: $bg-color;
 
 @media screen and (max-width: 420px) {
   .text {
+    h1 {
+      font-size: 100px;
+    }
     span {
       margin: 50px 0 25px;
       font-size: 30px;
