@@ -11,11 +11,15 @@
       </mat-list>
       <a mat-button (click)="openDialog()">more films</a>
     </div>
-    <img [src]="src" alt="director" class="avatar" />
+    <div class="avatar">
+      <img [src]="src" alt="director" class="avatar" />
+    </div>
   </div>
 </div>
 <app-timeline [director]="director | async"></app-timeline>
-<div class="wrapper">
-  <app-video [director]="director | async"></app-video>
+<div class="wrapper-video">
+  <p class="title">Video</p>
+  <p>{{ title }}</p>
+  <a mat-button class="button" (click)="openVideoDialog()">open video</a>
 </div>
 <app-map [director]="director | async"></app-map>

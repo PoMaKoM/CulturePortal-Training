@@ -1,22 +1,8 @@
-:host {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 50px 0;
-  max-width: 1170px;
-  width: 100%;
-  margin: 0 auto;
-  width: 100%;
-  position: relative;
+mat-dialog-container.mat-dialog-container {
+  background-color: transparent !important;
+  background-image: none !important;
+  padding: 0 !important;
 }
-
-p {
-  font-family: 'MontserratMedium';
-  font-size: 20px;
-  padding-bottom: 35px;
-  text-align: center;
-}
-
 .video {
   position: relative;
   width: 100%;
@@ -57,4 +43,10 @@ button {
 .video-shape {
   fill: #212121;
   fill-opacity: 0.8;
+}
+@media (max-width: 920px) {
+  p {
+    font-size: 20px;
+    //line-height: 30px;
+  }
 }

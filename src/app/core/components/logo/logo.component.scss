@@ -4,9 +4,12 @@
 
   &__text {
     margin-left: 20px;
-    font-family: "MontserratMedium";
+    font-family: 'MontserratMedium';
     font-size: 20px;
     line-height: 1;
     color: var(--logo-text-color);
   }
+}
+a {
+  text-decoration: none;
 }

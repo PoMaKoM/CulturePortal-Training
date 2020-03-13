@@ -19,8 +19,7 @@ import { FilterPipe } from './pipes/filter.pipe';
 import { OverlayDirective } from './directives/overlay.directive';
 import { DialogFilmsListComponent } from './components/dialog-films-list/dialog-films-list.component';
 import { MapComponent } from './components/map/map.component';
-import { VideoComponent } from './components/video/video.component';
-
+import { DialogVideoComponent } from './components/dialog-video/dialog-video.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +32,7 @@ import { VideoComponent } from './components/video/video.component';
     OverlayDirective,
     DialogFilmsListComponent,
     MapComponent,
-    VideoComponent
+    DialogVideoComponent
   ],
   imports: [
     CommonModule,

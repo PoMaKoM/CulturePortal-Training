@@ -1,20 +1,17 @@
 import { Video } from './../../../shared/models/details-info-director.model';
-import { InfoDirector } from 'src/app/shared/models/info-director.model';
-import { Component, OnInit, Input, SimpleChange } from '@angular/core';
+import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+import { Component, OnInit, Inject } from '@angular/core';
 
 @Component({
-  selector: 'app-video',
-  templateUrl: './video.component.html',
-  styleUrls: ['./video.component.scss']
+  selector: 'app-dialog-video',
+  templateUrl: './dialog-video.component.html',
+  styleUrls: ['./dialog-video.component.scss']
 })
-export class VideoComponent implements OnInit {
-  @Input() public director: InfoDirector;
-  public video: Video;
-  public link: string;
-  public title: string;
-  public screenshot: string;
-
-  constructor() {}
+export class DialogVideoComponent implements OnInit {
+  constructor(
+    public dialogRef: MatDialogRef<DialogVideoComponent>,
+    @Inject(MAT_DIALOG_DATA) public data: Video
+  ) {}
 
   private parceMediaURL(media: HTMLMediaElement): string {
     const regexp: RegExp = /https:\/\/i\.ytimg\.com\/vi\/([a-zA-Z0-9_-]+)/;
@@ -54,13 +51,5 @@ export class VideoComponent implements OnInit {
     link.removeAttribute('href');
   }
 
-  public ngOnInit(): void {}
-  public ngOnChanges(changes: { [propKey: string]: SimpleChange }): void {
-    if (changes.director.currentValue) {
-      this.video = changes.director.currentValue.en.video;
-      this.link = this.video.link;
-      this.title = this.video.title;
-      this.screenshot = this.video.screenshot;
-    }
-  }
+  ngOnInit(): void {}
 }

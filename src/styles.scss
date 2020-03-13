@@ -143,8 +143,8 @@ $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
   --main-bg-color: #ffffff;
 
   /*DirectorsList*/
-  --directors-search-bg-color: #BFBFBF;
-  --directors-main-bg-color: #ffffff;  
+  --directors-search-bg-color: #bfbfbf;
+  --directors-main-bg-color: #ffffff;
   --directors-primary-text-color: #000000;
 
   /*Card*/
@@ -169,13 +169,25 @@ $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
   --table-row-bg-color: rgba(0, 0, 0, 0.07);
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
 
-.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+.mat-tab-group.mat-primary .mat-ink-bar,
+.mat-tab-nav-bar.mat-primary .mat-ink-bar {
   background: var(--primary-button-color);
 }
 
 .mat-checkbox-layout .mat-checkbox-label {
   white-space: normal !important;
+}
+
+.mat-dialog-container {
+  //background-color: transparent !important;
+  padding: 0 !important;
 }
