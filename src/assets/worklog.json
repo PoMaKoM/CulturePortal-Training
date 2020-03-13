@@ -80,13 +80,13 @@
           "description": "Составление и обновление общего json-файла по кинорежиссерам"
         },
         {
-          "id": 4,
+          "id": 5,
           "timeSpent": 3,
           "description": "Создание компонента Timeline"
         },
         {
-          "id": 4,
-          "timeSpent": 3,
+          "id": 6,
+          "timeSpent": 6,
           "description": "Создание и настройка компонента Map"
         }
       ]
