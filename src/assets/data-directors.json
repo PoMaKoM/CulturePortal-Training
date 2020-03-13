@@ -25,7 +25,6 @@
           "link": "https://bomarka.com/content/images/17/35696650875939.jpg"
         }
       ],
-      "video": "https://www.youtube.com/watch?v=2juET6V3YpM",
       "be": {
         "name": "Тураў Віктар Цімафеевіч",
         "description": "Савецкі і беларускі кінарэжысёр, сцэнарыст, педагог. Народны артыст СССР",
@@ -138,7 +137,11 @@
             "year": 1994
           }
         ],
-        "other": "Імем Віктара Турава названы вуліцы ў Мінску і Магілёве"
+        "other": "Імем Віктара Турава названы вуліцы ў Мінску і Магілёве",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=2juET6V3YpM",
+          "title": "Дакументальны фільм пра Віктара Турава"
+        }
       },
       "ru": {
         "name": "Туров Виктор Тимофеевич",
@@ -252,7 +255,11 @@
             "year": 1994
           }
         ],
-        "other": "Именем Виктора Турова названы улицы в Минске и Могилеве"
+        "other": "Именем Виктора Турова названы улицы в Минске и Могилеве",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=2juET6V3YpM",
+          "title": "Документальный фильм о Викторе Турове"
+        }
       },
       "en": {
         "name": "Turov Viktor Timofeevich",
@@ -366,7 +373,11 @@
             "year": 1994
           }
         ],
-        "other": "Streets in Minsk and Mogilev are named after Victor Turov"
+        "other": "Streets in Minsk and Mogilev are named after Victor Turov",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=2juET6V3YpM",
+          "title": "Documentary film about Victor Turov"
+        }
       }
     },
     {
@@ -390,7 +401,6 @@
           "link": "http://belarussiancollection.com/envelopes/pic/2018/1891.jpg"
         }
       ],
-      "video": "https://www.youtube.com/watch?v=Z_gRBoITbnU",
       "be": {
         "name": "Пташук Міхаіл Мікалаевіч",
         "description": "Савецкі і беларускі кінарэжысёр. Народны артыст БССР",
@@ -500,7 +510,11 @@
           }
         ],
         "memory": ["?string"],
-        "other": "У 2015 годзе праектаваная вуліца №4 (ад вул. Прушынскіх да вул. Карзюкі) у мікрараёне Лошыца ​​названа ў гонар Міхаіла Пташука."
+        "other": "У 2015 годзе праектаваная вуліца №4 (ад вул. Прушынскіх да вул. Карзюкі) у мікрараёне Лошыца ​​названа ў гонар Міхаіла Пташука.",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=Z_gRBoITbnU",
+          "title": "\" Лірычнае адступленне \". Міхаіл Пташук"
+        }
       },
       "ru": {
         "name": "Пташук Михаил Николаевич",
@@ -610,7 +624,11 @@
             "year": 2001
           }
         ],
-        "other": "В 2015 году проектируемая улица №4 (от ул. Прушинских до ул. Корзюки) в микрорайоне Лошица названа в честь Михаила Пташука."
+        "other": "В 2015 году проектируемая улица №4 (от ул. Прушинских до ул. Корзюки) в микрорайоне Лошица названа в честь Михаила Пташука.",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=Z_gRBoITbnU",
+          "title": "\"Лирическое отступление\". Михаил Пташук"
+        }
       },
       "en": {
         "name": "Ptashuk Mikhail Nikolaevich",
@@ -720,7 +738,11 @@
             "year": 2001
           }
         ],
-        "other": "In 2015, the projected street no. 4 (from Prushinskiye street to Korzyuki street) in the Loshitsa district was named in honor of Mikhail Ptashuk"
+        "other": "In 2015, the projected street no. 4 (from Prushinskiye street to Korzyuki street) in the Loshitsa district was named in honor of Mikhail Ptashuk",
+        "video": {
+          "link": "https://www.youtube.com/watch?v=Z_gRBoITbnU",
+          "title": "\" Lyrical digression \". Mikhail Ptashuk"
+        }
       }
     }
   ]

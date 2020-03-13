@@ -1,0 +1,50 @@
+.avatar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  img {
+    width: 50%;
+    border-radius: 50%;
+  }
+}
+
+.name {
+  padding: 20px 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+}
+
+p.description {
+  font-size: 18px;
+  text-align: center;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+
+  & > div {
+    margin: 0 10px;
+  }
+  a {
+    color: var(--footer-bg-color);
+    transition: 0.2s;
+  }
+  a:hover {
+    color: var(--primary-button-color);
+  }
+}
+
+@media (max-width: 980px) {
+  .links {
+    font-size: 26px;
+  }
+}

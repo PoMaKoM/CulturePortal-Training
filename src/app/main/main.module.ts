@@ -6,10 +6,11 @@ import { CommonModule } from '@angular/common';
 import { MainRoutingModule } from './main-routing.module';
 import { MainPageComponent } from './pages/main-page/main-page.component';
 import { DirectorOfDayComponent } from './components/director-of-day/director-of-day.component';
+import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [MainPageComponent, DirectorOfDayComponent],
-  imports: [CommonModule, MainRoutingModule, FlexLayoutModule, MatButtonModule]
-  //exports: [MainPageComponent]
+  imports: [CommonModule, MainRoutingModule, FlexLayoutModule, MatButtonModule, SharedModule]
+  // exports: [MainPageComponent]
 })
 export class MainModule {}

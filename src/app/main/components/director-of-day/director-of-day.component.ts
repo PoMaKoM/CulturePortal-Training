@@ -13,6 +13,7 @@ export class DirectorOfDayComponent implements OnInit {
   public photoSrc: string = '';
   public name: string = '';
   public description: string = '';
+  public id: string;
 
   constructor(private getDataService: GetDataService) { }
 
@@ -28,6 +29,7 @@ export class DirectorOfDayComponent implements OnInit {
       this.photoSrc = this.infoDirector.avatar;
       this.name = this.infoDirector.en.name;
       this.description = this.infoDirector.en.description;
+      this.id = this.infoDirector.id;
     });
   }
 }
