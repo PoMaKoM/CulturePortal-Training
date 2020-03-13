@@ -1,11 +1,15 @@
+:root {
+  max-width: 1170px;
+}
+
 .match-parent {
-  width: 50%;
-  height: 50%;
-  margin: 20px auto;
+  width: 100%;
+  height: 60%;
+  margin: auto;
 
   @media (max-width: 980px) {
     width: 100%;
-    height: 100%;
+    height: 70%;
   }
 }
 
