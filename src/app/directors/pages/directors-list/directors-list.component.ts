@@ -38,6 +38,7 @@ export class DirectorsListComponent implements OnInit, OnDestroy {
     });
   }
   public ngOnDestroy(): void {
+    this.searchQuery.next('');
     this.componentDestroyed.next(true);
     this.componentDestroyed.complete();
   }
