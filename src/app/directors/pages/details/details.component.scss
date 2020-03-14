@@ -5,11 +5,36 @@
   width: 100%;
   background-color: var(--card-background-color);
 }
+
+.wrapper-video {
+  width: 100%;
+  background-color: var(--card-background-color);
+  padding: 50px 0;
+  text-align: center;
+  p {
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 30px;
+    margin: 0;
+  }
+  .title {
+    font-family: 'MontserratMedium';
+    font-size: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: 0;
+  }
+}
+
 .director {
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
   padding: 50px 0;
+  .description {
+    flex-shrink: 1;
+    padding-right: 20px;
+  }
 }
 .films {
   padding: 8px 0 0 16px;
@@ -23,6 +48,7 @@ p {
   line-height: 24px;
   text-align: left;
 }
+
 .name {
   font-family: 'MontserratMedium';
   font-size: 30px;
@@ -36,11 +62,24 @@ a {
   background-color: var(--primary-button-color);
   margin: 20px 0 0 16px;
 }
+.button {
+  margin: 0;
+}
 
 @media (max-width: 920px) {
+  .director {
+    flex-wrap: wrap;
+  }
   .name {
     font-size: 20px;
     line-height: 30px;
+  }
+
+  .wrapper-video {
+    .title {
+      font-size: 20px;
+      line-height: 30px;
+    }
   }
   .avatar {
     padding-top: 30px;
@@ -49,9 +88,10 @@ a {
     padding: 30px 20px;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 620px) {
   .avatar {
-    height: 300px;
+    width: 300px;
+    height: auto;
   }
   .director {
     padding: 20px 10px;

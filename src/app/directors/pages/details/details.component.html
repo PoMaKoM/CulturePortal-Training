@@ -1,7 +1,7 @@
 <ng-container *ngIf="infoDirector">
   <ng-container *ngIf="currentLanguage | async as language">
     <div class="wrapper">
-      <div class="director" fxLayout="row wrap" fxLayoutAlign="space-around center" [@expand]>
+      <div class="director" fxLayout="row" fxLayoutAlign="space-around center">
         <div class="description">
           <p class="name">{{ infoDirector[language].name }}</p>
           <p>{{ infoDirector[language].description }}</p>
@@ -16,11 +16,11 @@
       </div>
     </div>
     <app-timeline [director]="infoDirector" [language]="language"></app-timeline>
-    <div class="wrapper">
-      <div class="video">
-        <video src="https://www.youtube.com/watch?v=NhheiPTdZCw"></video>
-      </div>
-
+    <div class="wrapper-video">
+      <p class="title">Video</p>
+      <p>{{ infoDirector[language].video.title }}</p>
+      <a mat-button class="button" (click)="openVideoDialog(infoDirector[language].video)">open video</a>
     </div>
+    <app-map [director]="infoDirector"></app-map>
   </ng-container>
 </ng-container>

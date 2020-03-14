@@ -1,5 +1,6 @@
-import { GetDataService } from 'src/app/core/services/get-data.service';
 import { Component, OnInit } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
+import { GetDataService } from 'src/app/core/services/get-data.service';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
 
 @Component({
@@ -8,27 +9,21 @@ import { InfoDirector } from 'src/app/shared/models/info-director.model';
   styleUrls: ['./director-of-day.component.scss']
 })
 export class DirectorOfDayComponent implements OnInit {
-  private index: number;
+
   public infoDirector: InfoDirector;
-  public photoSrc: string = '';
-  public name: string = '';
-  public description: string = '';
   public id: string;
 
   constructor(private getDataService: GetDataService) { }
 
-  public getRandomDirector(val: number): number {
-    return Math.floor(Math.random() * val) + 1;
+  get currentLanguage(): BehaviorSubject<string> {
+    return this.getDataService.currentLanguage;
   }
 
   public ngOnInit(): void {
     const date: Date = new Date();
-    this.index = date.getDay();
+    const index: number = date.getDay();
     this.getDataService.getDataDirectors().subscribe((directors: InfoDirector[]) => {
-      this.infoDirector = directors[this.getRandomDirector(directors.length)];
-      this.photoSrc = this.infoDirector.avatar;
-      this.name = this.infoDirector.en.name;
-      this.description = this.infoDirector.en.description;
+      this.infoDirector = directors[index];
       this.id = this.infoDirector.id;
     });
   }
