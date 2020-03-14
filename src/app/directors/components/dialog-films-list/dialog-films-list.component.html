@@ -3,7 +3,9 @@
     <img src="assets/icon-1.svg" alt="film-icon" />
     <a mat-button [mat-dialog-close] cdkFocusInitial></a>
   </div>
-  <mat-list>
-    <mat-list-item *ngFor="let film of data"> "{{ film.name }}" &nbsp; ({{ film.year }})</mat-list-item>
-  </mat-list>
+  <mat-dialog-content class="mat-typography">
+    <mat-list>
+      <mat-list-item *ngFor="let film of data"> "{{ film.name }}" &nbsp; ({{ film.year }})</mat-list-item>
+    </mat-list>
+  </mat-dialog-content>
 </div>

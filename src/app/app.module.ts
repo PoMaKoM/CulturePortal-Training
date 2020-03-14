@@ -1,3 +1,4 @@
+import { ScrollingModule } from '@angular/cdk/scrolling';
 import { DirectorsModule } from './directors/directors.module';
 import { SharedModule } from './shared/shared.module';
 import { MainModule } from './main/main.module';
@@ -23,4 +24,4 @@ import { CoreModule } from './core/core.module';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
