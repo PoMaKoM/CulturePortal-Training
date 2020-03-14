@@ -11,16 +11,12 @@ export class TimelineComponent implements OnInit {
   @Input() public language: string;
 
   constructor() { }
-  public ngOnInit(): void {
-  }
+  public ngOnInit(): void { }
 
   public setData(director: InfoDirector): void {
     this.director = director;
   }
 
-  public ngDoCheck(): void {
-
-  }
   public ngOnChanges(changes: { [propKey: string]: SimpleChange }): void {
     if (changes.director) {
       this.director = changes.director.currentValue;

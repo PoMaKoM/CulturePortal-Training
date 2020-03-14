@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { BehaviorSubject, Subject } from 'rxjs';
 import { GetDataService } from 'src/app/core/services/get-data.service';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
 
@@ -8,8 +8,9 @@ import { InfoDirector } from 'src/app/shared/models/info-director.model';
   templateUrl: './director-of-day.component.html',
   styleUrls: ['./director-of-day.component.scss']
 })
-export class DirectorOfDayComponent implements OnInit {
+export class DirectorOfDayComponent implements OnInit, OnDestroy {
 
+  private componentDestroyed: Subject<boolean> = new Subject();
   public infoDirector: InfoDirector;
   public id: string;
 
@@ -26,5 +27,10 @@ export class DirectorOfDayComponent implements OnInit {
       this.infoDirector = directors[index];
       this.id = this.infoDirector.id;
     });
+  }
+
+  public ngOnDestroy(): void {
+    this.componentDestroyed.next(true);
+    this.componentDestroyed.complete();
   }
 }
