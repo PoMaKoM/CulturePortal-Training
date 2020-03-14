@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="ru" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="82421c3e46a0453a70c42900eab51d58d79e6599" datatype="html">
+        <source>Main</source>
+        <target>Главная</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/navigation/navigation.component.html</context>
+          <context context-type="linenumber">1</context>
+        </context-group>
+        <note priority="1" from="description">menu point one</note>
+      </trans-unit>
+      <trans-unit id="e3d94cff8c7828ba8c4ee3cfb761e272dbead6cf" datatype="html">
+        <source>Film directors</source>
+        <target>Режиссеры</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/navigation/navigation.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">menu point two</note>
+      </trans-unit>
+      <trans-unit id="764a8a101f8ee5a4b98844e93406182fb078507b" datatype="html">
+        <source>Team</source>
+        <target>Команда</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/navigation/navigation.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">menu point three</note>
+      </trans-unit>
+      <trans-unit id="fbbee94d720cfbc1a9f721bcff8af8eca67e1ab9" datatype="html">
+        <source>Worklog</source>
+        <target>Журнал</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/navigation/navigation.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description">menu point for</note>
+      </trans-unit>
+      <trans-unit id="65ef0d5c22aca4bcb4259ef72f5e3011f8afa7fb" datatype="html">
+        <source>Styleguide</source>
+        <target>Гид по стилям</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/navigation/navigation.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">menu point five</note>
+      </trans-unit>
+      <trans-unit id="7312503303724b609cd1819001a6d63e468e86ca" datatype="html">
+        <source>Film directors of<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Belarus</source>
+        <target>Режиссеры<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Беларуси</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/logo/logo.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description">logo for app</note>
+      </trans-unit>
+      <trans-unit id="23da3efa496e90b99df5da1ef6175ddf0cd183c0" datatype="html">
+        <source>
+      <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Cultural portal<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>about famous film directors of Belarus
+    </source>
+    <target>
+      <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>Культурный портал<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>об известных режиссёрах Беларуси
+    </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/pages/main-page/main-page.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">An introduction header for app</note>
+      </trans-unit>
+      <trans-unit id="2cc01b245d465ef6a86d0f428640c5fe4725b417" datatype="html">
+        <source>Director of the day</source>
+        <target>Режиссёр дня</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/director-of-day/director-of-day.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">header for a block</note>
+      </trans-unit>
+      <trans-unit id="8ec28b1dc754adc5d7ab3a01f25d804d97192c6f" datatype="html">
+        <source>Learn more...</source>
+        <target>Узнать больше...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/main/components/director-of-day/director-of-day.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">button more</note>
+      </trans-unit>
+      <trans-unit id="de1e6c0a3eeb3236b931e33cfa9b629d58d3566f" datatype="html">
+        <source>Films:</source>
+        <target>Фильмы:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/directors/pages/details/details.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+        <note priority="1" from="description">text</note>
+      </trans-unit>
+      <trans-unit id="d9f650cb9d90e63e84df666d53ff2f846213bbf7" datatype="html">
+        <source>more films</source>
+        <target>больше</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/directors/pages/details/details.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+        <note priority="1" from="description">button films</note>
+      </trans-unit>
+      <trans-unit id="2d1ea268a6a9f483dbc2cbfe19bf4256a57a6af4" datatype="html">
+        <source>Video</source>
+        <target>Видео</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/directors/pages/details/details.component.html</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+        <note priority="1" from="description">text</note>
+      </trans-unit>
+      <trans-unit id="5b23be5c6ce11374405fca062588c3f58292e6ea" datatype="html">
+        <source>open video</source>
+        <target>открыть видео</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/directors/pages/details/details.component.html</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+        <note priority="1" from="description">button video</note>
+      </trans-unit>
+      <trans-unit id="76e68a62af7e164270d7ba0ddbf9391e77328602" datatype="html">
+        <source>No directors found</source>
+        <target>Режиссер не найден</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/directors/pages/directors-list/directors-list.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <note priority="1" from="description">error text</note>
+      </trans-unit>
+      <trans-unit id="aefe9c95301c25c63eec80a108b016686553d8a9" datatype="html">
+        <source>
+        Learn more...
+      </source>
+      <target>Узнать больше...</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/directors/components/director/director.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description">button more</note>
+      </trans-unit>
+      <trans-unit id="95c16aff2e9dc4d943cb9507f3321eba81afa452" datatype="html">
+        <source>OUR TEAM</source>
+        <target>НАША КОМАНДА</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/team/pages/team-list/team-list.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">header for page</note>
+      </trans-unit>
+      <trans-unit id="0dc4adbe3300d6c50650cfd063fb795cffc53da6" datatype="html">
+        <source>Developer</source>
+        <target>Разработчик</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/team/components/team-member/team-member.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <note priority="1" from="description">member&apos;s role</note>
+      </trans-unit>
+      <trans-unit id="25654f43cc68a85dc85c67b13c3f0d122b3ddc72" datatype="html">
+        <source>TimeSpent</source>
+        <target>Затрачено времени</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/worklog/components/table/table.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eec715de352a6b114713b30b640d319fa78207a0" datatype="html">
+        <source>Description</source>
+        <target>Описание</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/worklog/components/table/table.component.html</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="de33719e9b33b19de69c473c26d3063c2f101410" datatype="html">
+        <source>Difficulties for the team during implementation</source>
+        <target>Трудности во время реализации</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/worklog/components/difficulties/difficulties.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description">text</note>
+      </trans-unit>
+      <trans-unit id="b9119b295e6ae94a9fff5f46a42a01555be414dd" datatype="html">
+        <source>
+    Once Crawfish, Swan and Pike Set out to pull a loaded cart, And all together settled in the traces; They
+    pulled with all their might, but still the cart refused to budge! The load it seemed was not too much for
+    them: Yet Crawfish scrambled backwards, Swan strained up skywards, Pike pulled toward the sea. Who&apos;s
+    guilty here and who is right is not for us to say- But anyway the cart&apos;s still there today.
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/worklog/components/difficulties/difficulties.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description">text</note>
+      </trans-unit>
+      <trans-unit id="8a9e2e9e4c05275c71fbe910987d63a06b3b6a70" datatype="html">
+        <source>
+    Однажды Лебедь, Рак да Щука Везти с поклажей воз взялись, И вместе трое все в него впряглись; Из кожи
+    лезут вон, а возу все нет ходу! Поклажа бы для них казалась и легка: Да Лебедь рвется в облака, Рак
+    пятится назад, а Щука тянет в воду. Кто виноват из них, кто прав,- судить не нам; Да только воз и ныне
+    там.
+  </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/worklog/components/difficulties/difficulties.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description">text</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

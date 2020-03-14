@@ -1,16 +1,17 @@
 <div class="card" appOverlay>
   <div class="card-content-top top-disabled">
-    <h4 class="card-content-top__name"> {{ detailsInfo.name }} </h4>
+    <h4 class="card-content-top__name">{{ detailsInfo.name }}</h4>
     <span class="card-content-top__desc"> {{ detailsInfo.description }} </span>
   </div>
   <div class="card-image closed">
-    <img [src]="director.avatar" alt="director_avatar" class="card-image__img">
+    <img [src]="director.avatar" alt="director_avatar" class="card-image__img" />
   </div>
   <div class="card-content-bottom bottom-disabled">
     <a [routerLink]="[director.id]" routerLinkActive="active">
-      <button class="card-button" type="button" (click)="openDetailsPage()"> more </button>
+      <button class="card-button" type="button" (click)="openDetailsPage()" i18n="button more">
+        Learn more...
+      </button>
     </a>
     <!-- translated button name comes from service in core -->
   </div>
-
 </div>

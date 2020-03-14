@@ -1,12 +1,12 @@
 <ng-container *ngIf="infoDirector">
   <ng-container *ngIf="currentLanguage | async as language">
-    <h3>Director of the day</h3>
+    <h3 i18n="header for a block">Director of the day</h3>
     <div class="directors" fxLayout="row wrap" fxLayoutAlign="space-around center">
       <img [src]="infoDirector.avatar" alt="director of the day" />
       <div class="description">
         <p class="name">{{ infoDirector[language].name }}</p>
         <p>{{ infoDirector[language].description }}</p>
-        <a mat-button [routerLink]="[id]" routerLinkActive="active">Learn more...</a>
+        <a mat-button [routerLink]="[id]" routerLinkActive="active" i18n="button more">Learn more...</a>
       </div>
     </div>
   </ng-container>
