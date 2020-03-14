@@ -1,4 +1,4 @@
-:host { 
+:host {
   display: flex;
   flex-direction: column;
 }
@@ -12,6 +12,6 @@
 
   @media screen and (max-width: 500px) {
     grid-template-columns: none;
-    grid-template-rows: repeat(500px)
+    grid-template-rows: repeat(500px);
   }
 }

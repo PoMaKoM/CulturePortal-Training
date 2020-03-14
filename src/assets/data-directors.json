@@ -2,7 +2,7 @@
   "data": [
     {
       "id": "rt7jvgzf88n",
-      "avatar": "http://mogilevkino.by/public/images/1560928039%D0%A2%D1%83%D1%80%D0%BE%D0%B2.jpg",
+      "avatar": "assets/directors/turov.jpg",
       "gallery": [
         {
           "description": "Виктор Туров фото 1",
@@ -385,7 +385,7 @@
     },
     {
       "id": "wc7jvgzf58n",
-      "avatar": "https://thumbs.dfs.ivi.ru/storage4/contents/7/c/65dcb3a36bfeaf8a668065c0e05e7d.jpg",
+      "avatar": "assets/directors/mikhail-ptashuk.jpg",
       "gallery": [
         {
           "description": "Михаил Пташук фото 1",
@@ -752,7 +752,7 @@
     },
     {
       "id": "ClHmmDZNyp2P",
-      "avatar": "https://lh3.googleusercontent.com/proxy/qlXumXcTUO3lK4C-ImnTq9Iexzrta2AwzKvuEhxj0vcr5T6htvrpEhnr7B8_1utlRgsGgMgE5wOvMOespplVaqzBQ5EXlU8dy5C6Co23zH0R_iBVR-HxBEX-miL19HJUyLnekFlyPfPgD61KqDLSLG98Vnxl8ebW6m7GD2HODQ",
+      "avatar": "assets/directors/dashuk.jpg",
       "gallery": [
         {
           "description": "фото 1",
@@ -1063,7 +1063,7 @@
     },
     {
       "id": "ks2dfo83bhad",
-      "avatar": "https://thumbs.dfs.ivi.ru/storage2/contents/3/3/4719edb76a060226d92df41f2d8331.jpg",
+      "avatar": "assets/directors/marukhin.jpg",
       "gallery": [
         {
           "description": "фото 1",
@@ -1746,7 +1746,7 @@
     },
     {
       "id": "ry6bhynff96q",
-      "avatar": "https://civil.by/images/film/21/1.jpg",
+      "avatar": "assets/directors/golub.jpg",
       "gallery": [
         {
           "description": "Лев Голуб фото 1",
@@ -2109,7 +2109,7 @@
     },
     {
       "id": "svr311fjx68s",
-      "avatar": "https://www.kino-teatr.ru/acter/foto/sov/42637.jpg",
+      "avatar": "assets/directors/tsvetkov.jpg",
       "gallery": [
         {
           "description": "Юрый Мікалаевіч Цвяткоў 1",
@@ -2604,7 +2604,7 @@
     },
     {
       "id": "7SdpbYL38EE",
-      "avatar": "https://st.kp.yandex.net/images/actor_iphone/iphone360_1039782.jpg",
+      "avatar": "assets/directors/khvashevatski.jpg",
       "gallery": [
         {
           "description": "Хащеватский Юрий фото 1",

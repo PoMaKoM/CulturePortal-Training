@@ -17,8 +17,7 @@
           "id": 2,
           "timeSpent": 2,
           "description": "Я что-то сделаль 2"
-        }
-        ,
+        },
         {
           "id": 3,
           "timeSpent": 2,
@@ -37,17 +36,42 @@
         {
           "id": 0,
           "timeSpent": 2,
-          "description": "Я что-то сделаль 1"
+          "description": "Создание базовой структуры проекта"
         },
         {
           "id": 1,
-          "timeSpent": 2,
-          "description": "Я что-то сделаль 2"
+          "timeSpent": 6,
+          "description": "Разработка дизайна и подготовка макетов"
         },
         {
           "id": 2,
           "timeSpent": 2,
-          "description": "Я что-то сделаль 2"
+          "description": "Создание компонента главной страницы"
+        },
+        {
+          "id": 3,
+          "timeSpent": 3,
+          "description": "Создание компонента \"Режиссёр дня\""
+        },
+        {
+          "id": 4,
+          "timeSpent": 6,
+          "description": "Создание компонента c детальной информацией о режиссёрах"
+        },
+        {
+          "id": 5,
+          "timeSpent": 7,
+          "description": "Создание компонента Video"
+        },
+        {
+          "id": 6,
+          "timeSpent": 1,
+          "description": "Сбор данных по Виктору Дашуку"
+        },
+        {
+          "id": 7,
+          "timeSpent": 2,
+          "description": "Создание файлов перевода статических элементов страницы"
         }
       ]
     },
