@@ -1,6 +1,5 @@
 import { Component, OnInit, Input, SimpleChange } from '@angular/core';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
-import { BiographyDirector } from './../../../shared/models/biography-director.model';
 
 @Component({
   selector: 'app-timeline',
@@ -9,14 +8,18 @@ import { BiographyDirector } from './../../../shared/models/biography-director.m
 })
 export class TimelineComponent implements OnInit {
   @Input() public director: InfoDirector;
-  public dataBiography: BiographyDirector[];
+  @Input() public language: string;
 
-  constructor() {}
-  public ngOnInit(): void {
+  constructor() { }
+  public ngOnInit(): void { }
+
+  public setData(director: InfoDirector): void {
+    this.director = director;
   }
+
   public ngOnChanges(changes: { [propKey: string]: SimpleChange }): void {
-    if (changes.director.currentValue) {
-      this.dataBiography = changes.director.currentValue.en.biography;
+    if (changes.director) {
+      this.director = changes.director.currentValue;
     }
   }
 }

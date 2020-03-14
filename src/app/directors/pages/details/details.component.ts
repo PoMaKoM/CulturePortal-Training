@@ -1,14 +1,14 @@
-import { Video } from './../../../shared/models/details-info-director.model';
-import { DialogVideoComponent } from './../../components/dialog-video/dialog-video.component';
-import { DialogFilmsListComponent } from './../../components/dialog-films-list/dialog-films-list.component';
-import { FilmsDirector } from './../../../shared/models/films-director.model';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { MatDialog } from '@angular/material/dialog';
+import { DialogFilmsListComponent } from './../../components/dialog-films-list/dialog-films-list.component';
+import { DialogVideoComponent } from './../../components/dialog-video/dialog-video.component';
+import { Video } from './../../../shared/models/details-info-director.model';
 import { GetDataService } from './../../../core/services/get-data.service';
+import { BehaviorSubject, Subject } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
-import { MatDialog } from '@angular/material/dialog';
-import { Subject } from 'rxjs';
+import { FilmsDirector } from './../../../shared/models/films-director.model';
 import { expand } from 'src/app/animations/expand.animation';
 
 @Component({
@@ -17,34 +17,34 @@ import { expand } from 'src/app/animations/expand.animation';
   styleUrls: ['./details.component.scss'],
   animations: [expand]
 })
-export class DetailsComponent implements OnInit {
+export class DetailsComponent implements OnInit, OnDestroy {
+
+  private componentDestroyed: Subject<boolean> = new Subject();
   public infoDirector: InfoDirector;
-  public src: string = '';
-  public name: string = '';
-  public description: string = '';
   public films: FilmsDirector[];
   public video: Video;
-  public title: string = '';
 
-  public director: Subject<InfoDirector> = new Subject();
+  get currentLanguage(): BehaviorSubject<string> {
+    return this.getDataService.currentLanguage;
+  }
 
   constructor(
     private route: ActivatedRoute,
     private getDataService: GetDataService,
     public dialog: MatDialog
-  ) {}
+  ) { }
 
-  public openDialog(): void {
+  public openDialog(films: FilmsDirector[]): void {
     this.dialog.open(DialogFilmsListComponent, {
       width: '500px',
-      data: this.films
+      data: films
     });
   }
 
-  public openVideoDialog(): void {
+  public openVideoDialog(video: Video): void {
     this.dialog.open(DialogVideoComponent, {
       width: '100%',
-      data: this.video
+      data: video
     });
   }
 
@@ -53,14 +53,10 @@ export class DetailsComponent implements OnInit {
       .pipe(switchMap((params) => this.getDataService.getDirectorById(params.id)))
       .subscribe((infoDirector: InfoDirector) => {
         this.infoDirector = infoDirector;
-        this.films = this.infoDirector.en.films;
-        this.name = this.infoDirector.en.name;
-        this.src = this.infoDirector.avatar;
-        this.description = this.infoDirector.en.description;
-        this.title = this.infoDirector.en.video.title;
-        this.video = this.infoDirector.en.video;
-
-        this.director.next(infoDirector);
       });
+  }
+  public ngOnDestroy(): void {
+    this.componentDestroyed.next(true);
+    this.componentDestroyed.complete();
   }
 }

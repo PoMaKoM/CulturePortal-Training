@@ -13,7 +13,6 @@ import { DetailsComponent } from './pages/details/details.component';
 import { DirectorComponent } from './components/director/director.component';
 import { SearchComponent } from './components/search/search.component';
 import { MatDialogModule } from '@angular/material/dialog';
-import { DetailsService } from '../core/services/details.service';
 import { SearchService } from './services/search.service';
 import { FilterPipe } from './pipes/filter.pipe';
 import { OverlayDirective } from './directives/overlay.directive';
@@ -49,4 +48,4 @@ import { DialogVideoComponent } from './components/dialog-video/dialog-video.com
 
   providers: [SearchService]
 })
-export class DirectorsModule {}
+export class DirectorsModule { }
