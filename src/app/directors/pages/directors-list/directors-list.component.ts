@@ -1,5 +1,5 @@
 import { BehaviorSubject, Subject } from 'rxjs';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { SearchService } from './../../services/search.service';
 import { GetDataService } from './../../../core/services/get-data.service';
 import { InfoDirector } from './../../../shared/models/info-director.model';
@@ -19,8 +19,9 @@ import { expand } from 'src/app/animations/expand.animation';
     'style': 'display: block;'
   }
 })
-export class DirectorsListComponent implements OnInit {
+export class DirectorsListComponent implements OnInit, OnDestroy {
 
+  private componentDestroyed: Subject<boolean> = new Subject();
   public currentData: InfoDirector[];
   constructor(private getDataService: GetDataService, private searchService: SearchService) { }
 
@@ -35,5 +36,10 @@ export class DirectorsListComponent implements OnInit {
     this.getDataService.getDataDirectors().subscribe((currentData: InfoDirector[]) => {
       this.currentData = currentData;
     });
+  }
+  public ngOnDestroy(): void {
+    this.searchQuery.next('');
+    this.componentDestroyed.next(true);
+    this.componentDestroyed.complete();
   }
 }

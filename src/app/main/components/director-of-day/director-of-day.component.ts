@@ -1,6 +1,6 @@
-import { DetailsService } from './../../../core/services/details.service';
+import { Component, OnInit, OnDestroy } from '@angular/core';
+import { BehaviorSubject, Subject } from 'rxjs';
 import { GetDataService } from 'src/app/core/services/get-data.service';
-import { Component, OnInit } from '@angular/core';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
 
 @Component({
@@ -8,25 +8,29 @@ import { InfoDirector } from 'src/app/shared/models/info-director.model';
   templateUrl: './director-of-day.component.html',
   styleUrls: ['./director-of-day.component.scss']
 })
-export class DirectorOfDayComponent implements OnInit {
+export class DirectorOfDayComponent implements OnInit, OnDestroy {
+
+  private componentDestroyed: Subject<boolean> = new Subject();
   public infoDirector: InfoDirector;
-  public photoSrc: string = '';
-  public name: string = '';
-  public description: string = '';
   public id: string;
 
-  constructor(private getDataService: GetDataService, private detailService: DetailsService) {}
+  constructor(private getDataService: GetDataService) { }
+
+  get currentLanguage(): BehaviorSubject<string> {
+    return this.getDataService.currentLanguage;
+  }
 
   public ngOnInit(): void {
     const date: Date = new Date();
     const index: number = date.getDay();
-    console.log(index);
     this.getDataService.getDataDirectors().subscribe((directors: InfoDirector[]) => {
       this.infoDirector = directors[index];
-      this.photoSrc = this.infoDirector.avatar;
-      this.name = this.infoDirector.en.name;
-      this.description = this.infoDirector.en.description;
       this.id = this.infoDirector.id;
     });
+  }
+
+  public ngOnDestroy(): void {
+    this.componentDestroyed.next(true);
+    this.componentDestroyed.complete();
   }
 }

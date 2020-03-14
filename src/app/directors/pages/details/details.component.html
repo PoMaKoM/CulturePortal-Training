@@ -1,25 +1,26 @@
-<div class="wrapper">
-  <div class="director" fxLayout="row" fxLayoutAlign="space-around center">
-    <div class="description">
-      <p class="name">{{ name }}</p>
-      <p>{{ description }}</p>
-      <p class="films">Films:</p>
-      <mat-list>
-        <mat-list-item *ngFor="let film of films | slice: -4"
-          >"{{ film.name }}" &nbsp; ({{ film.year }})</mat-list-item
-        >
-      </mat-list>
-      <a mat-button (click)="openDialog()">more films</a>
+<ng-container *ngIf="infoDirector">
+  <ng-container *ngIf="currentLanguage | async as language">
+    <div class="wrapper">
+      <div class="director" fxLayout="row" fxLayoutAlign="space-around center">
+        <div class="description">
+          <p class="name">{{ infoDirector[language].name }}</p>
+          <p>{{ infoDirector[language].description }}</p>
+          <p class="films">Films:</p>
+          <mat-list>
+            <mat-list-item *ngFor="let film of infoDirector[language].films | slice: -4">"{{ film.name }}" &nbsp;
+              ({{ film.year }})</mat-list-item>
+          </mat-list>
+          <a mat-button (click)="openDialog(infoDirector[language].films)">more films</a>
+        </div>
+        <img [src]="infoDirector.avatar" alt="director" class="avatar" />
+      </div>
     </div>
-    <div class="avatar">
-      <img [src]="src" alt="director" class="avatar" />
+    <app-timeline [director]="infoDirector" [language]="language"></app-timeline>
+    <div class="wrapper-video">
+      <p class="title">Video</p>
+      <p>{{ infoDirector[language].video.title }}</p>
+      <a mat-button class="button" (click)="openVideoDialog(infoDirector[language].video)">open video</a>
     </div>
-  </div>
-</div>
-<app-timeline [director]="director | async"></app-timeline>
-<div class="wrapper-video">
-  <p class="title">Video</p>
-  <p>{{ title }}</p>
-  <a mat-button class="button" (click)="openVideoDialog()">open video</a>
-</div>
-<app-map [director]="director | async"></app-map>
+    <app-map [director]="infoDirector"></app-map>
+  </ng-container>
+</ng-container>

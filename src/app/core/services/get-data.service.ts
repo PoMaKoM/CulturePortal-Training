@@ -8,10 +8,12 @@ import { InfoDirector } from 'src/app/shared/models/info-director.model';
   providedIn: 'root'
 })
 export class GetDataService {
-  private directorsUrl: string = 'assets/data-directors.json';
-  public currentLanguage: BehaviorSubject<string> = new BehaviorSubject('en');
 
-  constructor(private http: HttpClient) {}
+  private directorsUrl: string = 'assets/data-directors.json';
+  private initLanguage: string = localStorage.getItem('language') || 'en';
+  public currentLanguage: BehaviorSubject<string> = new BehaviorSubject(this.initLanguage);
+
+  constructor(private http: HttpClient) { }
 
   public getData(): Observable<unknown> {
     return this.http.get(this.directorsUrl);
