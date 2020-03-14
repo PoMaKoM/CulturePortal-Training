@@ -19,7 +19,7 @@ export class LanguageComponent implements OnInit {
   constructor(private getDataService: GetDataService) { }
 
   public ngOnInit(): void {
-    this.languageId = this.languagesArr.indexOf(localStorage.getItem('language')) + 1;
+    this.languageId = this.languagesArr.indexOf(localStorage.getItem('language')) + 1 || 1;
   }
 
   public setLanguage(id: number): void {
