@@ -7,7 +7,8 @@ import { IWorklog } from '../../models/i-work.model';
   styleUrls: ['./table.component.scss']
 })
 export class TableComponent implements OnInit {
-
+  @Input() public time: string;
+  @Input() public desc: string;
   @Input() public worklogData: IWorklog[];
   public displayedColumns: string[] = ['timeSpent', 'description'];
 

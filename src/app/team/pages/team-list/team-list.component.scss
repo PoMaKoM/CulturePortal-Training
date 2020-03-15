@@ -6,7 +6,6 @@
 }
 .background {
   width: 100%;
-  //height: 550px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +21,7 @@
   font-size: 48px;
   font-family: 'MontserratMedium';
   padding: 180px 0;
-  // letter-spacing: 3px;
+  text-transform: uppercase;
 }
 .container {
   width: 100%;

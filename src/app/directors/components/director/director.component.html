@@ -8,10 +8,7 @@
   </div>
   <div class="card-content-bottom bottom-disabled">
     <a [routerLink]="[director.id]" routerLinkActive="active">
-      <button class="card-button" type="button" (click)="openDetailsPage()" i18n="button more">
-        Learn more...
-      </button>
+      <button class="card-button" type="button" (click)="openDetailsPage()">{{ buttonTranslated }}</button>
     </a>
-    <!-- translated button name comes from service in core -->
   </div>
 </div>

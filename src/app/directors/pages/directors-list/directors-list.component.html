@@ -1,12 +1,17 @@
-<app-search></app-search>
-<div class="cards-wrapper">
-  <ng-container *ngIf="currentData | filter: (searchQuery | async):(currentLanguage | async) as result">
-    <app-director
-      *ngFor="let director of result"
-      [director]="director"
-      [detailsInfo]="director[currentLanguage | async]"
-    >
-    </app-director>
-    <b *ngIf="!result.length" i18n="error text">No directors found</b>
+<ng-container *ngIf="translations">
+  <ng-container *ngIf="currentLanguage | async as language">
+    <app-search [placeholder]="translations[language].placeholder"></app-search>
+    <div class="cards-wrapper">
+      <ng-container *ngIf="currentData | filter: (searchQuery | async):language as result">
+        <app-director
+          *ngFor="let director of result"
+          [director]="director"
+          [detailsInfo]="director[language]"
+          [buttonTranslated]="translations[language].morebutton"
+        >
+        </app-director>
+        <b *ngIf="!result.length">{{ translations[language].error }}</b>
+      </ng-container>
+    </div>
   </ng-container>
-</div>
+</ng-container>

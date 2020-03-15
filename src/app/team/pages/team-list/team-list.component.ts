@@ -1,3 +1,6 @@
+import { BehaviorSubject } from 'rxjs';
+import { GetDataService } from 'src/app/core/services/get-data.service';
+import { Localize } from './../../../shared/models/localize.model';
 import { Component, OnInit } from '@angular/core';
 import { TeamService } from '../../service/team.service';
 import { Member } from '../../models/member.model';
@@ -19,7 +22,12 @@ import { expand } from 'src/app/animations/expand.animation';
 })
 export class TeamListComponent implements OnInit {
   public team: Member[];
-  constructor(private teamService: TeamService) {}
+  public translations: Localize;
+  get currentLanguage(): BehaviorSubject<string> {
+    return this.getDataService.currentLanguage;
+  }
+
+  constructor(private teamService: TeamService, private getDataService: GetDataService) { }
 
   public ngOnInit(): void {
     this.teamService.getData().subscribe((resp) => {
@@ -31,6 +39,10 @@ export class TeamListComponent implements OnInit {
       });
 
       this.team = resp.team;
+    });
+
+    this.getDataService.getData().subscribe((translations: Localize) => {
+      this.translations = translations;
     });
   }
 }

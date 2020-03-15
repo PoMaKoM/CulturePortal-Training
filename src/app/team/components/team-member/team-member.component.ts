@@ -10,12 +10,13 @@ import { Member } from '../../models/member.model';
 })
 export class TeamMemberComponent implements OnInit {
   @Input() public member: Member;
+  @Input() public role: string;
   public faGithub: IconDefinition = faGithub;
   public faTelegramPlane: IconDefinition = faTelegramPlane;
   public faVk: IconDefinition = faVk;
   public faLinkedin: IconDefinition = faLinkedin;
 
-  constructor() {}
+  constructor() { }
 
-  public ngOnInit(): void {}
+  public ngOnInit(): void { }
 }

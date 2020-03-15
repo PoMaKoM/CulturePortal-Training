@@ -5,24 +5,26 @@
         <div class="description">
           <p class="name">{{ infoDirector[language].name }}</p>
           <p>{{ infoDirector[language].description }}</p>
-          <p class="films" i18n="text">Films:</p>
+          <p class="films">{{ translations[language].filmslist }}</p>
           <mat-list>
             <mat-list-item *ngFor="let film of infoDirector[language].films | slice: -4"
               >"{{ film.name }}" &nbsp; ({{ film.year }})</mat-list-item
             >
           </mat-list>
-          <a mat-button (click)="openDialog(infoDirector[language].films)" i18n="button films">more films</a>
+          <a mat-button (click)="openDialog(infoDirector[language].films)">
+            {{ translations[language].morefilms }}
+          </a>
         </div>
         <img [src]="infoDirector.avatar" alt="director" class="avatar" />
       </div>
     </div>
     <app-timeline [director]="infoDirector" [language]="language"></app-timeline>
     <div class="wrapper-video">
-      <p class="title" i18n="text">Video</p>
+      <p class="title">{{ translations[language].video }}</p>
       <p>{{ infoDirector[language].video.title }}</p>
-      <a mat-button class="button" (click)="openVideoDialog(infoDirector[language].video)" i18n="button video"
-        >open video</a
-      >
+      <a mat-button class="button" (click)="openVideoDialog(infoDirector[language].video)">{{
+        translations[language].buttonVideo
+      }}</a>
     </div>
     <app-map [director]="infoDirector"></app-map>
   </ng-container>

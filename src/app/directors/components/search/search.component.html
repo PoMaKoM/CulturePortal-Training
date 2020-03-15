@@ -4,7 +4,7 @@
     [(ngModel)]="query"
     (ngModelChange)="searchFor()"
     type="text"
-    placeholder="look for a director"
+    [placeholder]="placeholder"
   />
   <img src="/assets/search.svg" alt="search" class="search-icon" />
 </div>

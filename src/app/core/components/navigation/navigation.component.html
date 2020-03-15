@@ -1,9 +1,5 @@
-<a mat-button class="header-btn" routerLink="/main" routerLinkActive="active" i18n="menu point one">Main</a>
-<a mat-button class="header-btn" routerLink="/directors" routerLinkActive="active" i18n="menu point two"
-  >Film directors</a
->
-<a mat-button class="header-btn" routerLink="/team" routerLinkActive="active" i18n="menu point three">Team</a>
-<a mat-button class="header-btn" routerLink="/worklog" routerLinkActive="active" i18n="menu point for"
-  >Worklog</a
->
-<a mat-button class="header-btn" i18n="menu point five">Styleguide</a>
+<a mat-button class="header-btn" routerLink="/main" routerLinkActive="active">{{ menu[1] }}</a>
+<a mat-button class="header-btn" routerLink="/directors" routerLinkActive="active">{{ menu[2] }}</a>
+<a mat-button class="header-btn" routerLink="/team" routerLinkActive="active">{{ menu[3] }}</a>
+<a mat-button class="header-btn" routerLink="/worklog" routerLinkActive="active">{{ menu[4] }}</a>
+<a mat-button class="header-btn">{{ menu[5] }}</a>
