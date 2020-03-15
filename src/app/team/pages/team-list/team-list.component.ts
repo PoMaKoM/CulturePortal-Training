@@ -35,12 +35,37 @@ export class TeamListComponent implements OnInit {
         }
         return member;
       });
-
-      this.team = resp.team;
     });
-
     this.getDataService.getData().subscribe((translations: Localize) => {
       this.translations = translations;
+    });
+    this.getDataService.language.subscribe((lang: string) => {
+      this.parseData(this.getDataService.getCurrentLanguage());
+    });
+
+    this.parseData(this.getDataService.getCurrentLanguage());
+
+  }
+
+  public parseData(lang: string): void {
+    this.getDataService.getDataFromCms({
+      query: null, contentType:
+        `member${lang[0].toUpperCase() + lang.slice(1)}`
+    }).subscribe((response) => {
+      this.team = response.map((member) => {
+        return {
+          role: member.fields.role,
+          githubName: member.fields.githubName,
+          avatar: member.fields.avatar,
+          name: member.fields.name,
+          description: member.fields.description,
+          links: {
+            telegram: member.fields.telegram,
+            vk: member.fields.vk,
+            linkedIn: member.fields.linkedIn
+          }
+        };
+      });
     });
   }
 }

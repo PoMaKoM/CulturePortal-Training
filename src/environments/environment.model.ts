@@ -3,4 +3,8 @@ export interface Environment {
   mapbox: {
     accessToken: string;
   };
+  contentful: {
+    spaceId: string,
+    token: string
+  };
 }

@@ -6,8 +6,8 @@ import { DialogVideoComponent } from './../../components/dialog-video/dialog-vid
 import { Video } from './../../../shared/models/details-info-director.model';
 import { Localize } from './../../../shared/models/localize.model';
 import { GetDataService } from './../../../core/services/get-data.service';
-import { BehaviorSubject } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
+import { BehaviorSubject, Subject } from 'rxjs';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
 import { FilmsDirector } from './../../../shared/models/films-director.model';
 import { expand } from 'src/app/animations/expand.animation';
@@ -23,6 +23,7 @@ export class DetailsComponent implements OnInit, OnDestroy {
   public films: FilmsDirector[];
   public video: Video;
   public translations: Localize;
+  public id: string;
 
   get currentLanguage(): BehaviorSubject<string> {
     return this.getDataService.currentLanguage;
@@ -50,11 +51,30 @@ export class DetailsComponent implements OnInit, OnDestroy {
 
   public ngOnInit(): void {
     this.getDataService.getData().subscribe((translations: Localize) => (this.translations = translations));
-    this.route.params
-      .pipe(switchMap((params) => this.getDataService.getDirectorById(params.id)))
-      .subscribe((infoDirector: InfoDirector) => {
-        this.infoDirector = infoDirector;
-      });
+
+    this.getDataService.language.subscribe((lang: string) => {
+      this.parseData(this.getDataService.getCurrentLanguage());
+    });
+
+    this.parseData(this.getDataService.getCurrentLanguage());
+  }
+
+  public parseData(lang: string): void {
+    this.getDataService.getDataFromCms({
+      query: null, contentType:
+        `director${lang[0].toUpperCase() + lang.slice(1)}`
+    }).subscribe((response) => {
+      // tslint:disable-next-line: typedef
+      const director = response.filter((result) => result.fields.id === this.route.snapshot.params.id)[0];
+      this.infoDirector = {
+        id: director.fields.id,
+        avatar: director.fields.avatar,
+        gallery: director.fields.gallery.gallery,
+        be: director.fields.data,
+        ru: director.fields.data,
+        en: director.fields.data,
+      };
+    });
   }
   public ngOnDestroy(): void {}
 }

@@ -35,10 +35,31 @@ export class DirectorsListComponent implements OnInit, OnDestroy {
 
   public ngOnInit(): void {
     this.getDataService.getData().subscribe((translations: Localize) => this.translations = translations);
-    this.getDataService.getDataDirectors().subscribe((currentData: InfoDirector[]) => {
-      this.currentData = currentData;
+
+    this.getDataService.language.subscribe((lang: string) => {
+      this.parseData(this.getDataService.getCurrentLanguage());
+    });
+    this.parseData(this.getDataService.getCurrentLanguage());
+  }
+
+  public parseData(lang: string): void {
+    this.getDataService.getDataFromCms({
+      query: null, contentType:
+        `director${lang[0].toUpperCase() + lang.slice(1)}`
+    }).subscribe((response) => {
+      this.currentData = response.map((director) => {
+        return {
+          id: director.fields.id,
+          avatar: director.fields.avatar,
+          gallery: director.fields.gallery.gallery,
+          be: director.fields.data,
+          ru: director.fields.data,
+          en: director.fields.data,
+        };
+      });
     });
   }
+
   public ngOnDestroy(): void {
     this.searchQuery.next('');
   }
