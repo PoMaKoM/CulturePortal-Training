@@ -61,4 +61,8 @@ export class GetDataService {
     },                                               query))
       .then(res => res.items));
   }
+
+  public getCurrentLanguage(): string {
+    return localStorage.getItem('language') || 'en';
+  }
 }

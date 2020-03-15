@@ -8,7 +8,6 @@ import { flyInOut } from 'src/app/animations/fly-in-out.animation';
 import { expand } from 'src/app/animations/expand.animation';
 import { async } from '@angular/core/testing';
 
-
 @Component({
   selector: 'app-team-list',
   templateUrl: './team-list.component.html',
@@ -39,11 +38,11 @@ export class TeamListComponent implements OnInit {
       });
 =======
     this.getDataService.language.subscribe((lang: string) => {
-      this.parseData(lang);
+      this.parseData(this.getDataService.getCurrentLanguage());
     });
 >>>>>>> feat: add data to team from cms
 
-    this.parseData(this.getDataService.initLanguage);
+    this.parseData(this.getDataService.getCurrentLanguage());
   }
 
   public parseData(lang: string): void {
