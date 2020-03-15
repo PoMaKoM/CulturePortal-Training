@@ -5,9 +5,11 @@
         <h1 class="title">{{ translations[language].headerTeam }}</h1>
       </div>
     </div>
-    <div class="container">
-      <app-team-member *ngFor="let member of team" [member]="member" [role]="translations[language].role">
-      </app-team-member>
+    <div class="team-wrap">
+      <div class="container">
+        <app-team-member *ngFor="let member of team" [member]="member" [role]="translations[language].role">
+        </app-team-member>
+      </div>
     </div>
   </ng-container>
 </ng-container>
