@@ -1,13 +1,13 @@
 import { Video } from './../../../shared/models/details-info-director.model';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { Component, OnInit, Inject } from '@angular/core';
+import { Component, Inject } from '@angular/core';
 
 @Component({
   selector: 'app-dialog-video',
   templateUrl: './dialog-video.component.html',
   styleUrls: ['./dialog-video.component.scss']
 })
-export class DialogVideoComponent implements OnInit {
+export class DialogVideoComponent {
   constructor(
     public dialogRef: MatDialogRef<DialogVideoComponent>,
     @Inject(MAT_DIALOG_DATA) public data: Video
@@ -50,6 +50,4 @@ export class DialogVideoComponent implements OnInit {
     document.querySelector('.video').appendChild(iframe);
     link.removeAttribute('href');
   }
-
-  ngOnInit(): void {}
 }
