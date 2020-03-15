@@ -1,11 +1,18 @@
-<div class="super-wrapper" appParallax>
-  <div class="wrapper">
-    <div class="mask"></div>
-    <video class="video" loop="loop" autoplay="true" muted="muted">
-      <source [src]="src" type="video/mp4" />
-      <source [src]="webm" type="video/webm" />
-    </video>
-    <h1 class="title"><span>Cultural portal</span><br />about famous film directors of Belarus</h1>
-  </div>
-  <app-director-of-day></app-director-of-day>
-</div>
+<ng-container *ngIf="translations">
+  <ng-container *ngIf="currentLanguage | async as language">
+    <div class="super-wrapper" appParallax>
+      <div class="wrapper">
+        <div class="mask"></div>
+        <video class="video" loop="loop" autoplay="true" muted="muted">
+          <source [src]="src" type="video/mp4" />
+          <source [src]="webm" type="video/webm" />
+        </video>
+        <h1 class="title">
+          <span>{{ translations[language].title[1] }}</span
+          ><br />{{ translations[language].title[2] }}
+        </h1>
+      </div>
+      <app-director-of-day></app-director-of-day>
+    </div>
+  </ng-container>
+</ng-container>

@@ -4,9 +4,9 @@
   position: relative;
   width: 100%;
 }
+
 .background {
   width: 100%;
-  //height: 550px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,8 +22,9 @@
   font-size: 48px;
   font-family: 'MontserratMedium';
   padding: 180px 0;
-  // letter-spacing: 3px;
+  text-transform: uppercase;
 }
+
 .container {
   width: 100%;
   max-width: 1170px;
@@ -53,20 +54,27 @@
     }
   }
 }
+
 @media (max-width: 980px) {
   .title {
     padding: 100px 0;
   }
 }
+
 @media (max-width: 640px) {
   .title {
     padding: 60px;
     font-size: 18px;
   }
 }
+
 @media (max-width: 420px) {
   .title {
     padding: 50px;
     font-size: 14px;
   }
+}
+
+.team-wrap {
+  background-color: #fff;
 }

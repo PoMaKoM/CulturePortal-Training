@@ -1,0 +1,98 @@
+{
+  "ru": {
+    "logo": {
+      "1": "Режиссёры",
+      "2": "Беларуси"
+    },
+    "menu": {
+      "1": "Главная",
+      "2": "Режиссёры",
+      "3": "Команда",
+      "4": "Журнал",
+      "5": "Гид по стилям"
+    },
+    "title": {
+      "1": "Культурный портал",
+      "2": "об известных режиссёрах Беларуси"
+    },
+    "directorDay": "Режиссёр дня",
+    "morebutton": "Узнать больше...",
+    "filmslist": "Фильмы:",
+    "morefilms": "Больше фильмов",
+    "video": "Видео",
+    "buttonVideo": "Открыть видео",
+    "error": "Режиссёр не найден",
+    "placeholder": "искать режиссёра",
+    "headerTeam": "наша команда",
+    "role": "Разработчик",
+    "time": "Затрачено времени",
+    "desc": "Описание",
+    "dif": "Трудности во время реализации",
+    "404": "Страница не найдена",
+    "back": "вернуться на главную"
+  },
+  "en": {
+    "logo": {
+      "1": "Film directors of",
+      "2": "Belarus"
+    },
+    "menu": {
+      "1": "Main",
+      "2": "Film directors",
+      "3": "Team",
+      "4": "Worklog",
+      "5": "Styleguide"
+    },
+    "title": {
+      "1": "Cultural portal",
+      "2": "about famous film directors of Belarus"
+    },
+    "directorDay": "Director of the day",
+    "morebutton": "Learn more...",
+    "filmslist": "Films:",
+    "morefilms": "More films",
+    "video": "Video",
+    "buttonVideo": "Open video",
+    "error": "No directors found",
+    "placeholder": "look for a director",
+    "headerTeam": "our team",
+    "role": "Developer",
+    "time": "TimeSpent",
+    "desc": "Description",
+    "dif": "Difficulties for the team during implementation",
+    "404": "Page not found",
+    "back": "back to home page"
+  },
+  "be": {
+    "logo": {
+      "1": "Рэжысёры",
+      "2": "Беларусi"
+    },
+    "menu": {
+      "1": "Галоўная",
+      "2": "Рэжысёры",
+      "3": "Каманда",
+      "4": "Часопіс",
+      "5": "Гід па стылях"
+    },
+    "title": {
+      "1": "Культурны партал",
+      "2": "пра вядомых рэжысёраў Беларусi"
+    },
+    "directorDay": "Рэжысёр дня",
+    "morebutton": "Даведацца больш...",
+    "filmslist": "Фiльмы:",
+    "morefilms": "Больш фільмаў",
+    "video": "Відэа",
+    "buttonVideo": "Адкрыць відэа",
+    "error": "Рэжысёр не знойдзены",
+    "placeholder": "шукаць рэжысёра",
+    "headerTeam": "наша каманда",
+    "role": "Распрацоўшчык",
+    "time": "Затрачана часу",
+    "desc": "Апісанне",
+    "dif": "Цяжкасці падчас рэалізацыі",
+    "404": "Старонка не знойдзена",
+    "back": "вярнуцца на галоўную"
+  }
+}

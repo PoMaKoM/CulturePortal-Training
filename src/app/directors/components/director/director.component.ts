@@ -10,6 +10,7 @@ import { InfoDirector } from 'src/app/shared/models/info-director.model';
 export class DirectorComponent implements OnInit {
   @Input() public director: InfoDirector;
   @Input() public detailsInfo: DetailsInfoDirector;
+  @Input() public buttonTranslated: string;
 
   constructor() { }
 

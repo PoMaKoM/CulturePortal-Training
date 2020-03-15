@@ -1,0 +1,11 @@
+<ng-container *ngIf="translations">
+  <ng-container *ngIf="currentLanguage | async as language">
+    <div class="wrapper">
+      <div class="text">
+        <h1 class="glitch" data-text="404">404</h1>
+        <span>{{ translations[language][404] }}</span>
+        <a [routerLink]="'/'">{{ translations[language].back }} -></a>
+      </div>
+    </div>
+  </ng-container>
+</ng-container>

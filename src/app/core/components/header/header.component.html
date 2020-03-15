@@ -1,19 +1,23 @@
-<mat-toolbar color="header-wrapper">
-  <app-logo></app-logo>
-  <button mat-icon-button (click)="sidenav.toggle()" (click)="visible()" fxShow="true" fxHide.gt-sm>
-    <mat-icon>menu</mat-icon>
-  </button>
-  <div fxShow="true" fxHide.lt-md class="nav-container">
-    <app-navigation></app-navigation>
-    <app-language></app-language>
-  </div>
-</mat-toolbar>
+<ng-container *ngIf="translations">
+  <ng-container *ngIf="currentLanguage | async as language">
+    <mat-toolbar color="header-wrapper">
+      <app-logo [logo]="translations[language].logo"></app-logo>
+      <button mat-icon-button (click)="sidenav.toggle()" (click)="visible()" fxShow="true" fxHide.gt-sm>
+        <mat-icon>menu</mat-icon>
+      </button>
+      <div fxShow="true" fxHide.lt-md class="nav-container">
+        <app-navigation [menu]="translations[language].menu"></app-navigation>
+        <app-language></app-language>
+      </div>
+    </mat-toolbar>
 
-<mat-sidenav-container fxFlexFill (backdropClick)="visible()" class="show" [class.hide]="isVisible">
-  <mat-sidenav #sidenav>
-    <mat-nav-list>
-      <app-language></app-language>
-      <app-navigation></app-navigation>
-    </mat-nav-list>
-  </mat-sidenav>
-</mat-sidenav-container>
+    <mat-sidenav-container fxFlexFill (backdropClick)="visible()" class="show" [class.hide]="isVisible">
+      <mat-sidenav #sidenav>
+        <mat-nav-list>
+          <app-language></app-language>
+          <app-navigation [menu]="translations[language].menu"></app-navigation>
+        </mat-nav-list>
+      </mat-sidenav>
+    </mat-sidenav-container>
+  </ng-container>
+</ng-container>

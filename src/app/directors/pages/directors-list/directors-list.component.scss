@@ -1,4 +1,4 @@
-:host { 
+:host {
   display: flex;
   flex-direction: column;
 }
@@ -7,11 +7,15 @@
   width: 80%;
   margin: 70px auto;
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 40px;
+
+  @media screen and (min-width: 500px) and (max-width: 1300px) {   
+    grid-template-columns: 1fr 1fr;
+  }
 
   @media screen and (max-width: 500px) {
     grid-template-columns: none;
-    grid-template-rows: repeat(500px)
+    grid-template-rows: repeat(500px);
   }
 }

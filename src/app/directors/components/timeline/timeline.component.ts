@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, SimpleChange } from '@angular/core';
+import { Component, OnInit, OnChanges, Input, SimpleChange } from '@angular/core';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
 
 @Component({
@@ -6,7 +6,7 @@ import { InfoDirector } from 'src/app/shared/models/info-director.model';
   templateUrl: './timeline.component.html',
   styleUrls: ['./timeline.component.scss']
 })
-export class TimelineComponent implements OnInit {
+export class TimelineComponent implements OnInit, OnChanges {
   @Input() public director: InfoDirector;
   @Input() public language: string;
 

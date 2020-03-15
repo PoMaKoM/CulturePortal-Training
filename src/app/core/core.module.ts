@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -6,25 +7,20 @@ import { FooterComponent } from './components/footer/footer.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { LanguageComponent } from './components/language/language.component';
-import { MatToolbarModule } from '@angular/material/toolbar';
-import { MatButtonModule } from '@angular/material/button';
-import { MatIconModule } from '@angular/material/icon';
-import { MatSidenavModule } from '@angular/material/sidenav';
-import { MatListModule } from '@angular/material/list';
-import { FlexLayoutModule } from '@angular/flex-layout';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { GetDataService } from './services/get-data.service';
 
 @NgModule({
-  declarations: [HeaderComponent, FooterComponent, NavigationComponent, LogoComponent, LanguageComponent],
-  imports: [
-    CommonModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatIconModule,
-    MatSidenavModule,
-    MatListModule,
-    FlexLayoutModule,
-    RouterModule
+  declarations: [
+    HeaderComponent,
+    FooterComponent,
+    NavigationComponent,
+    LogoComponent,
+    LanguageComponent,
+    NotFoundComponent
   ],
-  exports: [HeaderComponent, FooterComponent]
+  imports: [CommonModule, RouterModule, SharedModule],
+  exports: [HeaderComponent, FooterComponent],
+  providers: [GetDataService]
 })
-export class CoreModule { }
+export class CoreModule {}
