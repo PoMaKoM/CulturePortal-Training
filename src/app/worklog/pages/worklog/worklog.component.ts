@@ -33,21 +33,19 @@ export class WorklogComponent implements OnInit {
     return this.getDataService.currentLanguage;
   }
 
-  constructor(private worklogService: WorklogService, private getDataService: GetDataService) { }
+  constructor(private getDataService: GetDataService) { }
 
   public ngOnInit(): void {
-    this.worklogService.getData().subscribe((response: IResponse) => {
-      this.response = response;
-      this.persons = response.data;
-    });
     this.getDataService.getData().subscribe((translations: Localize) => {
       this.translations = translations;
     });
 
     this.getDataService.language.subscribe((lang: string) => {
       this.parseDataEv(this.getDataService.getCurrentLanguage());
+      this.parseDataPerson(this.getDataService.getCurrentLanguage());
     });
     this.parseDataEv(this.getDataService.getCurrentLanguage());
+    this.parseDataPerson(this.getDataService.getCurrentLanguage());
   }
 
   public parseDataEv(lang: string): void {
@@ -59,6 +57,20 @@ export class WorklogComponent implements OnInit {
         return {
           title: ev.fields.name,
           points: ev.fields.data.points
+        };
+      });
+    });
+  }
+
+  public parseDataPerson(lang: string): void {
+    this.getDataService.getDataFromCms({
+      query: null, contentType:
+        `worklog${lang[0].toUpperCase() + lang.slice(1)}`
+    }).subscribe((response) => {
+      this.persons = response.map((ev) => {
+        return {
+          name: ev.fields.name,
+          worklog: ev.fields.data.worklog
         };
       });
     });
