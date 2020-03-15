@@ -6,18 +6,16 @@ import { TeamService } from '../../service/team.service';
 import { Member } from '../../models/member.model';
 import { flyInOut } from 'src/app/animations/fly-in-out.animation';
 import { expand } from 'src/app/animations/expand.animation';
+import { async } from '@angular/core/testing';
 
 @Component({
   selector: 'app-team-list',
   templateUrl: './team-list.component.html',
   styleUrls: ['./team-list.component.scss'],
-  animations: [
-    flyInOut,
-    expand
-  ],
+  animations: [flyInOut, expand],
   host: {
     '[@flyInOut]': 'true',
-    'style': 'display: block;'
+    style: 'display: block;'
   }
 })
 export class TeamListComponent implements OnInit {
@@ -31,9 +29,9 @@ export class TeamListComponent implements OnInit {
 
   public ngOnInit(): void {
     this.teamService.getData().subscribe((resp) => {
-      resp.team.forEach((member: Member) => {
+      resp.team.forEach(async (member: Member) => {
         if (!member.avatar) {
-          member.avatar = this.teamService.getAvatar();
+          member.avatar = await this.teamService.getAvatar(member.githubName);
         }
         return member;
       });

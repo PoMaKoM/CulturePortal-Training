@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Team } from '../models/team.model';
+import { GitHubResp } from '../models/githubResp.model';
 
 @Injectable({
   providedIn: 'root'
@@ -13,7 +14,8 @@ export class TeamService {
     return this.http.get<Team>(this.teamUrl);
   }
 
-  public getAvatar(): string {
-    return 'https://avatars2.githubusercontent.com/u/83907?v=4';
+  public async getAvatar(username: string): Promise<string> {
+    let response: GitHubResp = await (await fetch(`https://api.github.com/users/${username}`)).json();
+    return response.avatar_url;
   }
 }
