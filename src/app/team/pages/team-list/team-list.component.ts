@@ -28,7 +28,6 @@ export class TeamListComponent implements OnInit {
   constructor(private teamService: TeamService, private getDataService: GetDataService) { }
 
   public ngOnInit(): void {
-<<<<<<< HEAD
     this.teamService.getData().subscribe((resp) => {
       resp.team.forEach(async (member: Member) => {
         if (!member.avatar) {
@@ -36,13 +35,16 @@ export class TeamListComponent implements OnInit {
         }
         return member;
       });
-=======
+    });
+    this.getDataService.getData().subscribe((translations: Localize) => {
+      this.translations = translations;
+    });
     this.getDataService.language.subscribe((lang: string) => {
       this.parseData(this.getDataService.getCurrentLanguage());
     });
->>>>>>> feat: add data to team from cms
 
     this.parseData(this.getDataService.getCurrentLanguage());
+
   }
 
   public parseData(lang: string): void {
@@ -50,7 +52,6 @@ export class TeamListComponent implements OnInit {
       query: null, contentType:
         `member${lang[0].toUpperCase() + lang.slice(1)}`
     }).subscribe((response) => {
-      this.team = null;
       this.team = response.map((member) => {
         return {
           role: member.fields.role,
@@ -65,10 +66,6 @@ export class TeamListComponent implements OnInit {
           }
         };
       });
-    });
-
-    this.getDataService.getData().subscribe((translations: Localize) => {
-      this.translations = translations;
     });
   }
 }

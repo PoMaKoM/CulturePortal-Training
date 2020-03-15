@@ -6,7 +6,7 @@
       </div>
     </div>
     <div class="container">
-      <app-team-member [member]="member" *ngFor="let member of team" [role]="translations[language].role">
+      <app-team-member *ngFor="let member of team" [member]="member" [role]="translations[language].role">
       </app-team-member>
     </div>
   </ng-container>
