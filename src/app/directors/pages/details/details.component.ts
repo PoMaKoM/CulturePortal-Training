@@ -6,7 +6,7 @@ import { DialogVideoComponent } from './../../components/dialog-video/dialog-vid
 import { Video } from './../../../shared/models/details-info-director.model';
 import { Localize } from './../../../shared/models/localize.model';
 import { GetDataService } from './../../../core/services/get-data.service';
-import { BehaviorSubject, Subject } from 'rxjs';
+import { BehaviorSubject } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
 import { InfoDirector } from 'src/app/shared/models/info-director.model';
 import { FilmsDirector } from './../../../shared/models/films-director.model';
@@ -19,7 +19,6 @@ import { expand } from 'src/app/animations/expand.animation';
   animations: [expand]
 })
 export class DetailsComponent implements OnInit, OnDestroy {
-  private componentDestroyed: Subject<boolean> = new Subject();
   public infoDirector: InfoDirector;
   public films: FilmsDirector[];
   public video: Video;
@@ -57,8 +56,5 @@ export class DetailsComponent implements OnInit, OnDestroy {
         this.infoDirector = infoDirector;
       });
   }
-  public ngOnDestroy(): void {
-    this.componentDestroyed.next(true);
-    this.componentDestroyed.complete();
-  }
+  public ngOnDestroy(): void {}
 }
