@@ -4,6 +4,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { DialogFilmsListComponent } from './../../components/dialog-films-list/dialog-films-list.component';
 import { DialogVideoComponent } from './../../components/dialog-video/dialog-video.component';
 import { Video } from './../../../shared/models/details-info-director.model';
+import { Localize } from './../../../shared/models/localize.model';
 import { GetDataService } from './../../../core/services/get-data.service';
 import { BehaviorSubject, Subject } from 'rxjs';
 import { switchMap } from 'rxjs/operators';
@@ -23,6 +24,7 @@ export class DetailsComponent implements OnInit, OnDestroy {
   public infoDirector: InfoDirector;
   public films: FilmsDirector[];
   public video: Video;
+  public translations: Localize;
 
   get currentLanguage(): BehaviorSubject<string> {
     return this.getDataService.currentLanguage;
@@ -49,6 +51,7 @@ export class DetailsComponent implements OnInit, OnDestroy {
   }
 
   public ngOnInit(): void {
+    this.getDataService.getData().subscribe((translations: Localize) => this.translations = translations);
     this.route.params
       .pipe(switchMap((params) => this.getDataService.getDirectorById(params.id)))
       .subscribe((infoDirector: InfoDirector) => {

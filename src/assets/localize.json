@@ -1,0 +1,80 @@
+{
+  "ru": {
+    "logo": "Режиссёры Беларуси",
+    "menu": {
+      "1": "Главная",
+      "2": "Режиссёры",
+      "3": "Команда",
+      "4": "Журнал",
+      "5": "Гид по стилям"
+    },
+    "title": "Культурный портал об известных режиссёрах Беларуси",
+    "directorDay": "Режиссёр дня",
+    "morebutton": "Узнать больше...",
+    "filmslist": "Фильмы:",
+    "morefilms": "Больше фильмов",
+    "video": "Видео",
+    "buttonVideo": "Открыть видео",
+    "error": "Режиссёр не найден",
+    "placeholder": "искать режиссёра",
+    "headerTeam": "наша команда",
+    "role": "Разработчик",
+    "time": "Затрачено времени",
+    "desc": "Описание",
+    "dif": "Трудности во время реализации",
+    "404": "Страница не найдена",
+    "back": "вернуться на главную"
+  },
+  "en": {
+    "logo": "Film directors of Belarus",
+    "menu": {
+      "1": "Main",
+      "2": "Film directors",
+      "3": "Team",
+      "4": "Worklog",
+      "5": "Styleguide"
+    },
+    "title": "Cultural portal about famous film directors of Belarus",
+    "directorDay": "Director of the day",
+    "morebutton": "Learn more...",
+    "filmslist": "Films:",
+    "morefilms": "More films",
+    "video": "Video",
+    "buttonVideo": "Open video",
+    "error": "No directors found",
+    "placeholder": "look for a director",
+    "headerTeam": "our team",
+    "role": "Developer",
+    "time": "TimeSpent",
+    "desc": "Description",
+    "dif": "Difficulties for the team during implementation",
+    "404": "Page not found",
+    "back": "back to home page"
+  },
+  "be": {
+    "logo": "Рэжысёры Беларусі",
+    "menu": {
+      "1": "Галоўная",
+      "2": "Рэжысёры",
+      "3": "Каманда",
+      "4": "Часопіс",
+      "5": "Гід па стылях"
+    },
+    "title": "Культурны партал пра вядомых рэжысёраў Беларусі",
+    "directorDay": "Рэжисёр дня",
+    "morebutton": "Даведацца больш...",
+    "filmslist": "Фiльмы:",
+    "morefilms": "Больш фільмаў",
+    "video": "Відэа",
+    "buttonVideo": "Адкрыць відэа",
+    "error": "Рэжысёр не знойдзены",
+    "placeholder": "шукаць рэжысёра",
+    "headerTeam": "наша каманда",
+    "role": "Распрацоўшчык",
+    "time": "Затрачана часу",
+    "desc": "Апісанне",
+    "dif": "Цяжкасці падчас рэалізацыі",
+    "404": "Старонка не знойдзена",
+    "back": "вярнуцца на галоўную"
+  }
+}

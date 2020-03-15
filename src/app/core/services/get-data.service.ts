@@ -10,17 +10,18 @@ import { InfoDirector } from 'src/app/shared/models/info-director.model';
 export class GetDataService {
 
   private directorsUrl: string = 'assets/data-directors.json';
+  private localizeUrl: string = 'assets/localize.json';
   private initLanguage: string = localStorage.getItem('language') || 'en';
   public currentLanguage: BehaviorSubject<string> = new BehaviorSubject(this.initLanguage);
 
   constructor(private http: HttpClient) { }
 
-  public getData(): Observable<unknown> {
-    return this.http.get(this.directorsUrl);
+  public getData(value?: string): Observable<unknown> {
+    return this.http.get(value ? value : this.localizeUrl);
   }
 
   public getDataDirectors(): Observable<unknown> {
-    return this.getData().pipe(
+    return this.getData(this.directorsUrl).pipe(
       pluck('data'),
       catchError((err) => {
         console.log(err);
@@ -30,7 +31,7 @@ export class GetDataService {
   }
 
   public getDirectorById(id: string): Observable<unknown> {
-    return this.getData().pipe(
+    return this.getData(this.directorsUrl).pipe(
       pluck('data'),
       switchMap((directors: InfoDirector[]) => directors),
       filter((director: InfoDirector) => director.id === id),

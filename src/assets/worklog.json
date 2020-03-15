@@ -17,8 +17,7 @@
           "id": 2,
           "timeSpent": 2,
           "description": "Я что-то сделаль 2"
-        }
-        ,
+        },
         {
           "id": 3,
           "timeSpent": 2,
@@ -92,22 +91,37 @@
       ]
     },
     {
-      "name": "Дмитрий",
+      "name": "Dmitrij Nikitin",
       "worklog": [
         {
           "id": 0,
-          "timeSpent": 2,
-          "description": "Я что-то сделаль 1"
+          "timeSpent": 5,
+          "description": "Создание и редактирование компонентов в модуле Directors"
         },
         {
           "id": 1,
-          "timeSpent": 2,
-          "description": "Я что-то сделаль 2"
+          "timeSpent": 3,
+          "description": "Создание и редактирование сервиса по загрузке данных"
         },
         {
           "id": 2,
-          "timeSpent": 2,
-          "description": "Я что-то сделаль 2"
+          "timeSpent": 3,
+          "description": "Логика фильтрации списка режиссеров"
+        },
+        {
+          "id": 3,
+          "timeSpent": 6,
+          "description": "Логика перевода данных"
+        },
+        {
+          "id": 4,
+          "timeSpent": 1,
+          "description": "Создание директивы анимации overlay"
+        },
+        {
+          "id": 5,
+          "timeSpent": 1,
+          "description": "Оптимизация структуры проекта"
         }
       ]
     },
