@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
@@ -10,6 +11,6 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [TeamListComponent, TeamMemberComponent],
-  imports: [CommonModule, TeamRoutingModule, MatButtonModule, FontAwesomeModule]
+  imports: [CommonModule, TeamRoutingModule, SharedModule]
 })
 export class TeamModule {}

@@ -19,7 +19,6 @@ import { expand } from 'src/app/animations/expand.animation';
   animations: [expand]
 })
 export class DetailsComponent implements OnInit, OnDestroy {
-
   private componentDestroyed: Subject<boolean> = new Subject();
   public infoDirector: InfoDirector;
   public films: FilmsDirector[];
@@ -34,7 +33,7 @@ export class DetailsComponent implements OnInit, OnDestroy {
     private route: ActivatedRoute,
     private getDataService: GetDataService,
     public dialog: MatDialog
-  ) { }
+  ) {}
 
   public openDialog(films: FilmsDirector[]): void {
     this.dialog.open(DialogFilmsListComponent, {
@@ -51,7 +50,7 @@ export class DetailsComponent implements OnInit, OnDestroy {
   }
 
   public ngOnInit(): void {
-    this.getDataService.getData().subscribe((translations: Localize) => this.translations = translations);
+    this.getDataService.getData().subscribe((translations: Localize) => (this.translations = translations));
     this.route.params
       .pipe(switchMap((params) => this.getDataService.getDirectorById(params.id)))
       .subscribe((infoDirector: InfoDirector) => {

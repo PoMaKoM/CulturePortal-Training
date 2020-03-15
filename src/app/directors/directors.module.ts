@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatListModule } from '@angular/material/list';
@@ -33,18 +34,7 @@ import { ScrollingModule } from '@angular/cdk/scrolling';
     MapComponent,
     DialogVideoComponent
   ],
-  imports: [
-    CommonModule,
-    DirectorsRoutingModule,
-    FormsModule,
-    MglTimelineModule,
-    DirectorsRoutingModule,
-    MatListModule,
-    FlexLayoutModule,
-    MatButtonModule,
-    MatDialogModule,
-    ScrollingModule
-  ],
+  imports: [CommonModule, DirectorsRoutingModule, DirectorsRoutingModule, SharedModule],
   exports: [TimelineComponent],
 
   providers: [SearchService]

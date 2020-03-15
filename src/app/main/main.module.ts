@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
@@ -7,11 +8,10 @@ import { CommonModule } from '@angular/common';
 import { MainRoutingModule } from './main-routing.module';
 import { MainPageComponent } from './pages/main-page/main-page.component';
 import { DirectorOfDayComponent } from './components/director-of-day/director-of-day.component';
-import { SharedModule } from '../shared/shared.module';
 
 @NgModule({
   declarations: [MainPageComponent, DirectorOfDayComponent],
-  imports: [CommonModule, MainRoutingModule, FlexLayoutModule, MatButtonModule, MatDialogModule]
+  imports: [CommonModule, MainRoutingModule, SharedModule]
   // exports: [MainPageComponent]
 })
 export class MainModule {}

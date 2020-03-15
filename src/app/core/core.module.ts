@@ -1,3 +1,4 @@
+import { SharedModule } from './../shared/shared.module';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -15,17 +16,15 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
-  declarations: [HeaderComponent, FooterComponent, NavigationComponent, LogoComponent, LanguageComponent, NotFoundComponent],
-  imports: [
-    CommonModule,
-    MatToolbarModule,
-    MatButtonModule,
-    MatIconModule,
-    MatSidenavModule,
-    MatListModule,
-    FlexLayoutModule,
-    RouterModule
+  declarations: [
+    HeaderComponent,
+    FooterComponent,
+    NavigationComponent,
+    LogoComponent,
+    LanguageComponent,
+    NotFoundComponent
   ],
+  imports: [CommonModule, RouterModule, SharedModule],
   exports: [HeaderComponent, FooterComponent]
 })
-export class CoreModule { }
+export class CoreModule {}
