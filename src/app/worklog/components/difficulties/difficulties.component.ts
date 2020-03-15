@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-difficulties',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./difficulties.component.scss']
 })
 export class DifficultiesComponent implements OnInit {
-
+  @Input() public dif: string;
   constructor() { }
 
   public ngOnInit(): void {

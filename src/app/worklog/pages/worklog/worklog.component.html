@@ -1,5 +1,10 @@
 <section class="worklog">
-  <app-worklog-tab [person]="persons"></app-worklog-tab>
-  <app-evaluation [evaluation]="evaluation"></app-evaluation>
-  <app-difficulties></app-difficulties>
+  <ng-container *ngIf="translations">
+    <ng-container *ngIf="currentLanguage | async as language">
+      <app-worklog-tab [person]="persons" [time]="translations[language].time" [desc]="translations[language].desc">
+      </app-worklog-tab>
+      <app-evaluation [evaluation]="evaluation"></app-evaluation>
+      <app-difficulties [dif]="translations[language].dif"></app-difficulties>
+    </ng-container>
+  </ng-container>
 </section>

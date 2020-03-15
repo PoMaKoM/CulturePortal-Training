@@ -7,7 +7,8 @@ import { IPerson } from '../../models/i-person.model';
   styleUrls: ['./worklog-tab.component.scss']
 })
 export class WorklogTabComponent implements OnInit {
-
+  @Input() public time: string;
+  @Input() public desc: string;
   @Input() public person: IPerson[];
   constructor() { }
 

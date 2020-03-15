@@ -1,4 +1,7 @@
-import { Component, OnInit, EventEmitter, Output } from '@angular/core';
+import { BehaviorSubject } from 'rxjs';
+import { GetDataService } from 'src/app/core/services/get-data.service';
+import { Component, OnInit } from '@angular/core';
+import { Localize } from '../../../shared/models/localize.model';
 
 @Component({
   selector: 'app-header',
@@ -7,11 +10,20 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   public isVisible: boolean = false;
-  constructor() {}
+  public translations: Localize;
+  get currentLanguage(): BehaviorSubject<string> {
+    return this.getDataService.currentLanguage;
+  }
+  constructor(private getDataService: GetDataService) { }
 
   public visible(): void {
     this.isVisible = !this.isVisible;
   }
 
-  public ngOnInit(): void {}
+  public ngOnInit(): void {
+
+    this.getDataService.getData().subscribe((translations: Localize) => {
+      this.translations = translations;
+    });
+  }
 }

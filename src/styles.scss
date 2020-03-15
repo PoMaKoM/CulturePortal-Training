@@ -143,7 +143,7 @@ $app-theme: mat-light-theme($app-primary, $app-accent, $app-warn);
   --main-bg-color: #ffffff;
 
   /*DirectorsList*/
-  --directors-search-bg-color: #bfbfbf;
+  --directors-search-bg-color: #e9edf4;
   --directors-main-bg-color: #ffffff;
   --directors-primary-text-color: #000000;
 
@@ -188,6 +188,5 @@ body {
 }
 
 .mat-dialog-container {
-  //background-color: transparent !important;
   padding: 0 !important;
 }

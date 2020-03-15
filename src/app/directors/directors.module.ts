@@ -1,6 +1,6 @@
+import { SharedModule } from './../shared/shared.module';
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import { SharedModule } from './../shared/shared.module';
 import { MatListModule } from '@angular/material/list';
 import { TimelineComponent } from './components/timeline/timeline.component';
 import { NgModule } from '@angular/core';
@@ -19,6 +19,7 @@ import { OverlayDirective } from './directives/overlay.directive';
 import { DialogFilmsListComponent } from './components/dialog-films-list/dialog-films-list.component';
 import { MapComponent } from './components/map/map.component';
 import { DialogVideoComponent } from './components/dialog-video/dialog-video.component';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 @NgModule({
   declarations: [
@@ -33,19 +34,9 @@ import { DialogVideoComponent } from './components/dialog-video/dialog-video.com
     MapComponent,
     DialogVideoComponent
   ],
-  imports: [
-    CommonModule,
-    DirectorsRoutingModule,
-    FormsModule,
-    MglTimelineModule,
-    DirectorsRoutingModule,
-    MatListModule,
-    FlexLayoutModule,
-    MatButtonModule,
-    MatDialogModule
-  ],
+  imports: [CommonModule, DirectorsRoutingModule, DirectorsRoutingModule, SharedModule],
   exports: [TimelineComponent],
 
   providers: [SearchService]
 })
-export class DirectorsModule { }
+export class DirectorsModule {}

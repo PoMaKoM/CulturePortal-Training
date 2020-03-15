@@ -1,8 +1,13 @@
-<div class="wrapper">
-  <div class="background">
-    <h1 class="title">OUR TEAM</h1>
-  </div>
-</div>
-<div class="container">
-  <app-team-member [member]="member" *ngFor="let member of team"></app-team-member>
-</div>
+<ng-container *ngIf="translations">
+  <ng-container *ngIf="currentLanguage | async as language">
+    <div class="wrapper">
+      <div class="background">
+        <h1 class="title">{{ translations[language].headerTeam }}</h1>
+      </div>
+    </div>
+    <div class="container">
+      <app-team-member [member]="member" *ngFor="let member of team" [role]="translations[language].role">
+      </app-team-member>
+    </div>
+  </ng-container>
+</ng-container>
