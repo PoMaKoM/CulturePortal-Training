@@ -370,14 +370,17 @@ const director: InfoDirector = {
   }
 };
 
+const lang: string = 'ru';
+
 storiesOf('Details', module).addDecorator(moduleMetadata({
     declarations: [TimelineComponent],
     imports: []
   })).add('Timeline', () => {
     return {
-      template: '<app-timeline [director]=director></app-timeline>',
+      template: '<app-timeline [director]=director [language]=lang></app-timeline>',
       props: {
-        director
+        director,
+        lang
       }
     };
   });
