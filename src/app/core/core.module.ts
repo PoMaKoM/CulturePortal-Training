@@ -12,9 +12,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 @NgModule({
-  declarations: [HeaderComponent, FooterComponent, NavigationComponent, LogoComponent, LanguageComponent],
+  declarations: [HeaderComponent, FooterComponent, NavigationComponent, LogoComponent, LanguageComponent, NotFoundComponent],
   imports: [
     CommonModule,
     MatToolbarModule,
