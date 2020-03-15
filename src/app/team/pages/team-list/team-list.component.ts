@@ -8,6 +8,7 @@ import { flyInOut } from 'src/app/animations/fly-in-out.animation';
 import { expand } from 'src/app/animations/expand.animation';
 import { async } from '@angular/core/testing';
 
+
 @Component({
   selector: 'app-team-list',
   templateUrl: './team-list.component.html',
@@ -28,6 +29,7 @@ export class TeamListComponent implements OnInit {
   constructor(private teamService: TeamService, private getDataService: GetDataService) { }
 
   public ngOnInit(): void {
+<<<<<<< HEAD
     this.teamService.getData().subscribe((resp) => {
       resp.team.forEach(async (member: Member) => {
         if (!member.avatar) {
@@ -35,8 +37,35 @@ export class TeamListComponent implements OnInit {
         }
         return member;
       });
+=======
+    this.getDataService.language.subscribe((lang: string) => {
+      this.parseData(lang);
+    });
+>>>>>>> feat: add data to team from cms
 
-      this.team = resp.team;
+    this.parseData(this.getDataService.initLanguage);
+  }
+
+  public parseData(lang: string): void {
+    this.getDataService.getDataFromCms({
+      query: null, contentType:
+        `member${lang[0].toUpperCase() + lang.slice(1)}`
+    }).subscribe((response) => {
+      this.team = null;
+      this.team = response.map((member) => {
+        return {
+          role: member.fields.role,
+          githubName: member.fields.githubName,
+          avatar: member.fields.avatar,
+          name: member.fields.name,
+          description: member.fields.description,
+          links: {
+            telegram: member.fields.telegram,
+            vk: member.fields.vk,
+            linkedIn: member.fields.linkedIn
+          }
+        };
+      });
     });
 
     this.getDataService.getData().subscribe((translations: Localize) => {
