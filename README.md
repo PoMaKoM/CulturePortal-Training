@@ -57,7 +57,7 @@ Alexsander Pylaev
 | 3h         | Creating a Timeline Component                            |
 | 6h         | Creating and customizing the Map component               |
 
-Total 240
+Total 250 +-
 
 **Min scope** 
 - [x] +10 Main page + page with a list of authors + author's page (only pages with content without
@@ -71,7 +71,7 @@ widgets);
 - [x] +10 Mobile version is okey 
 - [x] +10 Ipad/tablet version is okey 
 - [x] +10 Author's page contains timeline; 
-- [] +20 Author's page contains photo gallery;
+- [ ] +20 Author's page contains photo gallery;
 - [x] +10 Author's page contains video overlay; 
 - [x] +10 Author's page contains map (geowidget); 
 - [x] +20 from 0 to 20 Design (typography, icons, colors, links + buttons + input are styled) 
@@ -79,7 +79,7 @@ widgets);
 - [x] +10 Portal has third language; 
 
 **Extra scope**
-- [] +10 Project is made using scully;
+- [ ] +10 Project is made using scully;
 - [x] +10 Confidence of the project presentation; 
 - [x] +10 Contentful / netlify cms is used for content management
 - [x] +20 Animations / special effects like paralax 
