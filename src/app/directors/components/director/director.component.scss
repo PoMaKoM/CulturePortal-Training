@@ -3,7 +3,7 @@
   height: 100%;
   position: relative;
 
-  @media screen and (max-width: 960px) {   
+  @media screen and (max-width: 960px) {
     width: 100%;
   }
 
@@ -84,16 +84,16 @@
   transform: translateY(50%);
   opacity: 1;
   @media screen and (min-width: 1100px) {}
-  transform: translateY(100%);
+  transform: translateY(50%);
 }
 
 .bottom-enabled {
   transform: translateY(-50%);
   opacity: 1;
   @media screen and (min-width: 1100px) {
-    transform: translateY(-100%);
+    transform: translateY(-50%);
   }
- 
+
 }
 
 .top-disabled {
@@ -117,7 +117,7 @@
       padding: 0;
       margin: 0;
     }
-  } 
+  }
 }
 
 @media screen and (min-width: 500px) and (max-width: 863px) {
@@ -125,10 +125,12 @@
     line-height: 10px;
     &__name {
       font-size: 20px;
-      line-height: 15px;
+      line-height: 20px;
     }
     &__desc {
-      font-size: 12px;
+      line-height: 20px;
+
+      font-size: 13px;
     }
-  } 
+  }
 }

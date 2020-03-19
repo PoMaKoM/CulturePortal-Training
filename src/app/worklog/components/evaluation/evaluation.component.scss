@@ -2,3 +2,15 @@
 .evaluation-card {
   margin: 10px 0;
 }
+
+::ng-deep .mat-checkbox .mat-checkbox-frame {
+  border-color: var(--secondary-button-color);
+
+  .mat-checkbox-background, .mat-checkbox-indeterminate.mat-accent .mat-checkbox-background {
+    background-color: var(--secondary-button-color);
+ }
+}
+
+::ng-deep .mat-checkbox-checked .mat-checkbox-background {
+  background-color: var(--primary-button-color) !important;
+}

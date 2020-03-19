@@ -24,3 +24,10 @@
   position: relative;
   right: 35px;
 }
+
+@media (max-width: 325px) {
+  .input {
+    width: 180px;
+    margin-left: 20px;
+  }
+}

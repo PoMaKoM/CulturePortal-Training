@@ -9,6 +9,7 @@ import { WorklogTabComponent } from './components/worklog-tab/worklog-tab.compon
 import { TableComponent } from './components/table/table.component';
 import { EvaluationComponent } from './components/evaluation/evaluation.component';
 import { DifficultiesComponent } from './components/difficulties/difficulties.component';
+import { TotalComponent } from './components/total/total.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DifficultiesComponent } from './components/difficulties/difficulties.co
     WorklogTabComponent,
     TableComponent,
     EvaluationComponent,
-    DifficultiesComponent
+    DifficultiesComponent,
+    TotalComponent
   ],
   imports: [CommonModule, WorklogRoutingModule, SharedModule],
   exports: [WorklogComponent, HttpClientModule]

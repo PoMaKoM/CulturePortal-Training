@@ -190,6 +190,9 @@ blockquote {
 }
 
 @media screen and (max-width: 1024px) {
+  .timeline {
+    margin-left: -5px;
+  }
   .timeline::before {
     left: 50px;
   }
@@ -241,4 +244,5 @@ blockquote {
 
 .inner-content {
   font-family: 'Roboto';
+  margin-top: 5px;
 }

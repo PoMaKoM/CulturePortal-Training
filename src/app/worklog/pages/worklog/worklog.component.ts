@@ -8,6 +8,7 @@ import { IEvaluation } from '../../models/i-evaluation.model';
 import { flyInOut } from 'src/app/animations/fly-in-out.animation';
 import { expand } from 'src/app/animations/expand.animation';
 import { GetDataService } from 'src/app/core/services/get-data.service';
+import { FormArray } from '@angular/forms';
 
 @Component({
   selector: 'app-worklog',
@@ -56,7 +57,8 @@ export class WorklogComponent implements OnInit {
       this.evaluation = response.map((ev) => {
         return {
           title: ev.fields.name,
-          points: ev.fields.data.points
+          points: ev.fields.data.points,
+          cost: ev.fields.data.cost
         };
       });
     });

@@ -3,7 +3,7 @@
     <div class="wrapper">
       <div class="director" fxLayout="row" fxLayoutAlign="space-around center">
         <div class="description">
-          <p class="name">{{ infoDirector[language].name }}</p>
+          <p class="name">{{ infoDirector[language].name }} (&nbsp;{{infoDirector.be.dates.birth.date}}&nbsp;-&nbsp;{{infoDirector.be.dates.death.date || '...'}}&nbsp;)</p>
           <p>{{ infoDirector[language].description }}</p>
           <p class="films">{{ translations[language].filmslist }}</p>
           <mat-list>

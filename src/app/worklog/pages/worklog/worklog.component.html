@@ -4,7 +4,8 @@
       <app-worklog-tab [person]="persons" [time]="translations[language].time" [desc]="translations[language].desc">
       </app-worklog-tab>
       <app-evaluation [evaluation]="evaluation"></app-evaluation>
-      <app-difficulties [dif]="translations[language].dif"></app-difficulties>
+      <app-total [tot]="translations[language].tot"></app-total>
+      <app-difficulties [dif]="translations[language].dif" [fable]="translations[language].fable"></app-difficulties>
     </ng-container>
   </ng-container>
 </section>

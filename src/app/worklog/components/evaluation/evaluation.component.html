@@ -1,6 +1,6 @@
 <mat-card *ngFor="let item of evaluation" class="evaluation-card">
   <mat-card-title>{{item.title}}</mat-card-title>
   <mat-card-content *ngFor="let point of item.points">
-    <mat-checkbox disabled [checked]="point.flag">{{point.description}}</mat-checkbox>
+    <mat-checkbox class="ch-flag" [attr.data-cost]="point.cost" [checked]="point.flag">{{point.description}}</mat-checkbox>
   </mat-card-content>
 </mat-card>

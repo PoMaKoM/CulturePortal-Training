@@ -17,6 +17,8 @@ export interface Localize {
   dif: string;
   404: string;
   back: string;
+  tot: string;
+  fable: string;
 }
 
 export interface Menu {

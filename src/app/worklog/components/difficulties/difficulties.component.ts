@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class DifficultiesComponent implements OnInit {
   @Input() public dif: string;
+  @Input() public fable: string;
   constructor() { }
 
   public ngOnInit(): void {
