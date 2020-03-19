@@ -25,9 +25,10 @@ import { DialogVideoComponent } from './components/dialog-video/dialog-video.com
     OverlayDirective,
     DialogFilmsListComponent,
     MapComponent,
-    DialogVideoComponent
+    DialogVideoComponent,
   ],
-  imports: [CommonModule, DirectorsRoutingModule, DirectorsRoutingModule, SharedModule],
+  imports: [CommonModule, DirectorsRoutingModule,
+    DirectorsRoutingModule, SharedModule],
   exports: [TimelineComponent],
 
   providers: [SearchService]
