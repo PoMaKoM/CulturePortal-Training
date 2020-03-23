@@ -27,18 +27,19 @@ mgl-timeline-entry-dot {
 }
 
 .timeline-item:nth-child(odd) .timeline-content .inner-content {
-  margin-right: 105px;
+  margin-right: 5px;
 }
 
 .timeline-item:nth-child(even) .timeline-content {
   float: right;
-  padding: 30px;
+  padding: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .timeline-item:nth-child(odd) .timeline-content {
-  padding: 30px;
+  padding: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -181,7 +182,7 @@ blockquote {
   background: #3f51b5;
   display: inline-block;
   color: #ffffff;
-  width: 68px;
+  width: 100px;
   text-align: center;
   padding: 10px;
   position: absolute;
@@ -193,6 +194,7 @@ blockquote {
   .timeline {
     margin-left: -5px;
   }
+
   .timeline::before {
     left: 50px;
   }
@@ -230,6 +232,14 @@ blockquote {
     left: -15px;
     border-width: 10px 15px 10px 0;
     border-color: transparent #f5f5f5 transparent transparent;
+  }
+
+  .timeline-item:nth-child(even) .timeline-content {
+    padding: 50px;
+  }
+
+  .timeline-item:nth-child(odd) .timeline-content {
+    padding: 50px;
   }
 }
 

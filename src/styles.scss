@@ -190,3 +190,11 @@ body {
 .mat-dialog-container {
   padding: 0 !important;
 }
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}

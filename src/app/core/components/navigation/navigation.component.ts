@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, OnChanges, SimpleChange } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Menu } from '../../../shared/models/localize.model';
 
 @Component({
@@ -12,11 +12,4 @@ export class NavigationComponent implements OnInit {
 
   public ngOnInit(): void {
   }
-
-  // public ngOnChanges(changes: { [propKey: string]: SimpleChange }): void {
-  //   if (changes.menu) {
-  //     this.menu = changes.menu.currentValue;
-  //   }
-  // }
-
 }

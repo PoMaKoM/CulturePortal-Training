@@ -25,9 +25,20 @@
   right: 35px;
 }
 
+@media (max-width: 414px) {
+  .input {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 375px) {
+  .input {
+    margin-left: 20px;
+  }
+}
+
 @media (max-width: 325px) {
   .input {
     width: 180px;
-    margin-left: 20px;
   }
 }

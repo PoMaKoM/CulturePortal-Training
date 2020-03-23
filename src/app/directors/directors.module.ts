@@ -13,6 +13,10 @@ import { OverlayDirective } from './directives/overlay.directive';
 import { DialogFilmsListComponent } from './components/dialog-films-list/dialog-films-list.component';
 import { MapComponent } from './components/map/map.component';
 import { DialogVideoComponent } from './components/dialog-video/dialog-video.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
+
+MDBBootstrapModule.forRoot();
 
 @NgModule({
   declarations: [
@@ -26,9 +30,10 @@ import { DialogVideoComponent } from './components/dialog-video/dialog-video.com
     DialogFilmsListComponent,
     MapComponent,
     DialogVideoComponent,
+    GalleryComponent,
   ],
   imports: [CommonModule, DirectorsRoutingModule,
-    DirectorsRoutingModule, SharedModule],
+    DirectorsRoutingModule, SharedModule, MDBBootstrapModule],
   exports: [TimelineComponent],
 
   providers: [SearchService]

@@ -14,6 +14,6 @@ export class SearchComponent implements OnInit {
   public ngOnInit(): void { }
 
   public searchFor(): void {
-    this.searchService.searchQueryUpdated(this.query);
+    this.searchService.searchQueryUpdated(this.query.toLowerCase());
   }
 }

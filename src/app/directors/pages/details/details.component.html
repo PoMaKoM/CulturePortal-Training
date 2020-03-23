@@ -15,7 +15,7 @@
             {{ translations[language].morefilms }}
           </a>
         </div>
-        <img [src]="infoDirector.avatar" alt="director" class="avatar" />
+        <app-gallery [director]="infoDirector"></app-gallery>
       </div>
     </div>
     <app-timeline [director]="infoDirector" [language]="language"></app-timeline>

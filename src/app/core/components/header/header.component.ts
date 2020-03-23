@@ -21,7 +21,6 @@ export class HeaderComponent implements OnInit {
   }
 
   public ngOnInit(): void {
-
     this.getDataService.getData().subscribe((translations: Localize) => {
       this.translations = translations;
     });

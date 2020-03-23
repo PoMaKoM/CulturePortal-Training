@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <ng-container *ngIf="gallery">
+    <mdb-carousel class="carousel slide carousel-fade" [interval]="false" [animation]="'fade'">
+      <mdb-carousel-item>
+        <img class="d-block w-100" [src]="director.avatar" alt="director" />
+      </mdb-carousel-item>
+      <mdb-carousel-item *ngFor="let item of gallery">
+        <img class="d-block w-100" [src]="item.link" [alt]="item.description" />
+      </mdb-carousel-item>
+    </mdb-carousel>
+  </ng-container>
+</div>
